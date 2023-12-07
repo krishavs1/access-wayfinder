@@ -50,7 +50,7 @@ const RecipeCard = ({ categoriesState }) => {
 				  >
 					<Image
 					  source={item.image}
-					  style={{ width: 150, height: 150, resizeMode: "center" }}
+					  style={{ width: 150, height: 150, resizeMode: "contain" }}
 					/>
 					<Text>{item.name}</Text>
 					<View style={{ flexDirection: "row", marginTop: 8 }}>

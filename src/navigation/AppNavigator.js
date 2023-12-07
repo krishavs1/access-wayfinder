@@ -5,6 +5,8 @@ import { createNativeStackNavigator } from "@react-navigation/native-stack";
 import WelcomeScreen from "../screens/WelcomeScreen";
 import RecipeListScreen from "../screens/RecipeListScreen";
 import RecipeDetailsScreen from "../screens/RecipeDetailsScreen";
+import AboutUs from "../screens/AboutUs";
+
 // AppNavigator.js
 // ... other imports
 
@@ -16,6 +18,7 @@ const AppNavigator = () => {
 			<Stack.Navigator screenOptions={{ headerShown: false }}>
 				<Stack.Screen name="Welcome" component={WelcomeScreen} />
 				<Stack.Screen name="RecipeList" component={RecipeListScreen} />
+                <Stack.Screen name="AboutUs" component={AboutUs} />
 				<Stack.Screen name="RecipeDetail" component={RecipeDetailsScreen} />
 			</Stack.Navigator>
 		</NavigationContainer>

@@ -2,37 +2,32 @@
   "expo": {
     "name": "access-wayfinder",
     "slug": "access-wayfinder",
-    "version": "1.0.0",
+    "version": "1.0.1",
     "orientation": "portrait",
     "icon": "./assets/icon.png",
-    "userInterfaceStyle": "light",
-    "splash": {
-      "image": "./assets/splash.png",
-      "resizeMode": "contain",
-      "backgroundColor": "#ffffff"
-    },
     "assetBundlePatterns": [
       "**/*"
     ],
     "ios": {
       "supportsTablet": true,
       "bundleIdentifier": "com.krishavs1.accesswayfinder",
-      "buildNumber": "1.0.2" 
+      "buildNumber": "1.0.7"
     },
     "android": {
-      "adaptiveIcon": {
-        "foregroundImage": "./assets/adaptive-icon.png",
-        "backgroundColor": "#ffffff"
-      }
+      "package": "com.krishavs1.accesswayfinder",
+      "versionCode": 1
     },
-    "web": {
-      "favicon": "./assets/favicon.png"
+    "runtimeVersion": {
+      "policy": "appVersion"
+    },
+    "updates": {
+      "fallbackToCacheTimeout": 0,
+      "url": "https://u.expo.dev/dc9451d4-7aad-4523-a7b9-15673a7c2308"
     },
     "extra": {
       "eas": {
         "projectId": "dc9451d4-7aad-4523-a7b9-15673a7c2308"
       }
-    },
-    "owner": "krishavs1"
+    }
   }
 }

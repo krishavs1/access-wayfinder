@@ -17,6 +17,10 @@ export const categories = [
 		category: "Fashion",
 	},
 	{
+		id: "08",
+		category: "Beauty",
+	},
+	{
 		id: "03",
 		category: "Grocery",
 	},
@@ -34,12 +38,15 @@ export const categories = [
 	},
 	{
 		id: "07",
-		category: "Other"
-	}
+		category: "Other",
+	},
+
+
 	
 ];
 
 export const recipeList = [
+
 	{
 		id: "01",
 		categoryId: "01",
@@ -129,6 +136,24 @@ export const recipeList = [
 		parking: ["Lot #7 a block down"],
 		bathroom: "✗ No Wheelchair Accessible Restroom",
 		seating: "✔️ Place to sit down to rest"
+	},
+	{
+		id: "21",
+		categoryId: "01",
+		name: "Apricot",
+		image: require("../assets/images/apricot.png"),
+		rating: "Pending",
+		ingredients: ["Submit on form on home screen"],
+		time: "/5",
+		difficulty: "/5",
+		calories: "/5",
+		color: "#006A4E",
+		description:
+			"",
+			interior: ["Pending"],
+			parking: ["Pending"],
+			bathroom: "",
+			seating: ""
 	},
 	{
 		id: "06",
@@ -458,6 +483,24 @@ export const recipeList = [
 			seating: "✔️ Place to sit down to rest"
 	},
 	{
+		id: "1000",
+		categoryId: "01",
+		name: "Fresh and Co",
+		image: require("../assets/images/fresh.png"),
+		rating: "Pending",
+		ingredients: ["Submit on form on home screen"],
+		time: "/5",
+		difficulty: "/5",
+		calories: "/5",
+		color: "#006A4E",
+		description:
+			"",
+			interior: ["Pending"],
+			parking: ["Pending"],
+			bathroom: "",
+			seating: ""
+	},
+	{
 		id: "26",
 		categoryId: "01",
 		name: "FroYo",
@@ -627,18 +670,18 @@ export const recipeList = [
 		categoryId: "01",
 		name: "Maya Thai Eatery",
 		image: require("../assets/images/maya.png"),
-		rating: "4.9",
-		ingredients: ["Wide door with pull handles"],
-		time: "5/5",
-		difficulty: "5/5",
+		rating: "Pending",
+		ingredients: ["Submit information with link on home screen!"],
+		time: "/5",
+		difficulty: "/5",
 		calories: "5/5",
 		color: "#006A4E",
 		description:
 			"Maya Thai Eatery offer the Authentic Thai food.",
-		interior: ["Spacious Interior with both booth and chair seating with wheelchair accessibility"],
+		interior: ["Pending"],
 		parking: ["2 spots right next to it"],
-		bathroom: "✗ No Wheelchair Accessible Restroom",
-		seating: "✔️ Place to sit down to rest"
+		bathroom: "",
+		seating: ""
 	},
 	{
 		id: "39",
@@ -740,8 +783,8 @@ export const recipeList = [
 		rating: "4.7",
 		ingredients: ["Wide entrance with pull handle"],
 		time: "5/5",
-		difficulty: "4/5",
-		calories: "5/5",
+		difficulty: "5/5",
+		calories: "4/5",
 		color: "#006A4E",
 		description:
 			"We're a family owned company located in Westfield, NJ. We have the freshest ingredients and the passion to make the perfect pie.",
@@ -785,6 +828,24 @@ export const recipeList = [
 		parking: ["No accessible parking nearby, have to cross a street"],
 		bathroom: "✔️ Wheelchair Accessible Restroom",
 		seating: "✔️ Place to sit down to rest"
+	},
+	{
+		id: "150",
+		categoryId: "01",
+		name: "Starbucks",
+		image: require("../assets/images/starbucks.png"),
+		rating: "5.0",
+		ingredients: ["Entrances are good on both sides, good pull-side clearance and wide doors"],
+		time: "5/5",
+		difficulty: "5/5",
+		calories: "5/5",
+		color: "#006A4E",
+		description:
+			"Seattle-based coffeehouse chain known for its signature roasts, light bites and WiFi availability.",
+			interior: ["Spacious Interior with both booths, high-top, and low-top seating. Easy path for wheelchairs and people who struggle with movability."],
+			parking: ["Lot right next to Starbucks, multiple wheelchair accessible spots right nearby"],
+			bathroom: "✔️ Wheelchair Accessible Restroom",
+			seating: "✔️ Place to sit down to rest"
 	},
 	
 	{
@@ -1044,7 +1105,7 @@ export const recipeList = [
 	},
 	{
 		id: "63",
-		categoryId: "02",
+		categoryId: "08",
 		name: "Facial Reality Spa",
 		image: require("../assets/images/Facial.png"),
 		rating: "4.3",
@@ -1152,7 +1213,7 @@ export const recipeList = [
 	},
 	{
 		id: "69",
-		categoryId: "02",
+		categoryId: "08",
 		name: "Guillotine Salon",
 		image: require("../assets/images/Guillotine.png"),
 		rating: "3.3",
@@ -1170,7 +1231,7 @@ export const recipeList = [
 	},
 	{
 		id: "70",
-		categoryId: "02",
+		categoryId: "08",
 		name: "Haircut Bar",
 		image: require("../assets/images/Haircut.png"),
 		rating: "4.3",
@@ -1441,7 +1502,7 @@ export const recipeList = [
 	},
 	{
 		id: "85",
-		categoryId: "02",
+		categoryId: "08",
 		name: "Nails Spa & Beyond",
 		image: require("../assets/images/nails.png"),
 		rating: "5.0",
@@ -1477,7 +1538,7 @@ export const recipeList = [
 	},
 	{
 		id: "87",
-		categoryId: "02",
+		categoryId: "08",
 		name: "R Studio",
 		image: require("../assets/images/R.png"),
 		rating: "4.7",
@@ -1495,7 +1556,7 @@ export const recipeList = [
 	},
 	{
 		id: "88",
-		categoryId: "02",
+		categoryId: "08",
 		name: "Salon Peak",
 		image: require("../assets/images/SalonVisage.png"),
 		rating: "4.7",
@@ -1549,7 +1610,7 @@ export const recipeList = [
 	},
 	{
 		id: "91",
-		categoryId: "02",
+		categoryId: "08",
 		name: "Supercuts",
 		image: require("../assets/images/Supercuts.png"),
 		rating: "5.0",
@@ -1586,7 +1647,7 @@ export const recipeList = [
 
 	{
 		id: "94",
-		categoryId: "02",
+		categoryId: "08",
 		name: "U Relax Spa",
 		image: require("../assets/images/URelax.png"),
 		rating: "5.0",
@@ -1659,7 +1720,7 @@ export const recipeList = [
 
 	{
 		id: "99",
-		categoryId: "02",
+		categoryId: "08",
 		name: "Wolves Den",
 		image: require("../assets/images/WolvesDen.png"),
 		rating: "5.0",
@@ -1688,7 +1749,7 @@ export const recipeList = [
 		color: "#006A4E",
 		description:
 			"Baron's Drug Store is a full-service independent pharmacy in Westfield, NJ providing a wide variety of services.",
-		interior: ["Cramped aisles"],
+		interior: ["Cramped aisles, hard to move wheelchair around"],
 		parking: ["Handicapped spots right out back"],
 		bathroom: "✔️ Wheelchair Accessible Restroom",
 		seating: "✔️ Place to sit down to rest"
