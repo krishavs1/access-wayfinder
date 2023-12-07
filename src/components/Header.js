@@ -1,5 +1,5 @@
 import { StyleSheet, Text, View, Pressable, TouchableOpacity } from "react-native";
-import React from "react";
+import React, { useState } from 'react'
 import { FontAwesome } from "@expo/vector-icons";
 
 const Header = ({ headerText, headerIcon, onAboutPress}) => {

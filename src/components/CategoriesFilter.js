@@ -1,5 +1,5 @@
 import { View, Text, ScrollView, TouchableOpacity, StyleSheet } from "react-native";
-import React from "react";
+import React, { useState } from 'react'
 import { categories, colors } from "../Constant";
 
 const CategoriesFilter = ({ categoriesState, setCategoriesState }) => {
