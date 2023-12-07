@@ -14,17 +14,8 @@ import MapView, { Marker } from 'react-native-maps';
 
 const RecipeDetailsScreen = ({ navigation, route }) => {
 	const { item } = route.params;
-	const initialRegion = {
-        latitude: 40.6580, // Replace with appropriate latitude
-        longitude: -74.3474, // Replace with appropriate longitude
-        latitudeDelta: 0.0922,
-        longitudeDelta: 0.0421,
-    };
-
-
 
 	return (
-
 		<View style={{ backgroundColor: item.color, flex: 1 }}>
 			<SafeAreaView style={{ flexDirection: "row", marginHorizontal: 16 }}>
 				<Pressable style={{ flex: 1 }} onPress={() => navigation.goBack()}>
@@ -66,18 +57,6 @@ const RecipeDetailsScreen = ({ navigation, route }) => {
 						}}
 					/>
 				</View>
-				 {/* MapView Component */}
-				 <View style={styles.mapContainer}>
-                    <MapView
-                        style={styles.map}
-                        initialRegion={initialRegion}
-                    >
-                        <Marker
-                            coordinate={{ latitude: item.latitude, longitude: item.longitude }}
-                            title={item.name}
-                        />
-                    </MapView>
-                </View>
 
 				{/* Recipe Name */}
 				<Text style={{ marginTop: 150, fontSize: 28, fontWeight: "bold" }}>
