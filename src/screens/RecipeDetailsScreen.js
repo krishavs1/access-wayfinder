@@ -22,7 +22,7 @@ const RecipeDetailsScreen = ({ navigation, route }) => {
 					<FontAwesome name={"arrow-circle-left"} size={28} color="white" />
 				</Pressable>
 
-				<FontAwesome name={"heart-o"} size={28} color="white" />
+				
 			</SafeAreaView>
 			<View
 				style={{
