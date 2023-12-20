@@ -916,7 +916,7 @@ export const recipeList = [
 		calories: "4/5",
 		color: "#006A4E",
 		description:
-			"Time-tested, family-owned store offering jewelry & watches as well as appraisals & repairs.",
+			"Time-tested, family-owned store offering jewelry as well as appraisals & repairs. World Renowned Designer Engagement Rings and Wedding Bands. Top Designer Jewelry from around the world.",
 		interior: ["Spacious Interior, room for wheelchair to move around jewelry display"],
 		parking: ["Public Parking Lot #7 Across the street, 5 wheelchair-accessible spots"],
 		bathroom: "✗ No Wheelchair Accessible Restroom",
@@ -1376,7 +1376,7 @@ export const recipeList = [
 	},
 	{
 		id: "78",
-		categoryId: "02",
+		categoryId: "08",
 		name: "Kennedy's Barber",
 		image: require("../assets/images/Kennedy.png"),
 		rating: "4.7",
@@ -1412,7 +1412,7 @@ export const recipeList = [
 	},
 	{
 		id: "80",
-		categoryId: "02",
+		categoryId: "08",
 		name: "Luna Grace Beauty",
 		image: require("../assets/images/Luna.png"),
 		rating: "3.7",
@@ -1520,7 +1520,7 @@ export const recipeList = [
 	},
 	{
 		id: "86",
-		categoryId: "02",
+		categoryId: "03",
 		name: "Patricia & Paul",
 		image: require("../assets/images/Patricia.png"),
 		rating: "5.0",
