@@ -12,7 +12,8 @@ import { colors, recipeList } from "../Constant";
 import { FontAwesome } from "@expo/vector-icons";
 import { useNavigation } from "@react-navigation/native";
 
-const RecipeCard = ({ categoriesState }) => {
+const RecipeCard = ({ categoriesState, searchQuery }) => {
+
 	const navigation = useNavigation();
 	const screenWidth = Dimensions.get('window').width;
 
@@ -26,12 +27,16 @@ const RecipeCard = ({ categoriesState }) => {
 		.filter(category => category.isSelected)
 		.map(category => category.id)
 		.join(',');
+		const filteredData = recipeList
+		.filter(item => item.categoryId === selectedCategoryId)
+		.filter(item => item.name.toLowerCase().includes(searchQuery.toLowerCase()));
+
 
 		return (
 			<View>
 			  <FlatList
 			  key={listKey} 
-				data={recipeList.filter(item => item.categoryId === selectedCategoryId)}
+			  data={filteredData}
 				renderItem={({ item }) => (
 				  <Pressable
 					onPress={() => navigation.navigate("RecipeDetail", { item: item })}

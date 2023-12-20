@@ -1,7 +1,7 @@
 // RecipeListScreen.js
 
 import React, { useState } from "react";
-import { StyleSheet, View, Text, SafeAreaView, TouchableOpacity, Linking } from "react-native";
+import { StyleSheet, View, Text, SafeAreaView, TouchableOpacity, Linking, TextInput } from "react-native";
 import Header from "../components/Header";
 import CategoriesFilter from "../components/CategoriesFilter";
 import RecipeCard from "../components/RecipeCard";
@@ -14,6 +14,7 @@ const RecipeListScreen = () => {
   const navigateToDetails = () => {
     navigation.navigate('AboutUs');
   };
+  const [searchQuery, setSearchQuery] = useState('');
 
   const categoriesArray = categories.map((category) => {
     let selected = category.id === "01" ? true : false;
@@ -29,7 +30,11 @@ const RecipeListScreen = () => {
   };
 
   const [categoriesState, setCategoriesState] = useState(categoriesArray);
-
+  const getSelectedCategoryName = () => {
+    const selectedCategory = categoriesState.find(category => category.isSelected);
+    return selectedCategory ? selectedCategory.category : 'Places';
+  };
+  
   return (
     <SafeAreaView style={{ flex: 1, marginHorizontal: 16 }}>
       {/* render header */}
@@ -50,7 +55,7 @@ const RecipeListScreen = () => {
 
       {/* Add a decorative line below "Hello" */}
       <View style={{ borderBottomWidth: 2, borderBottomColor: '#ccc', marginTop: 10 }} />
-
+     
       {/* Categories header */}
       <TouchableOpacity
         style={styles.buttonStyle}
@@ -66,12 +71,17 @@ const RecipeListScreen = () => {
         {/* Categories list */}
         <CategoriesFilter categoriesState={categoriesState} setCategoriesState={setCategoriesState}/>
       </View>
-
+      <TextInput
+  placeholder={`Search ${getSelectedCategoryName()}`}
+  value={searchQuery}
+  onChangeText={setSearchQuery}
+  style={styles.searchBar}
+/>
       {/* Recipe List Filter */}
       <View style={{ marginTop: 22, flex: 1 }}>
         <Text style={{ fontSize: 22, fontWeight: "bold" }}>Places</Text>
         {/* Recipes list */}
-        <RecipeCard categoriesState={categoriesState}/>
+        <RecipeCard categoriesState={categoriesState} searchQuery={searchQuery}/>
       </View>
     </SafeAreaView>
   );
@@ -104,6 +114,19 @@ const styles = StyleSheet.create({
     borderRadius: 5,
     alignItems: 'center',
   },
+  searchBar: {
+    marginVertical: 10,
+    paddingHorizontal: 15,
+    paddingVertical: 10,
+    borderRadius: 20,
+    backgroundColor: "#fff",
+    shadowColor: "#000",
+    shadowOffset: { width: 0, height: 1 },
+    shadowOpacity: 0.2,
+    shadowRadius: 1.41,
+    elevation: 2,
+  },
+  
 });
 
 export default RecipeListScreen;
