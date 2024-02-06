@@ -1,6 +1,6 @@
 {
   "expo": {
-    "name": "MyAW",
+    "name": "access-wayfinder",
     "slug": "access-wayfinder",
     "version": "1.0.1",
     "orientation": "portrait",
@@ -18,7 +18,7 @@
       "versionCode": 1
     },
     "runtimeVersion": {
-      "policy": "appVersion"
+      "policy": "sdkVersion"
     },
     "updates": {
       "fallbackToCacheTimeout": 0,
