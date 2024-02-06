@@ -152,6 +152,24 @@ export const recipeList = [
 			"",
 			interior: ["Pending"],
 			parking: ["Pending"],
+			bathroom: "✔️ Wheelchair Accessible Restroom",
+			seating: "✔️ Place to sit down to rest"
+	},
+	{
+		id: "21",
+		categoryId: "01",
+		name: "Apricot",
+		image: require("../assets/images/apricot.png"),
+		rating: "Pending",
+		ingredients: ["Submit on form on home screen"],
+		time: "/5",
+		difficulty: "/5",
+		calories: "/5",
+		color: "#006A4E",
+		description:
+			"",
+			interior: ["Pending"],
+			parking: ["Pending"],
 			bathroom: "",
 			seating: ""
 	},
@@ -872,7 +890,7 @@ export const recipeList = [
 		name: "Westfield Diner",
 		image: require("../assets/images/westfield.png"),
 		rating: "5.0",
-		ingredients: ["Good entrance"],
+		ingredients: ["Good"],
 		time: "5/5",
 		difficulty: "5/5",
 		calories: "5/5",
