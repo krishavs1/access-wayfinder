@@ -40,17 +40,14 @@ export const categories = [
 		id: "07",
 		category: "Other",
 	},
-
-
-	
 ];
 
 export const recipeList = [
-
 	{
 		id: "01",
 		categoryId: "01",
 		name: "16 Prospect Wine Bar",
+		city: "Westfield",
 		image: require("../assets/images/16Prospect.png"),
 		rating: "4.7",
 		ingredients: ["Ramp leads up to entrance, good wide entrance"],
@@ -69,6 +66,7 @@ export const recipeList = [
 		id: "02",
 		categoryId: "01",
 		name: "1958 Cuban Cuisine",
+		city: "Westfield",
 		image: require("../assets/images/1958CubanCuisine.png"),
 		rating: "4.0",
 		ingredients: ["Large step in the front"],
@@ -81,12 +79,13 @@ export const recipeList = [
 		interior: ["Spacious Interior"],
 		parking: ["Train lot across the street"],
 		bathroom: "✗ No Wheelchair Accessible Restroom",
-		seating: "✔️ Place to sit down to rest"
+		seating: "✔️ Place to sit down to rest",
 	},
 	{
 		id: "03",
 		categoryId: "01",
 		name: "Addams Tavern",
+		city: "Westfield",
 		image: require("../assets/images/addams.png"),
 		rating: "5.0",
 		ingredients: ["All good/only first floor as second floor requires stairs"],
@@ -99,12 +98,13 @@ export const recipeList = [
 		interior: ["Spacious and wheelchair accommodating"],
 		parking: ["Trader joe's lot down the street, 12 spots "],
 		bathroom: "✔️ Wheelchair Accessible Restroom",
-		seating: "✔️ Place to sit down to rest"
+		seating: "✔️ Place to sit down to rest",
 	},
 	{
 		id: "04",
 		categoryId: "01",
 		name: "Ahrre's Coffee",
+		city: "Westfield",
 		image: require("../assets/images/Ahrre.png"),
 		rating: "3.7",
 		ingredients: ["Not large enough, many steps leading up"],
@@ -117,12 +117,13 @@ export const recipeList = [
 		interior: ["Crammed Interior"],
 		parking: ["Baron's parking lot in the rear"],
 		bathroom: "✗ No Wheelchair Accessible Restroom",
-		seating: "✔️ Place to sit down to rest outside"
+		seating: "✔️ Place to sit down to rest outside",
 	},
 	{
 		id: "05",
 		categoryId: "01",
 		name: "Akai Japanese Sushi",
+		city: "Westfield",
 		image: require("../assets/images/Akai.png"),
 		rating: "4.7",
 		ingredients: ["Good entrance"],
@@ -135,12 +136,13 @@ export const recipeList = [
 		interior: ["Good Interior, happy to accommodate in seating"],
 		parking: ["Lot #7 a block down"],
 		bathroom: "✗ No Wheelchair Accessible Restroom",
-		seating: "✔️ Place to sit down to rest"
+		seating: "✔️ Place to sit down to rest",
 	},
 	{
 		id: "21",
 		categoryId: "01",
 		name: "Apricot",
+		city: "Westfield",
 		image: require("../assets/images/apricot.png"),
 		rating: "Pending",
 		ingredients: ["Submit on form on home screen"],
@@ -148,35 +150,17 @@ export const recipeList = [
 		difficulty: "/5",
 		calories: "/5",
 		color: "#006A4E",
-		description:
-			"",
-			interior: ["Pending"],
-			parking: ["Pending"],
-			bathroom: "✔️ Wheelchair Accessible Restroom",
-			seating: "✔️ Place to sit down to rest"
-	},
-	{
-		id: "21",
-		categoryId: "01",
-		name: "Apricot",
-		image: require("../assets/images/apricot.png"),
-		rating: "Pending",
-		ingredients: ["Submit on form on home screen"],
-		time: "/5",
-		difficulty: "/5",
-		calories: "/5",
-		color: "#006A4E",
-		description:
-			"",
-			interior: ["Pending"],
-			parking: ["Pending"],
-			bathroom: "",
-			seating: ""
+		description: "",
+		interior: ["Pending"],
+		parking: ["Pending"],
+		bathroom: "",
+		seating: "",
 	},
 	{
 		id: "06",
 		categoryId: "01",
 		name: "Bovellas Pastry Shoppe",
+		city: "Westfield",
 		rating: "4.7",
 		image: require("../assets/images/Bovellas.png"),
 		ingredients: ["Adequate pull-side clearance"],
@@ -189,13 +173,13 @@ export const recipeList = [
 		interior: ["Slightly crammed interior, seating might be hard for wheelchair"],
 		parking: ["Trader joe's lot 12 spots down the street"],
 		bathroom: "✗ No Wheelchair Accessible Restroom",
-		seating: "✔️ Place to sit down to rest"
-
+		seating: "✔️ Place to sit down to rest",
 	},
 	{
 		id: "07",
 		categoryId: "01",
 		name: "Boxwood Coffee Roasters",
+		city: "Westfield",
 		image: require("../assets/images/Boxwood.png"),
 		rating: "4.7",
 		ingredients: ["Wide and accessible entrance"],
@@ -208,12 +192,13 @@ export const recipeList = [
 		interior: ["Wide interior with both high top and accessible seating"],
 		parking: ["Trader joe's lot 12 spots in the rear"],
 		bathroom: "✔️ Wheelchair Accessible Restroom",
-		seating: "✔️ Place to sit down to rest"
+		seating: "✔️ Place to sit down to rest",
 	},
 	{
 		id: "08",
 		categoryId: "01",
 		name: "Brick Oven",
+		city: "Westfield",
 		image: require("../assets/images/brickoven.png"),
 		rating: "4.7",
 		ingredients: ["Good entrance, no steps"],
@@ -226,12 +211,13 @@ export const recipeList = [
 		interior: ["Wide aisles, easy wheelchair maneuverability"],
 		parking: ["Quimby st parking no spots, Lot #7 5 spots down Central Ave"],
 		bathroom: "✔️ Wheelchair Accessible Restroom",
-		seating: "✔️ Place to sit down to rest"
+		seating: "✔️ Place to sit down to rest",
 	},
 	{
 		id: "09",
 		categoryId: "01",
 		name: "Brunella Coffee & Deli",
+		city: "Westfield",
 		image: require("../assets/images/brunella.png"),
 		rating: "3.3",
 		ingredients: ["Has a step in front of the door"],
@@ -244,13 +230,13 @@ export const recipeList = [
 		interior: ["Slightly crammed Interior"],
 		parking: ["Quimby st parking no spots, Lot #7 5 spots down Central Ave"],
 		bathroom: "✗ No Wheelchair Accessible Restroom",
-		seating: "✔️ Place to sit down to rest"
+		seating: "✔️ Place to sit down to rest",
 	},
-
 	{
 		id: "11",
 		categoryId: "01",
 		name: "Casa di Pizza",
+		city: "Westfield",
 		image: require("../assets/images/casa.png"),
 		rating: "4.7",
 		ingredients: ["Good entrance, has a small bathroom"],
@@ -263,12 +249,13 @@ export const recipeList = [
 		interior: ["Slightly crammed Interior with tables close together"],
 		parking: ["Quimby St Parking or Lot #2 down Quimby with 5 spots"],
 		bathroom: "✗ No Wheelchair Accessible Restroom",
-		seating: "✔️ Place to sit down to rest"
+		seating: "✔️ Place to sit down to rest",
 	},
 	{
 		id: "12",
 		categoryId: "01",
 		name: "Chez Catherine",
+		city: "Westfield",
 		image: require("../assets/images/chezcatherine.png"),
 		rating: "4.7",
 		ingredients: ["Good entrance"],
@@ -281,12 +268,13 @@ export const recipeList = [
 		interior: ["Good Interior, happy to accommodate in seating"],
 		parking: ["Lot #2 a block down"],
 		bathroom: "✗ No Wheelchair Accessible Restroom",
-		seating: "✔️ Place to sit down to rest"
+		seating: "✔️ Place to sit down to rest",
 	},
 	{
 		id: "13",
 		categoryId: "01",
 		name: "Chipotle",
+		city: "Westfield",
 		image: require("../assets/images/chipotle.png"),
 		rating: "5.0",
 		ingredients: ["Good entrance in front and back"],
@@ -299,12 +287,13 @@ export const recipeList = [
 		interior: ["Spacious Interior with both booths and wooden seating"],
 		parking: ["Lot #1 behind Chipotle, ~13 spots"],
 		bathroom: "✔️ Wheelchair Accessible Restroom",
-		seating: "✔️ Place to sit down to rest"
+		seating: "✔️ Place to sit down to rest",
 	},
 	{
 		id: "14",
 		categoryId: "01",
 		name: "Chocolate Bar",
+		city: "Westfield",
 		image: require("../assets/images/Chocolate-bar-westfield.png"),
 		rating: "4.7",
 		ingredients: ["Good entrance"],
@@ -313,16 +302,17 @@ export const recipeList = [
 		calories: "4/5",
 		color: "#006A4E",
 		description:
-			"Gourment chocolatier.",
+			"Gourmet chocolatier.",
 		interior: ["Spacious Interior with seating"],
 		parking: ["Lot #5 across the street, ~7 spots"],
 		bathroom: "✔️ Wheelchair Accessible Restroom",
-		seating: "✔️ Place to sit down to rest"
+		seating: "✔️ Place to sit down to rest",
 	},
 	{
 		id: "15",
 		categoryId: "01",
 		name: "Chutzpah Kitchen",
+		city: "Westfield",
 		image: require("../assets/images/images.png"),
 		rating: "4.7",
 		ingredients: ["Large entrance, good ramp in front"],
@@ -332,15 +322,16 @@ export const recipeList = [
 		color: "#006A4E",
 		description:
 			"Middle-eastern restaurant",
-			interior: ["Spacious Interior with seating"],
-			parking: ["Lot #5 across the street, ~7 spots"],
-			bathroom: "✔️ Wheelchair Accessible Restroom",
-			seating: "✔️ Place to sit down to rest"
+		interior: ["Spacious Interior with seating"],
+		parking: ["Lot #5 across the street, ~7 spots"],
+		bathroom: "✔️ Wheelchair Accessible Restroom",
+		seating: "✔️ Place to sit down to rest",
 	},
 	{
 		id: "16",
 		categoryId: "01",
 		name: "Cinnaholic",
+		city: "Westfield",
 		image: require("../assets/images/Cinnaholic.png"),
 		rating: "3.7",
 		ingredients: ["Large step in the front without a ramp"],
@@ -353,12 +344,13 @@ export const recipeList = [
 		interior: ["Spacious Interior"],
 		parking: ["Train lot across the street, (#2) has about ~7 spots"],
 		bathroom: "✗ No Wheelchair Accessible Restroom",
-		seating: "✔️ Place to sit down to rest"
+		seating: "✔️ Place to sit down to rest",
 	},
 	{
 		id: "17",
 		categoryId: "01",
 		name: "Cold Stone Creamery",
+		city: "Westfield",
 		image: require("../assets/images/coldstone.png"),
 		rating: "4.3",
 		ingredients: ["Large entrance, good ramp in front"],
@@ -371,12 +363,13 @@ export const recipeList = [
 		interior: ["Spacious Interior"],
 		parking: ["Only street parking nearby"],
 		bathroom: "✔️ Wheelchair Accessible Restroom",
-		seating: "✔️ Place to sit down to rest"
+		seating: "✔️ Place to sit down to rest",
 	},
 	{
 		id: "18",
 		categoryId: "01",
 		name: "Cosimo",
+		city: "Westfield",
 		image: require("../assets/images/cosimo.png"),
 		rating: "4.7",
 		ingredients: ["Good entrance, chairs with no arms"],
@@ -389,12 +382,13 @@ export const recipeList = [
 		interior: ["Spacious Interior, easy wheelchair maneuverability"],
 		parking: ["Trader joe's lot 12 spots around the corner & down the street"],
 		bathroom: "✔️ Wheelchair Accessible Restroom",
-		seating: "✔️ Place to sit down to rest"
+		seating: "✔️ Place to sit down to rest",
 	},
 	{
 		id: "19",
 		categoryId: "01",
 		name: "Di Farina Pizzeria",
+		city: "Westfield",
 		image: require("../assets/images/difarina.png"),
 		rating: "5.0",
 		ingredients: ["Good ramped entrance"],
@@ -404,15 +398,16 @@ export const recipeList = [
 		color: "#006A4E",
 		description:
 			"Your go-to pizzeria for the most delicious pizza, wraps, pasta, salads, and so much more.",
-			interior: ["Spacious Interior, easy wheelchair maneuverability"],
-			parking: ["Lot #1 with 7 spots behind"],
-			bathroom: "✔️ Wheelchair Accessible Restroom",
-			seating: "✔️ Place to sit down to rest"
+		interior: ["Spacious Interior, easy wheelchair maneuverability"],
+		parking: ["Lot #1 with 7 spots behind"],
+		bathroom: "✔️ Wheelchair Accessible Restroom",
+		seating: "✔️ Place to sit down to rest",
 	},
 	{
 		id: "20",
 		categoryId: "01",
 		name: "Farinolio",
+		city: "Westfield",
 		image: require("../assets/images/farinolio.png"),
 		rating: "5.0",
 		ingredients: ["Yes, all good with no steps"],
@@ -422,16 +417,16 @@ export const recipeList = [
 		color: "#006A4E",
 		description:
 			"Experience the authentic and genuine Tuscan flavor with our schiacciata & other specialties!",
-			interior: ["Spacious Interior, easy wheelchair maneuverability"],
-			parking: ["Lot #1 with 7 spots behind"],
-			bathroom: "✗ No Wheelchair Accessible Restroom",
-			seating: "✔️ Place to sit down to rest"
+		interior: ["Spacious Interior, easy wheelchair maneuverability"],
+		parking: ["Lot #1 with 7 spots behind"],
+		bathroom: "✗ No Wheelchair Accessible Restroom",
+		seating: "✔️ Place to sit down to rest",
 	},
-	
 	{
 		id: "22",
 		categoryId: "01",
 		name: "Ferraro's Restaurant",
+		city: "Westfield",
 		image: require("../assets/images/ferraro.png"),
 		rating: "4.0",
 		ingredients: ["Open entrance"],
@@ -441,15 +436,16 @@ export const recipeList = [
 		color: "#006A4E",
 		description:
 			"Neighborhood staple delivering traditional Italian meals in roomy, white-tablecloth surrounds.",
-			interior: ["Cramped, hard to move wheelchair"],
-			parking: ["Lot #1 a block to the left ~14 spots scattered among sides or #2 a short walk below, ~2 spots towards Elm st"],
-			bathroom: "✗ No Wheelchair Accessible Restroom",
-			seating: "✔️ Place to sit down to rest"
+		interior: ["Cramped, hard to move wheelchair"],
+		parking: ["Lot #1 a block to the left ~14 spots scattered among sides or #2 a short walk below, ~2 spots towards Elm st"],
+		bathroom: "✗ No Wheelchair Accessible Restroom",
+		seating: "✔️ Place to sit down to rest",
 	},
 	{
 		id: "23",
 		categoryId: "01",
 		name: "Flamma Pizza",
+		city: "Westfield",
 		image: require("../assets/images/flamma.png"),
 		rating: "4.7",
 		ingredients: ["Good entrance"],
@@ -459,15 +455,16 @@ export const recipeList = [
 		color: "#006A4E",
 		description:
 			"Fiamma Wood Fired Pizza is a beloved, family friendly and highly-rated pizzeria operating in four locations throughout New Jersey, USA",
-			interior: ["Good open seating area"],
-			parking: ["Lot #5 across the street, ~7 spots"],
-			bathroom: "✗ No Wheelchair Accessible Restroom",
-			seating: "✔️ Place to sit down to rest"
+		interior: ["Good open seating area"],
+		parking: ["Lot #5 across the street, ~7 spots"],
+		bathroom: "✗ No Wheelchair Accessible Restroom",
+		seating: "✔️ Place to sit down to rest",
 	},
 	{
 		id: "24",
 		categoryId: "01",
 		name: "Five Guys",
+		city: "Westfield",
 		image: require("../assets/images/fiveguys.png"),
 		rating: "5.0",
 		ingredients: ["Great entrance with pull handles and push bars"],
@@ -480,12 +477,13 @@ export const recipeList = [
 		interior: ["Accessible seating and spacious Interior"],
 		parking: ["Lot across the street 2 spots"],
 		bathroom: "✗ No Wheelchair Accessible Restroom",
-		seating: "✔️ Place to sit down to rest"
+		seating: "✔️ Place to sit down to rest",
 	},
 	{
 		id: "25",
 		categoryId: "01",
 		name: "Fresh Bui",
+		city: "Westfield",
 		image: require("../assets/images/fresh.png"),
 		rating: "4.0",
 		ingredients: ["No steps, adequate room for wheelchair"],
@@ -495,15 +493,16 @@ export const recipeList = [
 		color: "#006A4E",
 		description:
 			"A place for fresh juices, smoothies, teas, and much more.",
-			interior: ["Accessible seating, slight cram interior"],
-			parking: ["No accessible parking nearby, street parking outside"],
-			bathroom: "✗ No Wheelchair Accessible Restroom",
-			seating: "✔️ Place to sit down to rest"
+		interior: ["Accessible seating, slight cram interior"],
+		parking: ["No accessible parking nearby, street parking outside"],
+		bathroom: "✗ No Wheelchair Accessible Restroom",
+		seating: "✔️ Place to sit down to rest",
 	},
 	{
 		id: "1000",
 		categoryId: "01",
 		name: "Fresh and Co",
+		city: "Westfield",
 		image: require("../assets/images/fresh.png"),
 		rating: "Pending",
 		ingredients: ["Submit on form on home screen"],
@@ -511,17 +510,17 @@ export const recipeList = [
 		difficulty: "/5",
 		calories: "/5",
 		color: "#006A4E",
-		description:
-			"",
-			interior: ["Pending"],
-			parking: ["Pending"],
-			bathroom: "",
-			seating: ""
+		description: "",
+		interior: ["Pending"],
+		parking: ["Pending"],
+		bathroom: "",
+		seating: "",
 	},
 	{
 		id: "26",
 		categoryId: "01",
 		name: "FroYo",
+		city: "Westfield",
 		image: require("../assets/images/Froyo.png"),
 		rating: "5.0",
 		ingredients: ["Adequate entrance"],
@@ -531,15 +530,16 @@ export const recipeList = [
 		color: "#006A4E",
 		description:
 			"Frozen yogurt shop.",
-			interior: ["Accessible seating with good interior"],
-			parking: ["Multiple spots out front"],
-			bathroom: "✔️ Wheelchair Accessible Restroom",
-			seating: "✔️ Place to sit down to rest"
+		interior: ["Accessible seating with good interior"],
+		parking: ["Multiple spots out front"],
+		bathroom: "✔️ Wheelchair Accessible Restroom",
+		seating: "✔️ Place to sit down to rest",
 	},
 	{
 		id: "27",
 		categoryId: "01",
 		name: "Hershey's Deli",
+		city: "Westfield",
 		image: require("../assets/images/hershey.png"),
 		rating: "4.7",
 		ingredients: ["One door is easily accessible to people in wheelchairs"],
@@ -549,15 +549,16 @@ export const recipeList = [
 		color: "#006A4E",
 		description:
 			"For decades we have been making great subs, grill food and catering for people like you. We are proud of what we do.",
-			interior: ["Accessible seating with good interior"],
-			parking: ["Train lot across the street"],
-			bathroom: "✔️ Wheelchair Accessible Restroom",
-			seating: "✔️ Place to sit down to rest"
+		interior: ["Accessible seating with good interior"],
+		parking: ["Train lot across the street"],
+		bathroom: "✔️ Wheelchair Accessible Restroom",
+		seating: "✔️ Place to sit down to rest",
 	},
 	{
 		id: "28",
 		categoryId: "01",
 		name: "Hunan Wok III",
+		city: "Westfield",
 		image: require("../assets/images/hunan.png"),
 		rating: "4.7",
 		ingredients: ["Wide entrance"],
@@ -570,12 +571,13 @@ export const recipeList = [
 		interior: ["Lightly crammed interior"],
 		parking: ["Lot right behind"],
 		bathroom: "✗ No Wheelchair Accessible Restroom",
-		seating: "✔️ Place to sit down to rest"
+		seating: "✔️ Place to sit down to rest",
 	},
 	{
 		id: "29",
 		categoryId: "01",
 		name: "Inspiration Roll",
+		city: "Westfield",
 		image: require("../assets/images/inspiration.png"),
 		rating: "4.7",
 		ingredients: ["Large step in the front"],
@@ -588,12 +590,13 @@ export const recipeList = [
 		interior: ["Spacious Interior with high top and low top seating"],
 		parking: ["Lot #5 across the street, ~5 spots"],
 		bathroom: "✔️ Wheelchair Accessible Restroom",
-		seating: "✔️ Place to sit down to rest"
+		seating: "✔️ Place to sit down to rest",
 	},
 	{
 		id: "30",
 		categoryId: "01",
 		name: "Jade Garden",
+		city: "Westfield",
 		image: require("../assets/images/jade.png"),
 		rating: "3.7",
 		ingredients: ["Large step in the front of entrance"],
@@ -606,12 +609,13 @@ export const recipeList = [
 		interior: ["Crammed Interior"],
 		parking: ["Multiple accessible spots to the side and behind the business"],
 		bathroom: "✗ No Wheelchair Accessible Restroom",
-		seating: "✔️ Place to sit down to rest"
+		seating: "✔️ Place to sit down to rest",
 	},
 	{
 		id: "31",
 		categoryId: "01",
 		name: "James Ward Mansion",
+		city: "Westfield",
 		image: require("../assets/images/jamesward.png"),
 		rating: "4.2",
 		ingredients: ["Large step in the front"],
@@ -624,15 +628,13 @@ export const recipeList = [
 		interior: ["Spacious Interior"],
 		parking: ["Train lot across the street"],
 		bathroom: "✔️ Wheelchair Accessible Restroom",
-		seating: "✔️ Place to sit down to rest"
+		seating: "✔️ Place to sit down to rest",
 	},
-
-
-
 	{
 		id: "35",
 		categoryId: "01",
 		name: "Limani Seafood Grill",
+		city: "Westfield",
 		image: require("../assets/images/limani.png"),
 		rating: "4.2",
 		ingredients: ["Multiple accessible doors with push handles"],
@@ -645,12 +647,13 @@ export const recipeList = [
 		interior: ["Spacious Interior with accessible seating"],
 		parking: ["Train lot behind the building, Lot #7 right in front"],
 		bathroom: "✔️ Wheelchair Accessible Restroom",
-		seating: "✔️ Place to sit down to rest"
+		seating: "✔️ Place to sit down to rest",
 	},
 	{
 		id: "36",
 		categoryId: "01",
 		name: "Lions Roar",
+		city: "Westfield",
 		image: require("../assets/images/lions.png"),
 		rating: "4.0",
 		ingredients: ["Large step in the front of the entrance"],
@@ -663,12 +666,13 @@ export const recipeList = [
 		interior: ["Spacious Interior"],
 		parking: ["Lot #6 with ~3 spots down Watterson Street"],
 		bathroom: "✔️ Wheelchair Accessible Restroom",
-		seating: "✔️ Place to sit down to rest"
+		seating: "✔️ Place to sit down to rest",
 	},
 	{
 		id: "37",
 		categoryId: "01",
 		name: "Manhatten Bagel",
+		city: "Westfield",
 		image: require("../assets/images/manhattan.png"),
 		rating: "5.0",
 		ingredients: ["Wide entrance with push handles"],
@@ -681,12 +685,13 @@ export const recipeList = [
 		interior: ["Spacious Interior"],
 		parking: ["2 spots right outside"],
 		bathroom: "✔️ Wheelchair Accessible Restroom",
-		seating: "✔️ Place to sit down to rest"
+		seating: "✔️ Place to sit down to rest",
 	},
 	{
 		id: "38",
 		categoryId: "01",
 		name: "Maya Thai Eatery",
+		city: "Westfield",
 		image: require("../assets/images/maya.png"),
 		rating: "Pending",
 		ingredients: ["Submit information with link on home screen!"],
@@ -699,12 +704,13 @@ export const recipeList = [
 		interior: ["Pending"],
 		parking: ["2 spots right next to it"],
 		bathroom: "",
-		seating: ""
+		seating: "",
 	},
 	{
 		id: "39",
 		categoryId: "01",
 		name: "Mulberry House",
+		city: "Westfield",
 		image: require("../assets/images/mulberry.png"),
 		rating: "5.0",
 		ingredients: ["No steps, adequate room for wheelchair and ramp outside for wheelchair"],
@@ -717,14 +723,13 @@ export const recipeList = [
 		interior: ["Spacious Interior with Accessible Seating"],
 		parking: ["Parking lot(s) around the corner 2 spots"],
 		bathroom: "✔️ Wheelchair Accessible Restroom",
-		seating: "✔️ Place to sit down to rest"
+		seating: "✔️ Place to sit down to rest",
 	},
-
-
 	{
 		id: "42",
 		categoryId: "01",
 		name: "NY Korean Barbeque",
+		city: "Westfield",
 		image: require("../assets/images/korean.png"),
 		rating: "4.7",
 		ingredients: ["ADA compliant"],
@@ -737,12 +742,13 @@ export const recipeList = [
 		interior: ["Slightly crammed Interior, seating accessible"],
 		parking: ["Lot #5 right behind with ~10 spots"],
 		bathroom: "✗ No Wheelchair Accessible Restroom",
-		seating: "✔️ Place to sit down to rest"
+		seating: "✔️ Place to sit down to rest",
 	},
 	{
 		id: "43",
 		categoryId: "01",
 		name: "Old Havana",
+		city: "Westfield",
 		image: require("../assets/images/havana.png"),
 		rating: "4.0",
 		ingredients: ["Small step in the front"],
@@ -755,12 +761,13 @@ export const recipeList = [
 		interior: ["Slightly crammed interior, wheelchair accessibility might pose challenges"],
 		parking: ["Train lot across the street with many wheelchair spots"],
 		bathroom: "✗ No Wheelchair Accessible Restroom",
-		seating: "✔️ Place to sit down to rest"
+		seating: "✔️ Place to sit down to rest",
 	},
 	{
 		id: "44",
 		categoryId: "01",
 		name: "Ono Bowls",
+		city: "Westfield",
 		image: require("../assets/images/ono.png"),
 		rating: "4.3",
 		ingredients: ["Good pull handle entrance"],
@@ -773,12 +780,13 @@ export const recipeList = [
 		interior: ["Small but spacious Interior"],
 		parking: ["Lot #5 with ~10 spots across Central"],
 		bathroom: "✗ No Wheelchair Accessible Restroom",
-		seating: "✔️ Place to sit down to rest"
+		seating: "✔️ Place to sit down to rest",
 	},
 	{
 		id: "45",
 		categoryId: "01",
 		name: "Orgreen Poke",
+		city: "Westfield",
 		image: require("../assets/images/orgreen.png"),
 		rating: "4.0",
 		ingredients: ["Good entrance"],
@@ -791,12 +799,13 @@ export const recipeList = [
 		interior: ["Wide space with high-top seating"],
 		parking: ["Lot #1 across the street ~3 spots nearby"],
 		bathroom: "✗ No Wheelchair Accessible Restroom",
-		seating: "✔️ Place to sit down to rest"
+		seating: "✔️ Place to sit down to rest",
 	},
 	{
 		id: "46",
 		categoryId: "01",
 		name: "Outta hand Pizza",
+		city: "Westfield",
 		image: require("../assets/images/outta.png"),
 		rating: "4.7",
 		ingredients: ["Wide entrance with pull handle"],
@@ -809,12 +818,13 @@ export const recipeList = [
 		interior: ["Slightly crammed Interior might be hard for wheelchair to navigate"],
 		parking: ["Train lot across the street"],
 		bathroom: "✗ No Wheelchair Accessible Restroom",
-		seating: "✔️ Place to sit down to rest"
+		seating: "✔️ Place to sit down to rest",
 	},
 	{
 		id: "47",
 		categoryId: "01",
 		name: "Qdoba Mexican Eats",
+		city: "Westfield",
 		image: require("../assets/images/Qdoba.png"),
 		rating: "4.3",
 		ingredients: ["Wide entrance with pull handle on both sides"],
@@ -827,12 +837,13 @@ export const recipeList = [
 		interior: ["Spacious Interior with accessible seating"],
 		parking: ["Lot #7 is the closest lot with wheelchair accessible spots ~6"],
 		bathroom: "✔️ Wheelchair Accessible Restroom",
-		seating: "✔️ Place to sit down to rest"
+		seating: "✔️ Place to sit down to rest",
 	},
 	{
 		id: "48",
 		categoryId: "01",
 		name: "Rockn' Joe",
+		city: "Westfield",
 		image: require("../assets/images/rockn.png"),
 		rating: "3.7",
 		ingredients: ["Good entrance with pull handle"],
@@ -845,12 +856,13 @@ export const recipeList = [
 		interior: ["Crammed Interior, hard for a wheelchair to move through"],
 		parking: ["No accessible parking nearby, have to cross a street"],
 		bathroom: "✔️ Wheelchair Accessible Restroom",
-		seating: "✔️ Place to sit down to rest"
+		seating: "✔️ Place to sit down to rest",
 	},
 	{
 		id: "150",
 		categoryId: "01",
 		name: "Starbucks",
+		city: "Westfield",
 		image: require("../assets/images/starbucks.png"),
 		rating: "5.0",
 		ingredients: ["Entrances are good on both sides, good pull-side clearance and wide doors"],
@@ -860,16 +872,16 @@ export const recipeList = [
 		color: "#006A4E",
 		description:
 			"Seattle-based coffeehouse chain known for its signature roasts, light bites and WiFi availability.",
-			interior: ["Spacious Interior with both booths, high-top, and low-top seating. Easy path for wheelchairs and people who struggle with movability."],
-			parking: ["Lot right next to Starbucks, multiple wheelchair accessible spots right nearby"],
-			bathroom: "✔️ Wheelchair Accessible Restroom",
-			seating: "✔️ Place to sit down to rest"
+		interior: ["Spacious Interior with both booths, high-top, and low-top seating. Easy path for wheelchairs and people who struggle with movability."],
+		parking: ["Lot right next to Starbucks, multiple wheelchair accessible spots right nearby"],
+		bathroom: "✔️ Wheelchair Accessible Restroom",
+		seating: "✔️ Place to sit down to rest",
 	},
-	
 	{
 		id: "49",
 		categoryId: "01",
 		name: "Vicki's Diner",
+		city: "Westfield",
 		image: require("../assets/images/vicki.png"),
 		rating: "4.7",
 		ingredients: ["Good door with wheelchair miniramp to the left"],
@@ -882,15 +894,16 @@ export const recipeList = [
 		interior: ["Good interior with high top and low top seating"],
 		parking: ["Lot across the street"],
 		bathroom: "✔️ Wheelchair Accessible Restroom",
-		seating: "✔️ Place to sit down to rest"
+		seating: "✔️ Place to sit down to rest",
 	},
 	{
 		id: "50",
 		categoryId: "01",
 		name: "Westfield Diner",
+		city: "Westfield",
 		image: require("../assets/images/westfield.png"),
 		rating: "5.0",
-		ingredients: ["Good"],
+		ingredients: ["Good entrance"],
 		time: "5/5",
 		difficulty: "5/5",
 		calories: "5/5",
@@ -900,12 +913,13 @@ export const recipeList = [
 		interior: ["Spacious Interior"],
 		parking: ["2 wheelchair accessible spots right outside"],
 		bathroom: "✔️ Wheelchair Accessible Restroom",
-		seating: "✔️ Place to sit down to rest"
+		seating: "✔️ Place to sit down to rest",
 	},
 	{
 		id: "51",
 		categoryId: "01",
 		name: "Westfield Seafood",
+		city: "Westfield",
 		image: require("../assets/images/seafood.png"),
 		rating: "4.2",
 		ingredients: ["Ramped entrance"],
@@ -918,14 +932,13 @@ export const recipeList = [
 		interior: ["Good Interior, room for wheelchair to move around"],
 		parking: ["Train lot right by, ~3 spots right next to Westfield Seafood"],
 		bathroom: "✗ No Wheelchair Accessible Restroom",
-		seating: "✔️ Place to sit down to rest"
+		seating: "✔️ Place to sit down to rest",
 	},
-
-
 	{
 		id: "52",
 		categoryId: "02",
 		name: "Adlers Jewelers",
+		city: "Westfield",
 		image: require("../assets/images/Adlers.png"),
 		rating: "4.7",
 		ingredients: ["Ramp leads up to entrance, good wide entrance"],
@@ -944,6 +957,7 @@ export const recipeList = [
 		id: "53",
 		categoryId: "02",
 		name: "American Shoe Repair",
+		city: "Westfield",
 		image: require("../assets/images/american.png"),
 		rating: "3.7",
 		ingredients: ["Large step in the front"],
@@ -962,6 +976,7 @@ export const recipeList = [
 		id: "54",
 		categoryId: "02",
 		name: "Athleta",
+		city: "Westfield",
 		image: require("../assets/images/Athleta.png"),
 		rating: "4.7",
 		ingredients: ["Good ramped entrance"],
@@ -974,12 +989,13 @@ export const recipeList = [
 		interior: ["Spacious Interior and Accessible Fitting Room"],
 		parking: ["Lot #5 across the street"],
 		bathroom: "✔️ Wheelchair Accessible Restroom",
-		seating: "✔️ Place to sit down to rest"
+		seating: "✔️ Place to sit down to rest",
 	},
 	{
 		id: "55",
 		categoryId: "02",
 		name: "Banana Republic",
+		city: "Westfield",
 		image: require("../assets/images/Banana.png"),
 		rating: "5.0",
 		ingredients: ["Ramped entrance no issues"],
@@ -992,13 +1008,13 @@ export const recipeList = [
 		interior: ["Spacious Interior"],
 		parking: ["Lot #5 right behind with ~5 spots"],
 		bathroom: "✔️ Wheelchair Accessible Restroom",
-		seating: "✔️ Place to sit down to rest"
+		seating: "✔️ Place to sit down to rest",
 	},
-
 	{
 		id: "57",
 		categoryId: "02",
 		name: "Best Foot Forward",
+		city: "Westfield",
 		image: require("../assets/images/best.png"),
 		rating: "3.7",
 		ingredients: ["Entrance is good"],
@@ -1017,6 +1033,7 @@ export const recipeList = [
 		id: "58",
 		categoryId: "02",
 		name: "Beyond Trends",
+		city: "Westfield",
 		image: require("../assets/images/Beyond.png"),
 		rating: "4.3",
 		ingredients: ["Good entrance"],
@@ -1035,6 +1052,7 @@ export const recipeList = [
 		id: "59",
 		categoryId: "02",
 		name: "Bridget's Irish Cottages",
+		city: "Westfield",
 		image: require("../assets/images/Bridget.png"),
 		rating: "3.3",
 		ingredients: ["Wheelchair-accessible entrance"],
@@ -1053,6 +1071,7 @@ export const recipeList = [
 		id: "60",
 		categoryId: "02",
 		name: "Claire's",
+		city: "Westfield",
 		image: require("../assets/images/penis.png"),
 		rating: "4.7",
 		ingredients: ["Good entrance"],
@@ -1071,6 +1090,7 @@ export const recipeList = [
 		id: "60",
 		categoryId: "02",
 		name: "Continental Tailoring",
+		city: "Westfield",
 		image: require("../assets/images/Continental.png"),
 		rating: "4.0",
 		ingredients: ["Entrance is fine"],
@@ -1089,6 +1109,7 @@ export const recipeList = [
 		id: "61",
 		categoryId: "03",
 		name: "Elegant Image",
+		city: "Westfield",
 		image: require("../assets/images/Elegant.png"),
 		rating: "4.7",
 		ingredients: ["Ramped entrance in the front"],
@@ -1107,6 +1128,7 @@ export const recipeList = [
 		id: "62",
 		categoryId: "02",
 		name: "Evalyn Dunn",
+		city: "Westfield",
 		image: require("../assets/images/Evalyn.png"),
 		rating: "5.0",
 		ingredients: ["Built to all accessbility standards"],
@@ -1119,12 +1141,13 @@ export const recipeList = [
 		interior: ["Spacious interior"],
 		parking: ["Parking right outside"],
 		bathroom: "✔️ Wheelchair Accessible Restroom",
-		seating: "✔️ Place to sit down to rest"
+		seating: "✔️ Place to sit down to rest",
 	},
 	{
 		id: "63",
 		categoryId: "08",
 		name: "Facial Reality Spa",
+		city: "Westfield",
 		image: require("../assets/images/Facial.png"),
 		rating: "4.3",
 		ingredients: ["Large step in the front"],
@@ -1137,12 +1160,13 @@ export const recipeList = [
 		interior: ["Spacious Interior"],
 		parking: ["Parking right outside"],
 		bathroom: "✔️ Wheelchair Accessible Restroom",
-		seating: "✔️ Place to sit down to rest"
+		seating: "✔️ Place to sit down to rest",
 	},
 	{
 		id: "64",
 		categoryId: "02",
 		name: "Flair Cleaners",
+		city: "Westfield",
 		image: require("../assets/images/Flair.png"),
 		rating: "4.0",
 		ingredients: ["Two steps in the front"],
@@ -1161,6 +1185,7 @@ export const recipeList = [
 		id: "65",
 		categoryId: "02",
 		name: "G O Keller's Inc",
+		city: "Westfield",
 		image: require("../assets/images/GO.png"),
 		rating: "4.3",
 		ingredients: ["Large step in the front"],
@@ -1179,6 +1204,7 @@ export const recipeList = [
 		id: "66",
 		categoryId: "02",
 		name: "Gap",
+		city: "Westfield",
 		image: require("../assets/images/Gap.png"),
 		rating: "5.0",
 		ingredients: ["Good entrance in front and back"],
@@ -1191,12 +1217,13 @@ export const recipeList = [
 		interior: ["Spacious Interior with accessible fitting room"],
 		parking: ["Lot #4 right behind with multiple accessible spots"],
 		bathroom: "✔️ Wheelchair Accessible Restroom",
-		seating: "✔️ Place to sit down to rest"
+		seating: "✔️ Place to sit down to rest",
 	},
 	{
 		id: "67",
 		categoryId: "02",
 		name: "Glamourous Girlz",
+		city: "Westfield",
 		image: require("../assets/images/Glamourous.png"),
 		rating: "3.3",
 		ingredients: ["Stairs in the front"],
@@ -1215,6 +1242,7 @@ export const recipeList = [
 		id: "68",
 		categoryId: "02",
 		name: "Gordin & Sons",
+		city: "Westfield",
 		image: require("../assets/images/Gordin.png"),
 		rating: "5.0",
 		ingredients: ["Yes, easy entrance and high maneuverability"],
@@ -1233,6 +1261,7 @@ export const recipeList = [
 		id: "69",
 		categoryId: "08",
 		name: "Guillotine Salon",
+		city: "Westfield",
 		image: require("../assets/images/Guillotine.png"),
 		rating: "3.3",
 		ingredients: ["Second floor must access with staircase"],
@@ -1242,15 +1271,16 @@ export const recipeList = [
 		color: "#006A4E",
 		description:
 			"Full service salon that is here to meet all of your beauty needs",
-			interior: ["Spacious Interior"],
-			parking: ["Lot #5 across the street"],
-			bathroom: "✗ No Wheelchair Accessible Restroom",
-			seating: "✔️ Place to sit down to rest",
+		interior: ["Spacious Interior"],
+		parking: ["Lot #5 across the street"],
+		bathroom: "✗ No Wheelchair Accessible Restroom",
+		seating: "✔️ Place to sit down to rest",
 	},
 	{
 		id: "70",
 		categoryId: "08",
 		name: "Haircut Bar",
+		city: "Westfield",
 		image: require("../assets/images/Haircut.png"),
 		rating: "4.3",
 		ingredients: ["Step in the front"],
@@ -1265,11 +1295,11 @@ export const recipeList = [
 		bathroom: "✗ No Wheelchair Accessible Restroom",
 		seating: "✔️ Place to sit down to rest",
 	},
-
 	{
 		id: "71",
 		categoryId: "02",
 		name: "Hope Chest",
+		city: "Westfield",
 		image: require("../assets/images/Hope.png"),
 		rating: "3.3",
 		ingredients: ["Small door entrance"],
@@ -1288,6 +1318,7 @@ export const recipeList = [
 		id: "72",
 		categoryId: "02",
 		name: "Indigo Art Studio",
+		city: "Westfield",
 		image: require("../assets/images/Indigo.png"),
 		rating: "5.0",
 		ingredients: ["On second floor, elevator available"],
@@ -1300,12 +1331,13 @@ export const recipeList = [
 		interior: ["Smaller Interior"],
 		parking: ["Lot #4 behind the store"],
 		bathroom: "✔️ Wheelchair Accessible Restroom",
-		seating: "✔️ Place to sit down to rest"
+		seating: "✔️ Place to sit down to rest",
 	},
 	{
 		id: "73",
 		categoryId: "02",
 		name: "J. McLaughlin",
+		city: "Westfield",
 		image: require("../assets/images/J.png"),
 		rating: "2.7",
 		ingredients: ["Large step in the front"],
@@ -1324,6 +1356,7 @@ export const recipeList = [
 		id: "74",
 		categoryId: "02",
 		name: "JackRabbit x Fleet Feet",
+		city: "Westfield",
 		image: require("../assets/images/JackRabbit.png"),
 		rating: "5.0",
 		ingredients: ["Large door entrance"],
@@ -1336,12 +1369,13 @@ export const recipeList = [
 		interior: ["Spacious Interior"],
 		parking: ["Accessible parking right behind"],
 		bathroom: "✔️ Wheelchair Accessible Restroom",
-		seating: "✔️ Place to sit down to rest"
+		seating: "✔️ Place to sit down to rest",
 	},
 	{
 		id: "75",
 		categoryId: "02",
 		name: "John Robert Custom",
+		city: "Westfield",
 		image: require("../assets/images/John.png"),
 		rating: "4.3",
 		ingredients: ["Small step in the front of the entrance"],
@@ -1360,6 +1394,7 @@ export const recipeList = [
 		id: "76",
 		categoryId: "02",
 		name: "Jos A Bank",
+		city: "Westfield",
 		image: require("../assets/images/Jos.png"),
 		rating: "5.0",
 		ingredients: ["Wheelchair accessible entrance"],
@@ -1372,12 +1407,13 @@ export const recipeList = [
 		interior: ["Good wheelchair-accessible Interior"],
 		parking: ["Wheelchair accessible Lot #7 right behind"],
 		bathroom: "✔️ Wheelchair Accessible Restroom",
-		seating: "✔️ Place to sit down to rest"
+		seating: "✔️ Place to sit down to rest",
 	},
 	{
 		id: "77",
 		categoryId: "02",
 		name: "Jude Connally",
+		city: "Westfield",
 		image: require("../assets/images/Jude.png"),
 		rating: "4.3",
 		ingredients: ["Doorknob to enter (can be hard for some with lack of movement)"],
@@ -1396,6 +1432,7 @@ export const recipeList = [
 		id: "78",
 		categoryId: "08",
 		name: "Kennedy's Barber",
+		city: "Westfield",
 		image: require("../assets/images/Kennedy.png"),
 		rating: "4.7",
 		ingredients: ["Good spacious door"],
@@ -1408,12 +1445,13 @@ export const recipeList = [
 		interior: ["Spacious Interior"],
 		parking: ["Train lot #2 across the street"],
 		bathroom: "✗ No Wheelchair Accessible Restroom",
-		seating: "✔️ Place to sit down to rest"
+		seating: "✔️ Place to sit down to rest",
 	},
 	{
 		id: "79",
 		categoryId: "02",
 		name: "Luigino Tailor",
+		city: "Westfield",
 		image: require("../assets/images/Luigino.png"),
 		rating: "4.7",
 		ingredients: ["Good entrance"],
@@ -1426,12 +1464,13 @@ export const recipeList = [
 		interior: ["Slightly small interior"],
 		parking: ["Lot #6 nearby"],
 		bathroom: "✗ No Wheelchair Accessible Restroom",
-		seating: "✔️ Place to sit down to rest"
+		seating: "✔️ Place to sit down to rest",
 	},
 	{
 		id: "80",
 		categoryId: "08",
 		name: "Luna Grace Beauty",
+		city: "Westfield",
 		image: require("../assets/images/Luna.png"),
 		rating: "3.7",
 		ingredients: ["Doorknob handle does not meet ADA standards and step in front"],
@@ -1444,12 +1483,13 @@ export const recipeList = [
 		interior: ["Spacious Interior"],
 		parking: ["No accessible parking nearby"],
 		bathroom: "✗ No Wheelchair Accessible Restroom",
-		seating: "✔️ Place to sit down to rest"
+		seating: "✔️ Place to sit down to rest",
 	},
 	{
 		id: "81",
 		categoryId: "02",
 		name: "Madeline Moss",
+		city: "Westfield",
 		image: require("../assets/images/Madeline.png"),
 		rating: "5.0",
 		ingredients: ["Pull handles and wide door"],
@@ -1462,12 +1502,13 @@ export const recipeList = [
 		interior: ["Very spacious interior"],
 		parking: ["Lot #5 right behind with multiple wheelchair accessible spots"],
 		bathroom: "✗ No Wheelchair Accessible Restroom",
-		seating: "✔️ Place to sit down to rest"
+		seating: "✔️ Place to sit down to rest",
 	},
 	{
 		id: "82",
 		categoryId: "02",
 		name: "Michaelangelo",
+		city: "Westfield",
 		image: require("../assets/images/Michealangelo.png"),
 		rating: "5.0",
 		ingredients: ["Good entrance, accommodating to wheelchair users"],
@@ -1480,12 +1521,13 @@ export const recipeList = [
 		interior: ["Spacious Interior"],
 		parking: ["Parking lot #1 right behind it"],
 		bathroom: "✗ No Wheelchair Accessible Restroom",
-		seating: "✔️ Place to sit down to rest"
+		seating: "✔️ Place to sit down to rest",
 	},
 	{
 		id: "83",
 		categoryId: "02",
 		name: "Mimi & Hill",
+		city: "Westfield",
 		image: require("../assets/images/Mimi.png"),
 		rating: "4.0",
 		ingredients: ["Wide, accessible entrance"],
@@ -1498,12 +1540,13 @@ export const recipeList = [
 		interior: ["Interior spaced out and built to ADA standards"],
 		parking: ["Lot #1 closest lot, still far away"],
 		bathroom: "✔️ Wheelchair Accessible Restroom",
-		seating: "✔️ Place to sit down to rest"
+		seating: "✔️ Place to sit down to rest",
 	},
 	{
 		id: "84",
 		categoryId: "02",
 		name: "N&C Jewelers",
+		city: "Westfield",
 		image: require("../assets/images/N.png"),
 		rating: "4.7",
 		ingredients: ["No steps, adequate room for wheelchair"],
@@ -1516,12 +1559,13 @@ export const recipeList = [
 		interior: ["Spacious Interior"],
 		parking: ["Lot #5 across the street"],
 		bathroom: "✔️ Wheelchair Accessible Restroom",
-		seating: "✔️ Place to sit down to rest"
+		seating: "✔️ Place to sit down to rest",
 	},
 	{
 		id: "85",
 		categoryId: "08",
 		name: "Nails Spa & Beyond",
+		city: "Westfield",
 		image: require("../assets/images/nails.png"),
 		rating: "5.0",
 		ingredients: ["Good entrance"],
@@ -1534,12 +1578,13 @@ export const recipeList = [
 		interior: ["Very spacious Interior"],
 		parking: ["Lot #1 right next to it, many spots for access"],
 		bathroom: "✔️ Wheelchair Accessible Restroom",
-		seating: "✔️ Place to sit down to rest"
+		seating: "✔️ Place to sit down to rest",
 	},
 	{
 		id: "86",
 		categoryId: "03",
 		name: "Patricia & Paul",
+		city: "Westfield",
 		image: require("../assets/images/Patricia.png"),
 		rating: "5.0",
 		ingredients: ["Accessible entrance, usually kept open"],
@@ -1552,12 +1597,13 @@ export const recipeList = [
 		interior: ["Spacious Interior"],
 		parking: ["Train lot across the street, many accessible spots"],
 		bathroom: "✔️ Wheelchair Accessible Restroom",
-		seating: "✔️ Place to sit down to rest"
+		seating: "✔️ Place to sit down to rest",
 	},
 	{
 		id: "87",
 		categoryId: "08",
 		name: "R Studio",
+		city: "Westfield",
 		image: require("../assets/images/R.png"),
 		rating: "4.7",
 		ingredients: ["Large step in the front"],
@@ -1570,12 +1616,13 @@ export const recipeList = [
 		interior: ["Spacious Interior"],
 		parking: ["Lot #5 across the street"],
 		bathroom: "✗ No Wheelchair Accessible Restroom",
-		seating: "✔️ Place to sit down to rest"
+		seating: "✔️ Place to sit down to rest",
 	},
 	{
 		id: "88",
 		categoryId: "08",
 		name: "Salon Peak",
+		city: "Westfield",
 		image: require("../assets/images/SalonVisage.png"),
 		rating: "4.7",
 		ingredients: ["Good entrance"],
@@ -1588,12 +1635,13 @@ export const recipeList = [
 		interior: ["Spacious Interior"],
 		parking: ["Train lot across the street, multiple wheelchair accessible spots"],
 		bathroom: "✗ No Wheelchair Accessible Restroom",
-		seating: "✔️ Place to sit down to rest"
+		seating: "✔️ Place to sit down to rest",
 	},
 	{
 		id: "89",
 		categoryId: "02",
 		name: "Sherwin-Williams",
+		city: "Westfield",
 		image: require("../assets/images/Sherwin.png"),
 		rating: "4.7",
 		ingredients: ["Good entrance"],
@@ -1606,12 +1654,13 @@ export const recipeList = [
 		interior: ["Spacious Interior"],
 		parking: ["Train lot across the street, multiple wheelchair accessible spots"],
 		bathroom: "✗ No Wheelchair Accessible Restroom",
-		seating: "✗ No Place to sit down to rest"
+		seating: "✗ No Place to sit down to rest",
 	},
 	{
 		id: "90",
 		categoryId: "02",
 		name: "Starlight Cleaners",
+		city: "Westfield",
 		image: require("../assets/images/Starlight.png"),
 		rating: "5.0",
 		ingredients: ["Entrance is fine"],
@@ -1624,12 +1673,13 @@ export const recipeList = [
 		interior: ["Spacious Interior"],
 		parking: ["Accessible parking right outside"],
 		bathroom: "✗ No Wheelchair Accessible Restroom",
-		seating: "✗ No Place to sit down to rest"
+		seating: "✗ No Place to sit down to rest",
 	},
 	{
 		id: "91",
 		categoryId: "08",
 		name: "Supercuts",
+		city: "Westfield",
 		image: require("../assets/images/Supercuts.png"),
 		rating: "5.0",
 		ingredients: ["No steps, good entrance"],
@@ -1642,12 +1692,13 @@ export const recipeList = [
 		interior: ["Spacious Interior"],
 		parking: ["Accessible parking right outside"],
 		bathroom: "✔️ Wheelchair Accessible Restroom",
-		seating: "✔️ Place to sit down to rest"
+		seating: "✔️ Place to sit down to rest",
 	},
 	{
 		id: "92",
 		categoryId: "02",
 		name: "Tamar Jewelery",
+		city: "Westfield",
 		image: require("../assets/images/Tamar.png"),
 		rating: "3.7",
 		ingredients: ["Small step in the front, door might be a little small"],
@@ -1660,13 +1711,13 @@ export const recipeList = [
 		interior: ["Spacious Interior"],
 		parking: ["No accessible parking nearby"],
 		bathroom: "✗ No Wheelchair Accessible Restroom",
-		seating: "✗ No Place to sit down to rest"
+		seating: "✗ No Place to sit down to rest",
 	},
-
 	{
 		id: "94",
 		categoryId: "08",
 		name: "U Relax Spa",
+		city: "Westfield",
 		image: require("../assets/images/URelax.png"),
 		rating: "5.0",
 		ingredients: ["Good entrance"],
@@ -1679,12 +1730,13 @@ export const recipeList = [
 		interior: ["Spacious Interior"],
 		parking: ["Accessible parking lots on all sides"],
 		bathroom: "✔️ Wheelchair Accessible Restroom",
-		seating: "✔️ Place to sit down to rest"
+		seating: "✔️ Place to sit down to rest",
 	},
 	{
 		id: "95",
 		categoryId: "02",
 		name: "Urban Outfitters",
+		city: "Westfield",
 		image: require("../assets/images/Urban.png"),
 		rating: "4.3",
 		ingredients: ["Accessible entrance"],
@@ -1697,12 +1749,13 @@ export const recipeList = [
 		interior: ["Spacious Interior, elevator to get to separate floors"],
 		parking: ["No accessible parking nearby"],
 		bathroom: "✔️ Wheelchair Accessible Restroom",
-		seating: "✔️ Place to sit down to rest"
+		seating: "✔️ Place to sit down to rest",
 	},
 	{
 		id: "96",
 		categoryId: "02",
 		name: "Warby Parker",
+		city: "Westfield",
 		image: require("../assets/images/Warby.png"),
 		rating: "4.7",
 		ingredients: ["Wide door with pull bars"],
@@ -1715,12 +1768,13 @@ export const recipeList = [
 		interior: ["Spacious Interior"],
 		parking: ["Starbucks lot across the street or at&t lot "],
 		bathroom: "✔️ Wheelchair Accessible Restroom",
-		seating: "✔️ Place to sit down to rest"
+		seating: "✔️ Place to sit down to rest",
 	},
 	{
 		id: "97",
 		categoryId: "02",
 		name: "Westfield Tailors",
+		city: "Westfield",
 		image: require("../assets/images/WestfieldTailors.png"),
 		rating: "5.0",
 		ingredients: ["Front entrance is good"],
@@ -1733,13 +1787,13 @@ export const recipeList = [
 		interior: ["Spacious Interior"],
 		parking: ["Accessible parking right outside"],
 		bathroom: "✗ No Wheelchair Accessible Restroom",
-		seating: "✔️ Place to sit down to rest"
+		seating: "✔️ Place to sit down to rest",
 	},
-
 	{
 		id: "99",
 		categoryId: "08",
 		name: "Wolves Den",
+		city: "Westfield",
 		image: require("../assets/images/WolvesDen.png"),
 		rating: "5.0",
 		ingredients: ["Good entrance"],
@@ -1752,12 +1806,13 @@ export const recipeList = [
 		interior: ["Spacious Interior"],
 		parking: ["Lot #7 nearby with many accessible spots"],
 		bathroom: "✔️ Wheelchair Accessible Restroom",
-		seating: "✔️ Place to sit down to rest"
+		seating: "✔️ Place to sit down to rest",
 	},
 	{
 		id: "100",
 		categoryId: "03",
 		name: "Baron's Drug Store",
+		city: "Westfield",
 		image: require("../assets/images/barons.png"),
 		rating: "4.3",
 		ingredients: ["Both entrances are good"],
@@ -1770,13 +1825,13 @@ export const recipeList = [
 		interior: ["Cramped aisles, hard to move wheelchair around"],
 		parking: ["Handicapped spots right out back"],
 		bathroom: "✔️ Wheelchair Accessible Restroom",
-		seating: "✔️ Place to sit down to rest"
+		seating: "✔️ Place to sit down to rest",
 	},
-	
 	{
 		id: "102",
 		categoryId: "03",
 		name: "Trader Joe's",
+		city: "Westfield",
 		image: require("../assets/images/Trader.png"),
 		rating: "5.0",
 		ingredients: ["Good entrance with automatic doors"],
@@ -1789,12 +1844,13 @@ export const recipeList = [
 		interior: ["Spacious Interior"],
 		parking: ["Many wheelchair accessible spots in the lot"],
 		bathroom: "✔️ Wheelchair Accessible Restroom",
-		seating: "✔️ Place to sit down to rest"
+		seating: "✔️ Place to sit down to rest",
 	},
 	{
 		id: "103",
 		categoryId: "03",
 		name: "Walgreens",
+		city: "Westfield",
 		image: require("../assets/images/Walgreens.png"),
 		rating: "5.0",
 		ingredients: ["Good entrance with automatic wide doors"],
@@ -1807,12 +1863,13 @@ export const recipeList = [
 		interior: ["Spacious Interior"],
 		parking: ["multiple handicap spots outside the Walgreens"],
 		bathroom: "✔️ Wheelchair Accessible Restroom",
-		seating: "✔️ Place to sit down to rest"
+		seating: "✔️ Place to sit down to rest",
 	},
 	{
 		id: "104",
 		categoryId: "03",
 		name: "Westfield Pharmacy",
+		city: "Westfield",
 		image: require("../assets/images/Pharmacy.png"),
 		rating: "5.0",
 		ingredients: ["Very spacious door with pull handles"],
@@ -1825,12 +1882,13 @@ export const recipeList = [
 		interior: ["Spacious Interior"],
 		parking: ["Lot #7 with multiple wheelchair accessible spots nearby"],
 		bathroom: "✔️ Wheelchair Accessible Restroom",
-		seating: "✔️ Place to sit down to rest"
+		seating: "✔️ Place to sit down to rest",
 	},
 	{
 		id: "105",
 		categoryId: "03",
 		name: "Westfield Seafood",
+		city: "Westfield",
 		image: require("../assets/images/seafood.png"),
 		rating: "4.2",
 		ingredients: ["Ramped entrance"],
@@ -1843,12 +1901,13 @@ export const recipeList = [
 		interior: ["Good Interior, room for wheelchair to move around"],
 		parking: ["Train lot right by, ~3 spots right next to Westfield Seafood"],
 		bathroom: "✗ No Wheelchair Accessible Restroom",
-		seating: "✔️ Place to sit down to rest"
+		seating: "✔️ Place to sit down to rest",
 	},
 	{
 		id: "106",
 		categoryId: "04",
 		name: "Atlantic Medical",
+		city: "Westfield",
 		image: require("../assets/images/atlantic.png"),
 		rating: "5.0",
 		ingredients: ["All good, automatic doors with spacious interior"],
@@ -1861,12 +1920,13 @@ export const recipeList = [
 		interior: ["Spacious Interior, easy to move around"],
 		parking: ["Accessible parking spots right outside"],
 		bathroom: "✔️ Wheelchair Accessible Restroom",
-		seating: "✔️ Place to sit down to rest"
+		seating: "✔️ Place to sit down to rest",
 	},
 	{
 		id: "107",
 		categoryId: "04",
 		name: "Baron's Drug Store",
+		city: "Westfield",
 		image: require("../assets/images/barons.png"),
 		rating: "4.3",
 		ingredients: ["Both entrances are good"],
@@ -1879,12 +1939,13 @@ export const recipeList = [
 		interior: ["Cramped aisles"],
 		parking: ["Handicapped spots right out back"],
 		bathroom: "✔️ Wheelchair Accessible Restroom",
-		seating: "✔️ Place to sit down to rest"
+		seating: "✔️ Place to sit down to rest",
 	},
 	{
 		id: "108",
 		categoryId: "04",
 		name: "Brunner Eye Care",
+		city: "Westfield",
 		image: require("../assets/images/brunner.png"),
 		rating: "4.7",
 		ingredients: ["All good, ramped entrance"],
@@ -1897,12 +1958,13 @@ export const recipeList = [
 		interior: ["Spacious Interior"],
 		parking: ["Lot #1 with multiple spots across the street"],
 		bathroom: "✔️ Wheelchair Accessible Restroom",
-		seating: "✔️ Place to sit down to rest"
+		seating: "✔️ Place to sit down to rest",
 	},
 	{
 		id: "109",
 		categoryId: "04",
 		name: "Club Pilates",
+		city: "Westfield",
 		image: require("../assets/images/PilatesC.png"),
 		rating: "5.0",
 		ingredients: ["Good entrance"],
@@ -1915,12 +1977,13 @@ export const recipeList = [
 		interior: ["Spacious Interior"],
 		parking: ["Lot #4 right next to the gym"],
 		bathroom: "✗ No Wheelchair Accessible Restroom",
-		seating: "✔️ Place to sit down to rest"
+		seating: "✔️ Place to sit down to rest",
 	},
 	{
 		id: "110",
 		categoryId: "04",
 		name: "Dentologem",
+		city: "Westfield",
 		image: require("../assets/images/Dentologem.png"),
 		rating: "5.0",
 		ingredients: ["Good entrance"],
@@ -1933,12 +1996,13 @@ export const recipeList = [
 		interior: ["Spacious Interior with wide aisles"],
 		parking: ["Lot #3 with multiple spots"],
 		bathroom: "✔️ Wheelchair Accessible Restroom",
-		seating: "✔️ Place to sit down to rest"
+		seating: "✔️ Place to sit down to rest",
 	},
 	{
 		id: "111",
 		categoryId: "04",
 		name: "Green Room",
+		city: "Westfield",
 		image: require("../assets/images/Green.png"),
 		rating: "4.7",
 		ingredients: ["Yes, easy entrance and high maneuverability"],
@@ -1951,12 +2015,13 @@ export const recipeList = [
 		interior: ["Spacious Interior with low top seating"],
 		parking: ["Parking lot #2 down Elm St"],
 		bathroom: "✗ No Wheelchair Accessible Restroom",
-		seating: "✔️ Place to sit down to rest"
+		seating: "✔️ Place to sit down to rest",
 	},
 	{
 		id: "112",
 		categoryId: "04",
 		name: "Haven Pelvic PT",
+		city: "Westfield",
 		image: require("../assets/images/Haven.png"),
 		rating: "5.0",
 		ingredients: ["Wheelchair ramp for entrance, wide door"],
@@ -1969,12 +2034,13 @@ export const recipeList = [
 		interior: ["Spacious Interior with elevator inside"],
 		parking: ["Few parking spaces nearby"],
 		bathroom: "✔️ Wheelchair Accessible Restroom",
-		seating: "✔️ Place to sit down to rest"
+		seating: "✔️ Place to sit down to rest",
 	},
 	{
 		id: "113",
 		categoryId: "04",
 		name: "HearingLife",
+		city: "Westfield",
 		image: require("../assets/images/HearingL.png"),
 		rating: "4.7",
 		ingredients: ["Good entrance with pull handle"],
@@ -1987,12 +2053,13 @@ export const recipeList = [
 		interior: ["Spacious Interior"],
 		parking: ["Lot #5 across the street"],
 		bathroom: "✔️ Wheelchair Accessible Restroom",
-		seating: "✔️ Place to sit down to rest"
+		seating: "✔️ Place to sit down to rest",
 	},
 	{
 		id: "114",
 		categoryId: "04",
 		name: "I to Eye",
+		city: "Westfield",
 		image: require("../assets/images/I.png"),
 		rating: "5.0",
 		ingredients: ["Ramped entrance"],
@@ -2005,12 +2072,13 @@ export const recipeList = [
 		interior: ["Spacious Interior"],
 		parking: ["Lot #4 right behind"],
 		bathroom: "✔️ Wheelchair Accessible Restroom",
-		seating: "✔️ Place to sit down to rest"
+		seating: "✔️ Place to sit down to rest",
 	},
 	{
 		id: "115",
 		categoryId: "04",
 		name: "JAG-ONE",
+		city: "Westfield",
 		image: require("../assets/images/JAG.png"),
 		rating: "5.0",
 		ingredients: ["Good entrance"],
@@ -2023,12 +2091,13 @@ export const recipeList = [
 		interior: ["Spacious Interior"],
 		parking: ["Spots to the side and across the street"],
 		bathroom: "✔️ Wheelchair Accessible Restroom",
-		seating: "✔️ Place to sit down to rest"
+		seating: "✔️ Place to sit down to rest",
 	},
 	{
 		id: "116",
 		categoryId: "04",
 		name: "Laser Dental",
+		city: "Westfield",
 		image: require("../assets/images/Laser.png"),
 		rating: "5.0",
 		ingredients: ["Ramped entrance and wide door"],
@@ -2041,13 +2110,13 @@ export const recipeList = [
 		interior: ["Wellspaced Interior"],
 		parking: ["1 Accessible spot right outside"],
 		bathroom: "✔️ Wheelchair Accessible Restroom",
-		seating: "✔️ Place to sit down to rest"
+		seating: "✔️ Place to sit down to rest",
 	},
-
 	{
 		id: "118",
 		categoryId: "04",
 		name: "Professional PT",
+		city: "Westfield",
 		image: require("../assets/images/ProfessionalPT.png"),
 		rating: "4.7",
 		ingredients: ["Good entrance with pull handles"],
@@ -2060,12 +2129,13 @@ export const recipeList = [
 		interior: ["Spacious Interior"],
 		parking: ["Lot #1 nearby"],
 		bathroom: "✔️ Wheelchair Accessible Restroom",
-		seating: "✔️ Place to sit down to rest"
+		seating: "✔️ Place to sit down to rest",
 	},
 	{
 		id: "119",
 		categoryId: "04",
 		name: "Raritan Valley Gyrotonic",
+		city: "Westfield",
 		image: require("../assets/images/Raritan.png"),
 		rating: "5.0",
 		ingredients: ["Good entrance"],
@@ -2078,12 +2148,13 @@ export const recipeList = [
 		interior: ["Good Interior"],
 		parking: ["Lot #5 right behind"],
 		bathroom: "✔️ Wheelchair Accessible Restroom",
-		seating: "✔️ Place to sit down to rest"
+		seating: "✔️ Place to sit down to rest",
 	},
 	{
 		id: "120",
 		categoryId: "04",
 		name: "Satsang Yoga Studio",
+		city: "Westfield",
 		image: require("../assets/images/Satsang.png"),
 		rating: "3.3",
 		ingredients: ["Steep stairs on entrance to reach the studio"],
@@ -2096,12 +2167,13 @@ export const recipeList = [
 		interior: ["Spacious Interior"],
 		parking: ["Lot #4 right behind"],
 		bathroom: "✗ No Wheelchair Accessible Restroom",
-		seating: "✗ No Place to sit down to rest"
+		seating: "✗ No Place to sit down to rest",
 	},
 	{
 		id: "121",
 		categoryId: "05",
 		name: "Bank of America",
+		city: "Westfield",
 		image: require("../assets/images/BOA.png"),
 		rating: "5.0",
 		time: "5/5",
@@ -2113,12 +2185,13 @@ export const recipeList = [
 		interior: ["Spacious Interior"],
 		parking: ["Multiple accessible spots"],
 		bathroom: "✔️ Wheelchair Accessible Restroom",
-		seating: "✔️ Place to sit down to rest"
+		seating: "✔️ Place to sit down to rest",
 	},
 	{
 		id: "122",
 		categoryId: "05",
 		name: "Chase Bank",
+		city: "Westfield",
 		image: require("../assets/images/Chase.png"),
 		rating: "5.0",
 		ingredients: ["Ramp to enter from the parking lot"],
@@ -2131,13 +2204,13 @@ export const recipeList = [
 		interior: ["Spacious Interior"],
 		parking: ["1 spot in the back of the bank"],
 		bathroom: "✗ No Wheelchair Accessible Restroom",
-		seating: "✔️ Place to sit down to rest"
+		seating: "✔️ Place to sit down to rest",
 	},
-
 	{
 		id: "123",
 		categoryId: "05",
 		name: "Haven Savings Bank",
+		city: "Westfield",
 		image: require("../assets/images/bigpenis.png"),
 		rating: "5.0",
 		ingredients: ["Accessible from the front of the bank"],
@@ -2150,12 +2223,13 @@ export const recipeList = [
 		interior: ["Spacious Interior"],
 		parking: ["2 spots outside the store"],
 		bathroom: "✗ No Wheelchair Accessible Restroom",
-		seating: "✔️ Place to sit down to rest"
+		seating: "✔️ Place to sit down to rest",
 	},
 	{
 		id: "124",
 		categoryId: "05",
 		name: "PNC Bank",
+		city: "Westfield",
 		image: require("../assets/images/PNC.png"),
 		rating: "5.0",
 		ingredients: ["No steps, adequate room for wheelchair "],
@@ -2168,13 +2242,13 @@ export const recipeList = [
 		interior: ["Spacious Interior"],
 		parking: ["Few spots in nearby parking lot"],
 		bathroom: "✗ No Wheelchair Accessible Restroom",
-		seating: "✔️ Place to sit down to rest"
+		seating: "✔️ Place to sit down to rest",
 	},
-
 	{
 		id: "125",
 		categoryId: "05",
 		name: "Wells Fargo",
+		city: "Westfield",
 		image: require("../assets/images/Wells.png"),
 		rating: "4.3",
 		ingredients: ["Good, ramp at back of building"],
@@ -2187,13 +2261,13 @@ export const recipeList = [
 		interior: ["Spacious Interior"],
 		parking: ["No accessible parking"],
 		bathroom: "✗ No Wheelchair Accessible Restroom",
-		seating: "✔️ Place to sit down to rest"
+		seating: "✔️ Place to sit down to rest",
 	},
-
 	{
 		id: "126",
 		categoryId: "06",
 		name: "First Baptist Church",
+		city: "Westfield",
 		image: require("../assets/images/Baptist.png"),
 		rating: "5.0",
 		ingredients: ["Wheelchair accessible entrance in the back"],
@@ -2206,13 +2280,13 @@ export const recipeList = [
 		interior: ["Wheelchair accessible spots in the chapel"],
 		parking: ["Wheelchair accessible parking spots"],
 		bathroom: "✗ No Wheelchair Accessible Restroom",
-		seating: "✔️ Place to sit down to rest"
+		seating: "✔️ Place to sit down to rest",
 	},
-
 	{
 		id: "127",
 		categoryId: "06",
 		name: "First Congregational Church",
+		city: "Westfield",
 		image: require("../assets/images/Congregational.png"),
 		rating: "5.0",
 		ingredients: ["Good entrance"],
@@ -2225,13 +2299,13 @@ export const recipeList = [
 		interior: ["This church is wheelchair accessible and easy to move around"],
 		parking: ["Wheelchair accessible parking spots"],
 		bathroom: "✔️ Wheelchair Accessible Restroom",
-		seating: "✔️ Place to sit down to rest"
+		seating: "✔️ Place to sit down to rest",
 	},
-
 	{
 		id: "128",
 		categoryId: "06",
 		name: "First United Methodist",
+		city: "Westfield",
 		image: require("../assets/images/United.png"),
 		rating: "5.0",
 		ingredients: ["Entrance is ramped and good"],
@@ -2244,12 +2318,13 @@ export const recipeList = [
 		interior: ["Sanctuary on first floor has cutouts for extra room with seating wheelchairs"],
 		parking: ["Wheelchair accessible parking spots"],
 		bathroom: "✔️ Wheelchair Accessible Restroom",
-		seating: "✔️ Place to sit down to rest"
+		seating: "✔️ Place to sit down to rest",
 	},
 	{
 		id: "129",
 		categoryId: "07",
 		name: "AT&T",
+		city: "Westfield",
 		image: require("../assets/images/att.png"),
 		rating: "4.3",
 		ingredients: ["Step in front of it, have to go to the side"],
@@ -2262,13 +2337,13 @@ export const recipeList = [
 		interior: ["Yes widely spaced"],
 		parking: ["Multiple wheelchair accessible spots around"],
 		bathroom: "✗ No Wheelchair Accessible Restroom",
-		seating: "✔️ Place to sit down to rest"
-
+		seating: "✔️ Place to sit down to rest",
 	},
 	{
 		id: "130",
 		categoryId: "07",
 		name: "Mimi & Hill Design",
+		city: "Westfield",
 		image: require("../assets/images/Mimi.png"),
 		rating: "4.0",
 		ingredients: ["Wide, accessible entrance"],
@@ -2281,13 +2356,13 @@ export const recipeList = [
 		interior: ["Interior spaced out and built to ADA standards"],
 		parking: ["Lot #1 closest lot, still far away"],
 		bathroom: "✔️ Wheelchair Accessible Restroom",
-		seating: "✔️ Place to sit down to rest"
+		seating: "✔️ Place to sit down to rest",
 	},
-
 	{
 		id: "132",
 		categoryId: "07",
 		name: "NosVino",
+		city: "Westfield",
 		image: require("../assets/images/nos.png"),
 		rating: "4.0",
 		ingredients: ["No steps, adequate room for wheelchair"],
@@ -2300,12 +2375,13 @@ export const recipeList = [
 		interior: ["Spacious Interior"],
 		parking: ["Street parking nearby, no accessible parking nearby"],
 		bathroom: "✔️ Wheelchair Accessible Restroom",
-		seating: "✔️ Place to sit down to rest"
+		seating: "✔️ Place to sit down to rest",
 	},
 	{
 		id: "133",
 		categoryId: "07",
 		name: "T-Mobile",
+		city: "Westfield",
 		image: require("../assets/images/T.png"),
 		rating: "4.7",
 		ingredients: ["Step in front of it, have to go to the side"],
@@ -2318,12 +2394,13 @@ export const recipeList = [
 		interior: ["Spacious Interior"],
 		parking: ["Lot #5 across the street"],
 		bathroom: "✗ No Wheelchair Accessible Restroom",
-		seating: "✔️ Place to sit down to rest"
+		seating: "✔️ Place to sit down to rest",
 	},
 	{
 		id: "134",
 		categoryId: "07",
 		name: "The Device Shop",
+		city: "Westfield",
 		image: require("../assets/images/TheDevice.png"),
 		rating: "4.3",
 		ingredients: ["Wheelchair-accessible door, wheelchair miniramp to the left"],
@@ -2336,12 +2413,13 @@ export const recipeList = [
 		interior: ["Spacious Interior"],
 		parking: ["None nearby, Lot #1 is closest option"],
 		bathroom: "✗ No Wheelchair Accessible Restroom",
-		seating: "✗ No Place to sit down to rest"
+		seating: "✗ No Place to sit down to rest",
 	},
 	{
 		id: "135",
 		categoryId: "07",
 		name: "UPS Store",
+		city: "Westfield",
 		image: require("../assets/images/ups.png"),
 		rating: "4.7",
 		ingredients: ["Good door with wheelchair miniramp to the left"],
@@ -2354,12 +2432,13 @@ export const recipeList = [
 		interior: ["Slightly crammed interior"],
 		parking: ["No accessible parking nearby, only street parking"],
 		bathroom: "✗ No Wheelchair Accessible Restroom",
-		seating: "✗ No Place to sit down to rest"
+		seating: "✗ No Place to sit down to rest",
 	},
 	{
 		id: "136",
 		categoryId: "07",
 		name: "Verizon",
+		city: "Westfield",
 		image: require("../assets/images/verizon.png"),
 		rating: "5.0",
 		ingredients: ["All good, ramp in front"],
@@ -2372,25 +2451,25 @@ export const recipeList = [
 		interior: ["Wide Interior"],
 		parking: ["Wheelchair accessible parking lot"],
 		bathroom: "✗ No Wheelchair Accessible Restroom",
-		seating: "✔️ Place to sit down to rest"
+		seating: "✔️ Place to sit down to rest",
 	},
-
-
-
-
-
-
-
-
-
-
-
-	 
-	
-	
-
-	
-	
-
-
+	{
+		id: "137",
+		categoryId: "07",
+		name: "Verizon",
+		city: "Summit",
+		image: require("../assets/images/verizon.png"),
+		rating: "5.0",
+		ingredients: ["All good, ramp in front"],
+		time: "5/5",
+		difficulty: "5/5",
+		calories: "5/5",
+		color: "#006A4E",
+		description:
+			"Telecommunications store offering cell phones, wireless plans, accessories & more.",
+		interior: ["Wide Interior"],
+		parking: ["Wheelchair accessible parking lot"],
+		bathroom: "✗ No Wheelchair Accessible Restroom",
+		seating: "✔️ Place to sit down to rest",
+	},
 ];

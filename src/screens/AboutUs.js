@@ -103,6 +103,13 @@ const AboutUs = () => {
        </Text>
      </View>
      <View style={styles.textBox}>
+       <Text style={styles.subHeader}>Ethan Lung</Text>
+       <Text style={styles.role}>App Co-Founder and Developer</Text>
+       <Text style={styles.info}>
+       Ethan is a junior at the Union County Vocational Technical School. With a creative mind, he focuses on creating a beneficial impact by designing and developing mobile apps. Ever since he was a young child, Ethan wanted to make sure that everyone was given a fair chance at enjoying life. So, when the idea of Access Wayfinder came up, Ethan undoubtly decided to use his previous computer science knowledge to co-collaborate on the app, to make accessibility available for everyone.
+       </Text>
+     </View>
+     <View style={styles.textBox}>
        <Text style={styles.subHeader}>Sarah Maher</Text>
        <Text style={styles.role}>App Outreach and Accessibility Reviewer</Text>
        <Text style={styles.info}>
@@ -110,13 +117,7 @@ const AboutUs = () => {
        </Text>
      </View>
 
-     <View style={styles.textBox}>
-       <Text style={styles.subHeader}>Ethan Lung</Text>
-       <Text style={styles.role}>App Developer and Designer</Text>
-       <Text style={styles.info}>
-       Ethan is a junior at the Union County Vocational Technical School. With a creative mind, he focuses on creating a beneficial impact by designing and developing mobile apps. Ever since he was a young child, Ethan wanted to make sure that everyone was given a fair chance at enjoying life. So, when the idea of Access Wayfinder came up, Ethan undoubtly decided to use his previous computer science knowledge to co-collaborate on the app, to make accessibility available for everyone.
-       </Text>
-     </View>
+
 
      
 

@@ -12,7 +12,16 @@ import { colors, recipeList } from "../Constant";
 import { FontAwesome } from "@expo/vector-icons";
 import { useNavigation } from "@react-navigation/native";
 
-const RecipeCard = ({ categoriesState, searchQuery }) => {
+const RecipeCard = ({ categoriesState, searchQuery, city }) => {
+	if (!categoriesState || categoriesState.length === 0) {
+		return null;
+	}
+
+	const selectedCategory = categoriesState.find(category => category.isSelected) || {};
+
+	const filteredRecipes = recipeList.filter(recipe =>
+		recipe.categoryId === selectedCategory.id && recipe.city === city && recipe.name.toLowerCase().includes(searchQuery.toLowerCase())
+	);
 
 	const navigation = useNavigation();
 	const screenWidth = Dimensions.get('window').width;
@@ -22,117 +31,53 @@ const RecipeCard = ({ categoriesState, searchQuery }) => {
     const numColumns = screenWidth >= 768 ? 4 : 2;
 	const listKey = `flat-list-${numColumns}-columns`;
 
-	///get the id selected
-	const selectedCategoryId = categoriesState
-		.filter(category => category.isSelected)
-		.map(category => category.id)
-		.join(',');
-		const filteredData = recipeList
-		.filter(item => item.categoryId === selectedCategoryId)
-		.filter(item => item.name.toLowerCase().includes(searchQuery.toLowerCase()));
-
-
-		return (
-			<View>
-			  <FlatList
-			  key={listKey} 
-			  data={filteredData}
+	return (
+		<View>
+			<FlatList
+				key={listKey}
+				data={filteredRecipes}
 				renderItem={({ item }) => (
-				  <Pressable
-					onPress={() => navigation.navigate("RecipeDetail", { item: item })}
-					style={{
-					  backgroundColor: colors.COLOR_LIGHT,
-					  shadowColor: "#000",
-					  shadowOffset: { width: 0, height: 4 },
-					  shadowOpacity: 0.1,
-					  shadowRadius: 7,
-					  borderRadius: 16,
-					  marginVertical: 16,
-					  alignItems: "center",
-					  paddingHorizontal: 8,
-					  paddingVertical: 26,
-					}}
-				  >
-					<Image
-					  source={item.image}
-					  style={{ width: 150, height: 150, resizeMode: "contain" }}
-					/>
-					<Text>{item.name}</Text>
-					<View style={{ flexDirection: "row", marginTop: 8 }}>
-					  <View style={{ flexDirection: "row" }}>
-						<Text style={{ marginRight: 4 }}>{item.rating}</Text>
-						<FontAwesome
-						  name="star"
-						  size={16}
-						  color={colors.COLOR_PRIMARY}
+					<Pressable
+						onPress={() => navigation.navigate("RecipeDetail", { item: item })}
+						style={{
+							backgroundColor: colors.COLOR_LIGHT,
+							shadowColor: "#000",
+							shadowOffset: { width: 0, height: 4 },
+							shadowOpacity: 0.1,
+							shadowRadius: 7,
+							borderRadius: 16,
+							marginVertical: 16,
+							alignItems: "center",
+							paddingHorizontal: 8,
+							paddingVertical: 26,
+						}}
+					>
+						<Image
+							source={item.image}
+							style={{ width: 150, height: 150, resizeMode: "contain" }}
 						/>
-					  </View>
-					</View>
-				  </Pressable>
+						<Text>{item.name}</Text>
+						<View style={{ flexDirection: "row", marginTop: 8 }}>
+							<View style={{ flexDirection: "row" }}>
+								<Text style={{ marginRight: 4 }}>{item.rating}</Text>
+								<FontAwesome
+									name="star"
+									size={16}
+									color={colors.COLOR_PRIMARY}
+								/>
+							</View>
+						</View>
+					</Pressable>
 				)}
 				numColumns={numColumns}
-                columnWrapperStyle={{
-                    justifyContent: "space-between",
-                }}
-                showsVerticalScrollIndicator={false}
-			  />
-			</View>
-		  );
+				columnWrapperStyle={{
+					justifyContent: "space-between",
+				}}
+				showsVerticalScrollIndicator={false}
+			/>
+		</View>
+	);
 };
-
-	// return (
-	// 	<View>
-	// 		<FlatList
-	// 			data={recipeList}
-	// 			renderItem={({ item }) => (
-	// 				if (item.categoryId === selectedCategoryId) {
-
-	// 				<Pressable
-	// 					onPress={() => navigation.navigate("RecipeDetail", { item: item })}
-	// 					style={{
-	// 						backgroundColor: colors.COLOR_LIGHT,
-	// 						shadowColor: "#000",
-	// 						shadowOffset: { width: 0, height: 4 },
-	// 						shadowOpacity: 0.1,
-	// 						shadowRadius: 7,
-	// 						borderRadius: 16,
-	// 						marginVertical: 16,
-	// 						alignItems: "center",
-	// 						paddingHorizontal: 8,
-	// 						paddingVertical: 26,
-	// 					}}
-	// 				>
-	// 					<Image
-	// 						source={item.image}
-	// 						style={{ width: 150, height: 150, resizeMode: "center" }}
-	// 					/>
-	// 					<Text>{item.name}</Text>
-	// 					<View style={{ flexDirection: "row", marginTop: 8 }}>
-	// 						<Text>{item.time}</Text>
-	// 						<Text> | </Text>
-	// 						<View style={{ flexDirection: "row" }}>
-	// 							<Text style={{ marginRight: 4 }}>{item.rating}</Text>
-	// 							<FontAwesome
-	// 								name="star"
-	// 								size={16}
-	// 								color={colors.COLOR_PRIMARY}
-	// 							/>
-	// 						</View>
-	// 					</View>
-	// 				</Pressable>
-	// 			} else {
-
-	// 			}
-
-	// 			)}
-	// 			numColumns={2}
-	// 			columnWrapperStyle={{
-	// 				justifyContent: "space-between",
-	// 			}}
-	// 			showsVerticalScrollIndicator={false}
-	// 		/>
-	// 	</View>
-	// );
 
 export default RecipeCard;
 

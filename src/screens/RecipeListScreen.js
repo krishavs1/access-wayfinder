@@ -1,48 +1,55 @@
-// RecipeListScreen.js
-
-import React, { useState } from "react";
+import React, { useState, useEffect } from "react";
 import { StyleSheet, View, Text, SafeAreaView, TouchableOpacity, Linking, TextInput } from "react-native";
 import Header from "../components/Header";
 import CategoriesFilter from "../components/CategoriesFilter";
 import RecipeCard from "../components/RecipeCard";
-import { categories } from "../Constant";
-import { useNavigation } from '@react-navigation/native';
+import { categories, recipeList } from "../Constant";
+import { useNavigation, useRoute } from '@react-navigation/native';
+import { FontAwesome } from "@expo/vector-icons";
 
 const RecipeListScreen = () => {
   const navigation = useNavigation();
+  const route = useRoute();
+  const { city } = route.params;
 
-  const navigateToDetails = () => {
-    navigation.navigate('AboutUs');
-  };
   const [searchQuery, setSearchQuery] = useState('');
+  const [categoriesState, setCategoriesState] = useState([]);
 
-  const categoriesArray = categories.map((category) => {
-    let selected = category.id === "01" ? true : false;
-    return {
-      ...category,
-      isSelected: selected
-    };
-  });
+  useEffect(() => {
+    const categoriesArray = categories.map((category) => {
+      let selected = category.id === "01" ? true : false;
+      return {
+        ...category,
+        isSelected: selected
+      };
+    });
+    setCategoriesState(categoriesArray);
+  }, []);
 
   const handlePress = () => {
     const url = "https://forms.gle/wEgP6xjeMunncHfY9";
     Linking.openURL(url).catch(err => console.error("Couldn't load page", err));
   };
 
-  const [categoriesState, setCategoriesState] = useState(categoriesArray);
+  const navigateToDetails = () => {
+    navigation.navigate('AboutUs');
+  };
+
   const getSelectedCategoryName = () => {
     const selectedCategory = categoriesState.find(category => category.isSelected);
     return selectedCategory ? selectedCategory.category : 'Places';
   };
-  
+
   return (
     <SafeAreaView style={{ flex: 1, marginHorizontal: 16 }}>
-      {/* render header */}
-      <Header headerText="Mission Inclusion's" />
       <View style={styles.headerContainer}>
-        <Text style={{ fontSize: 16, fontWeight: "bold" }}>Westfield, NJ Guide</Text>
-
-        {/* About Us button on the same level */}
+        <TouchableOpacity onPress={() => navigation.goBack()} style={styles.backButton}>
+          <FontAwesome name="arrow-left" size={24} color="black" />
+        </TouchableOpacity>
+        <View style={styles.headerTextWrapper}>
+          <Text style={styles.headerText}>Mission Inclusion's</Text>
+          <Text style={styles.cityGuide}>{city}, NJ Guide</Text>
+        </View>
         <TouchableOpacity
           style={styles.aboutUsButton}
           onPress={navigateToDetails}
@@ -53,10 +60,8 @@ const RecipeListScreen = () => {
         </TouchableOpacity>
       </View>
 
-      {/* Add a decorative line below "Hello" */}
       <View style={{ borderBottomWidth: 2, borderBottomColor: '#ccc', marginTop: 10 }} />
-     
-      {/* Categories header */}
+
       <TouchableOpacity
         style={styles.buttonStyle}
         onPress={handlePress}
@@ -65,23 +70,23 @@ const RecipeListScreen = () => {
         <Text style={styles.buttonText}>Share your observations or suggest changes!</Text>
       </TouchableOpacity>
 
-      {/* Categories filter */}
       <View style={{ marginTop: 22 }}>
         <Text style={{ fontSize: 22, fontWeight: "bold" }}>Categories</Text>
-        {/* Categories list */}
-        <CategoriesFilter categoriesState={categoriesState} setCategoriesState={setCategoriesState}/>
+        {categoriesState.length > 0 && (
+          <CategoriesFilter categoriesState={categoriesState} setCategoriesState={setCategoriesState} />
+        )}
       </View>
+      
       <TextInput
-  placeholder={`Search ${getSelectedCategoryName()}`}
-  value={searchQuery}
-  onChangeText={setSearchQuery}
-  style={styles.searchBar}
-/>
-      {/* Recipe List Filter */}
+        placeholder={`Search ${getSelectedCategoryName()}`}
+        value={searchQuery}
+        onChangeText={setSearchQuery}
+        style={styles.searchBar}
+      />
+
       <View style={{ marginTop: 22, flex: 1 }}>
         <Text style={{ fontSize: 22, fontWeight: "bold" }}>Places</Text>
-        {/* Recipes list */}
-        <RecipeCard categoriesState={categoriesState} searchQuery={searchQuery}/>
+        <RecipeCard categoriesState={categoriesState} searchQuery={searchQuery} city={city} />
       </View>
     </SafeAreaView>
   );
@@ -90,9 +95,24 @@ const RecipeListScreen = () => {
 const styles = StyleSheet.create({
   headerContainer: {
     flexDirection: 'row',
-    justifyContent: 'space-between',
     alignItems: 'center',
+    justifyContent: 'space-between',
     marginBottom: 5,
+  },
+  backButton: {
+    padding: 10,
+  },
+  headerTextWrapper: {
+    flex: 1,
+    alignItems: 'center',
+  },
+  headerText: {
+    fontSize: 22, // Increased font size
+    fontWeight: 'bold',
+  },
+  cityGuide: {
+    fontSize: 18, // Increased font size for city guide
+    fontWeight: 'bold',
   },
   buttonStyle: {
     backgroundColor: '#87bfd7',
@@ -126,7 +146,6 @@ const styles = StyleSheet.create({
     shadowRadius: 1.41,
     elevation: 2,
   },
-  
 });
 
 export default RecipeListScreen;
