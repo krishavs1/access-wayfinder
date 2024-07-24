@@ -24,6 +24,12 @@ const CitySelectionScreen = () => {
       >
         <Text style={styles.buttonText}>Summit, NJ</Text>
       </TouchableOpacity>
+      <TouchableOpacity
+        style={styles.button}
+        onPress={() => navigateToRecipeList('Millburn')}
+      >
+        <Text style={styles.buttonText}>Millburn, NJ</Text>
+      </TouchableOpacity>
     </View>
   );
 };
