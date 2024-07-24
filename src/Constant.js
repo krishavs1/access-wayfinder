@@ -2453,23 +2453,2335 @@ export const recipeList = [
 		bathroom: "✗ No Wheelchair Accessible Restroom",
 		seating: "✔️ Place to sit down to rest",
 	},
+
+
+/* SUMMIT */
+/* SUMMIT */
+/* SUMMIT */
+/* SUMMIT */
+/* SUMMIT */
+/* SUMMIT */
+/* SUMMIT */
+/* SUMMIT */
+{
+	id: "137",
+	categoryId: "01",
+	name: "Ahrre's Coffee Roastery",
+	city: "Summit",
+	image: require("../assets/images/Ahrre's Coffee Roastery summit.jpg"),
+	rating: "5.0",
+	ingredients: ["Automatic door in the back; wide door in the front "],
+	time: "5/5",
+	difficulty: "5/5",
+	calories: "5/5",
+	color: "#006A4E",
+	description:
+	"Coffee roastery.",
+	interior: ["Plenty of room in the interior"],
+	parking: ["Parking lot behind the store with 4+ accessible spots"],
+	bathroom: "Wheelchair Accessible Restroom",
+	seating: "✔️ Place to sit down to rest outside"
+	},
 	{
-		id: "137",
-		categoryId: "07",
-		name: "Verizon",
+		id: "138",
+		categoryId: "01",
+		name: "Ani Ramen",
 		city: "Summit",
-		image: require("../assets/images/verizon.png"),
-		rating: "5.0",
-		ingredients: ["All good, ramp in front"],
+		image: require("../assets/images/ani-ramen-summit-nj-interior-2.jpg"),
+		rating: "4.7",
+		ingredients: ["Entrance is accessible with a pull door"],
 		time: "5/5",
 		difficulty: "5/5",
 		calories: "5/5",
 		color: "#006A4E",
 		description:
-			"Telecommunications store offering cell phones, wireless plans, accessories & more.",
-		interior: ["Wide Interior"],
-		parking: ["Wheelchair accessible parking lot"],
+		"Ani Ramen House, a Ramen Shop with locations in New Jersey and New York. This Japanese Restaurant features delicious ramen, buns, and healthy bowls.",
+		interior: ["Plentiful space between rows of chairs and booths"],
+		parking: ["Parking lot behind the store with 4+ accessible spots"],
+		bathroom: "Wheelchair Accessible Restroom",
+		seating: "✔️ Place to sit down to rest"
+		},
+
+		{
+			id: "139",
+			categoryId: "01",
+			name: "Bake Bakery",
+			city: "Summit",
+
+			image: require("../assets/images/bake.jpg"),
+			rating: "5.0",
+			ingredients: ["Wide and accessible entrance"],
+			time: "5/5",
+			difficulty: "5/5",
+			calories: "5/5",
+			color: "#006A4E",
+			description:
+			"Bakery with fresh breads, pastries, Italian sandwiches, and ample seating. ",
+			interior: ["Wide interior with both high top and accessible seating"],
+			parking: ["Trader joe's lot 12 spots in the rear"],
+			bathroom: "✔️ Wheelchair Accessible Restroom",
+			seating: "✔️ Place to sit down to rest"
+			},
+
+			{
+				id: "140",
+				categoryId: "01",
+				name: "Barbacoa",
+				city: "Summit",
+
+				image: require("../assets/images/barbacoa.jpeg"),
+				rating: "5.0",
+				ingredients: ["Good entrance with a pull door"],
+				time: "5/5",
+				difficulty: "5/5",
+				calories: "5/5",
+				color: "#006A4E",
+				description:
+				"Barbacoa is a slow-cooked Mexican smokehouse and taqueria located in Summit, NJ.",
+				interior: ["Nice interior with ample room"],
+				parking: ["Few accessible parking spots in large parking lot behind store"],
+				bathroom: "✔️ Wheelchair Accessible Restroom",
+				seating: "✔️ Place to sit down to rest"
+				},
+
+				{
+					id: "141",
+					categoryId: "01",
+					name: "Batavia Café",
+					city: "Summit",
+
+					image: require("../assets/images/batavia.jpg"),
+					rating: "4.0",
+					ingredients: ["Entrance is accessible with a pull door"],
+					time: "4/5",
+					difficulty: "5/5",
+					calories: "3/5",
+					color: "#006A4E",
+					description:
+					"Casual restaurant serving the freshest salads, homemade soups, sandwiches, paninis, and desserts.",
+					interior: ["Very spacious interior and provide accommodations for seating"],
+					parking: ["Few accessible parking spots behind store, must go around "],
+					bathroom: "✗ No Wheelchair Accessible Restroom",
+					seating: "✔️ Place to sit down to rest"
+					},
+
+					{
+						id: "142",
+						categoryId: "01",
+						name: "Beechwood Wine & Liquors",
+						city: "Summit",
+
+						image: require("../assets/images/beechwoodwine.jpg"),
+						rating: "3.0",
+						ingredients: ["Step in the front"],
+						time: "3/5",
+						difficulty: "4/5",
+						calories: "2/5",
+						color: "#006A4E",
+						description:
+						"Beechwood Wine & Liquors. shop. Your local beer, wine and spirits specialists",
+						interior: ["Spacious interior to move around"],
+						parking: ["No accessible parking spots nearby"],
+						bathroom: "✗ No Wheelchair Accessible Restroom",
+						seating: "✔️ Place to sit down to rest"
+						},
+
+						{
+							id: "143",
+							categoryId: "01",
+							name: "Blossom",
+							city: "Summit",
+
+							image: require("../assets/images/blossom.jpg"),
+							rating: "5.0",
+							ingredients: ["Good entrance with pull door, ample room for wheelchair"],
+							time: "5/5",
+							difficulty: "5/5",
+							calories: "5/5",
+							color: "#006A4E",
+							description:
+							"We are committed to satisfying our customers completely with the best quality food, excellent service and great value",
+							interior: ["Spacious interior with accommodating seating for people in wheelchairs"],
+							parking: ["Multiple accessible parking spots right behind restaraunt "],
+							bathroom: "✔️ Wheelchair Accessible Restroom",
+							seating: "✔️ Place to sit down to rest"
+							},
+
+							{
+								id: "144",
+								categoryId: "01",
+								name: "Boxwood Coffee Roasters",
+								city: "Summit",
+
+								image: require("../assets/images/Boxwood.png"),
+								rating: "5.0",
+								ingredients: ["Wide and accessible entrance"],
+								time: "5/5",
+								difficulty: "5/5",
+								calories: "5/5",
+								color: "#006A4E",
+								description:
+								"A family run coffee roastery providing high quality coffee & tea.",
+								interior: ["Wide interior with both high top and accessible seating"],
+								parking: ["Parking lot in front of the store with 4+ accessible spots"],
+								bathroom: "✔️ Wheelchair Accessible Restroom",
+								seating: "✔️ Place to sit down to rest"
+								}, 
+
+								{
+									id: "145",
+									categoryId: "01",
+									name: "Brownie Points Bakery",
+									city: "Summit",
+
+									image: require("../assets/images/brownie.jpg"),
+									rating: "3.3",
+									ingredients: ["Step in the front of the door"],
+									time: "4/5",
+									difficulty: "3/5",
+									calories: "3/5",
+									color: "#006A4E",
+									description:
+									"Downtown bakery in the heart of Summit, NJ offering creative, delicious and totally made from scratch treats. ",
+									interior: ["Slightly crammed"],
+									parking: ["Few accessible parking spots across the street"],
+									bathroom: "✗ Wheelchair Accessible Restroom",
+									seating: "✔️ Place to sit down to rest"
+									},
+
+									
+{
+	id: "146",
+	categoryId: "01",
+	name: "Bull 'n Bear Brewery",
+	city: "Summit",
+
+	image: require("../assets/images/bull.jpg"),
+	rating: "5.0",
+	ingredients: ["Entrance with ample room"],
+	time: "5/5",
+	difficulty: "5/5",
+	calories: "5/5",
+	color: "#006A4E",
+	description:
+	"Bull n Bear Brewery features a handful of handcrafted beer designed to quench your thirst and satisfy your taste buds.",
+	interior: ["Good pathway in between tables"],
+	parking: ["Quimby st parking no spots, Lot #7 5 spots down Central Ave"],
+	bathroom: "✔️ No Wheelchair Accessible Restroom",
+	seating: "✔️ Place to sit down to rest"
+	},
+
+	{
+		id: "147",
+		categoryId: "01",
+		name: "Cafe Mavi Express",
+		city: "Summit",
+
+		image: require("../assets/images/cafemavi.jpg"),
+		rating: "4.3",
+		ingredients: ["Good entrance"],
+		time: "5/5",
+		difficulty: "3/5",
+		calories: "5/5",
+		color: "#006A4E",
+		description:
+		"Cafe Mavi Express sells high-quality specialty coffee beverages, tea, juice, water, soft drinks, pastries, chocolates and gift items.",
+		interior: ["Little space within shop"],
+		parking: ["Many accessible parking spots nearby"],
+		bathroom: "✗ No Wheelchair Accessible Restroom",
+		seating: "✔️ Place to sit down to rest"
+		},
+		
+{
+	id: "148",
+	categoryId: "01",
+	name: "Cambridge Wines",
+	city: "Summit",
+
+	image: require("../assets/images/cambridge.jpg"),
+	rating: "4.3",
+	ingredients: ["Really good entrance with double pull doors"],
+	time: "5/5",
+	difficulty: "5/5",
+	calories: "3/5",
+	color: "#006A4E",
+	description:
+	"Your one stop shop for all things wine, beer and spirits. Located throughout New Jersey.",
+	interior: ["Lots of space in between the aisles"],
+	parking: ["Parking lot, no accessible spots"],
+	bathroom: "✔️ No Wheelchair Accessible Restroom",
+	seating: "✔️ Place to sit down to rest"
+	},
+
+	{
+		id: "149",
+		categoryId: "01",
+		name: "Doria's Pizzeria ",
+		city: "Summit",
+
+		image: require("../assets/images/dorias.jpg"),
+		rating: "3.7",
+		ingredients: ["Step in front of the door"],
+		time: "3/5",
+		difficulty: "3/5",
+		calories: "4/5",
+		color: "#006A4E",
+		description:
+		"Your go-to pizzeria for the most delicious pizza, wraps, pasta, salads, and so much more.",
+		interior: ["Slightly crammed store"],
+		parking: ["Couple accessible spots behind store"],
+		bathroom: "✔️ Wheelchair Accessible Restroom",
+		seating: "✔️ Place to sit down to rest"
+		},
+
+		{
+			id: "150",
+			categoryId: "01",
+			name: "Dúe 360",
+			city: "Summit",
+
+			image: require("../assets/images/due360.jpg"),
+			rating: "3.7",
+			ingredients: ["Entrance in front of the store is accessible"],
+			time: "3/5",
+			difficulty: "3/5",
+			calories: "4/5",
+			color: "#006A4E",
+			description:
+			"At Due 360 they strive for nothing less than perfection on your plate. An authentic Argentinian/ Italian tapas restaurant for all the family to enjoy.",
+			interior: ["Interior is very accessible and restaurant provides seating accommodations"],
+			parking: ["Parking next to the store"],
+			bathroom: "✔️ Wheelchair Accessible Restroom",
+			seating: "✔️ Place to sit down to rest"
+			},
+
+			
+{
+	id: "151",
+	categoryId: "01",
+	name: "Dunkin Donuts",
+	city: "Summit",
+
+	image: require("../assets/images/Dunkin_Donuts_logo.svg.png"),
+	rating: "5.0",
+	ingredients: ["Good entrance with pull door"],
+	time: "5/5",
+	difficulty: "5/5",
+	calories: "5/5",
+	color: "#006A4E",
+	description:
+	"Brew the Dunkin'® coffee you love at home sweet home.",
+	interior: ["Spacious interior"],
+	parking: ["Multiple parking spaces in the front"],
+	bathroom: "✔️ Wheelchair Accessible Restroom",
+	seating: "✔️ Place to sit down to rest"
+	},
+
+
+
+		
+
+			{
+				id: "153",
+				categoryId: "02",
+				name: "Ateliers 113",
+				city: "Summit",
+
+				image: require("../assets/images/Atelier113-Back.jpg"),
+				rating: "5.0",
+				ingredients: ["Excellent push door with ramp in the front"],
+				time: "5/5",
+				difficulty: "5/5",
+				calories: "5/5",
+				color: "#006A4E",
+				description:
+				"World-Class Salon in Summit, NJ",
+				interior: ["Very nice salon with room "],
+				parking: ["Large parking lot with multiple accessible spots across the street"],
+				bathroom: "Wheelchair Accessible Restroom",
+				seating: "✔️ Place to sit down to rest",
+				},
+
+				{
+					id: "154",
+					categoryId: "02",
+					name: "Blow In Blow Out",
+					city: "Summit",
+
+					image: require("../assets/images/Blow In Blow Out.jpg"),
+					rating: "3.3",
+					ingredients: ["Wide door usually kept open "],
+					time: "5/5",
+					difficulty: "3/5",
+					calories: "2/5",
+					color: "#006A4E",
+					description:
+					"Your go-to stop for all things hair, makeup, and feeling good",
+					interior: ["Spacious interior with accommodation for disabled patrons"],
+					parking: ["No accessible parking spots nearby"],
+					bathroom: "✗ No Wheelchair Accessible Restroom",
+					seating: "✔️ No Place to sit down to rest",
+					},
+
+					{
+						id: "155",
+						categoryId: "02",
+						name: "Bluemercury",
+						city: "Summit",
+
+						image: require("../assets/images/Bluemercury.jpg"),
+						rating: "4.7",
+						ingredients: ["Wide door usually kept open "],
+						time: "5/5",
+						difficulty: "4/5",
+						calories: "4/5",
+						color: "#006A4E",
+						description:
+						"Bluemercury is a leading luxury beauty retailer offering the best cosmetics, skin care, makeup, perfume, hair, and bath and body.",
+						interior: ["Ample room for wheelchair to move around"],
+						parking: ["Accessible restrooms"],
+						bathroom: "✔️ No Wheelchair Accessible Restroom",
+						seating: "✔️ No Place to sit down to rest",
+						},
+						{
+						id: "156",
+						categoryId: "02",
+						name: "Blushtan Summit",
+						city: "Summit",
+
+						image: require("../assets/images/blushtan.jpeg"),
+						rating: "4.3",
+						ingredients: ["Good entrance"],
+						time: "5/5",
+						difficulty: "3/5",
+						calories: "5/5",
+						color: "#006A4E",
+						description:
+						"Summit's premier organic and vegan spray tan service. Try the safe and healthy alternative to tanning beds that will leave you looking and feeling fabulous.",
+						interior: ["Small store, hard for wheelchair to navigate"],
+						parking: ["Multiple accessible parking spots right behind store"],
+						bathroom: "✔️ No Wheelchair Accessible Restroom",
+						seating: "✔️ No Place to sit down to rest",
+						},
+						{
+						id: "157",
+						categoryId: "02",
+						name: "Bodenvy",
+						city: "Summit",
+
+						image: require("../assets/images/bodenvy.jpg"),
+						rating: "5.0",
+						ingredients: ["Very large doors with ample room for wheelchairs"],
+						time: "5/5",
+						difficulty: "5/5",
+						calories: "5/5",
+						color: "#006A4E",
+						description:
+						"Bodenvy is a body sculpting only med spa franchise.",
+						interior: ["Lots of ample space inside store, no problems for wheelchairs"],
+						parking: ["Multiple accessible parking spots in large lot right behind store"],
+						bathroom: "✔️ No Wheelchair Accessible Restroom",
+						seating: "✔️ No Place to sit down to rest",
+						},
+
+						{
+							id: "158",
+							categoryId: "02",
+							name: "Brow Eyed Girl",
+							city: "Summit",
+
+							image: require("../assets/images/brow.jpg"),
+							rating: "4.0",
+							ingredients: ["Entrance is accessible with a pull door"],
+							time: "4/5",
+							difficulty: "4/5",
+							calories: "4/5",
+							color: "#006A4E",
+							description:
+							"New Jersey's best eyebrow specialists and Microblading Facility located in downtown Summit, NJ. We offer permanent makeup solutions.",
+							interior: ["Good room for wheelchairs"],
+							parking: ["Multiple accessible parking spots in large lot right behind store"],
+							bathroom: "✗ No Wheelchair Accessible Restroom",
+							seating: "✗ No Place to sit down to rest",
+							},
+
+							{
+								id: "159",
+								categoryId: "02",
+								name: "Central Barber Shop",
+								city: "Summit",
+
+								image: require("../assets/images/centralbarber.jpg"),
+								rating: "5.0",
+								ingredients: ["Ramp to entrance with ample room"],
+								time: "5/5",
+								difficulty: "5/5",
+								calories: "5/5",
+								color: "#006A4E",
+								description:
+								"Treat yourself to a hair remedy from Summit's Central Barber Shop and fall in love with your hair all over again.",
+								interior: ["Ample space within barbershop"],
+								parking: ["Many accessible spots near store"],
+								bathroom: "✗ No Wheelchair Accessible Restroom",
+								seating: "✔️ Place to sit down to rest",
+								},
+
+								
+{
+	id: "160",
+	categoryId: "02",
+	name: "Dor L'Dor",
+	city: "Summit",
+
+	image: require("../assets/images/dor.jpg"),
+	rating: "4.7",
+	ingredients: ["Good entrance with wide door that's usually left open"],
+	time: "5/5",
+	difficulty: "5/5",
+	calories: "4/5",
+	color: "#006A4E",
+	description:
+	"Dor L' Dor has grown from a one shop boutique to an emerging brand with locations throughout New York and New Jersey. ",
+	interior: ["Lots of room to move around within the store"],
+	parking: ["Parking lot across and down the street"],
+	bathroom: "✗ No Wheelchair Accessible Restroom",
+	seating: "✔️ Place to sit down to rest",
+	},
+
+	{
+		id: "161",
+		categoryId: "02",
+		name: "Dry Bar",
+		city: "Summit",
+
+		image: require("../assets/images/drybar.jpg"),
+		rating: "4.0",
+		ingredients: ["Step in the entrance"],
+		time: "3/5",
+		difficulty: "5/5",
+		calories: "4/5",
+		color: "#006A4E",
+		description:
+		"Drybar is a California-based chain of salons that provides a hair styling service known as blowouts. ",
+		interior: ["Good interior "],
+		parking: ["Parking down the street"],
 		bathroom: "✗ No Wheelchair Accessible Restroom",
 		seating: "✔️ Place to sit down to rest",
+		},
+
+
+				{
+					id: "162",
+					categoryId: "03",
+					name: "Cigars & Newspapers",
+					city: "Summit",
+
+					image: require("../assets/images/beechwood.jpg"),
+					rating: "3.0",
+					ingredients: ["Step in the front"],
+					time: "3/5",
+					difficulty: "4/5",
+					calories: "2/5",
+					color: "#006A4E",
+					description:
+					"Grocery chain with a variety of signature items, plus produce, dairy & more (most sell wine & beer).",
+					interior: ["OK interior to move around"],
+					parking: ["No accessible parking spots nearby"],
+					bathroom: "✗ Wheelchair Accessible Restroom",
+					seating: "✔️ Place to sit down to rest"
+					},
+
+					{
+						id: "163",
+						categoryId: "03",
+						name: "Cabri, Inc. Kitchens",
+						city: "Summit",
+
+						image: require("../assets/images/cabri.jpg"),
+						rating: "4.7",
+						ingredients: ["Ramp to entrance "],
+						time: "5/5",
+						difficulty: "5/5",
+						calories: "4/5",
+						color: "#006A4E",
+						description:
+						"Grocery chain with a variety of signature items, plus produce, dairy & more (most sell wine & beer).",
+						interior: ["Good space within the store"],
+						parking: ["Few accessible parking spots across the street"],
+						bathroom: "✗ No Wheelchair Accessible Restroom",
+						seating: "✔️ Place to sit down to rest"
+						},
+
+						{
+							id: "164",
+							categoryId: "03",
+							name: "CVS Pharmacy",
+							city: "Summit",
+
+							image: require("../assets/images/CVS.png"),
+							rating: "5.0",
+							ingredients: ["Automatic door with ample room for wheelchair"],
+							time: "5/5",
+							difficulty: "5/5",
+							calories: "5/5",
+							color: "#006A4E",
+							description:
+							"Find nearby pharmacies and drugstores in New Jersey. ",
+							interior: ["Good interior and room between aisles "],
+							parking: ["Accessible parking spaces in their lot"],
+							bathroom: "✔️ Wheelchair Accessible Restroom",
+							seating: "✔️ Place to sit down to rest"
+							},
+
+							{
+								id: "165",
+								categoryId: "04",
+								name: "Dr. Philip Delli Santi",
+								city: "Summit",
+
+								image: require("../assets/images/dr. phillip.jpg"),
+								rating: "5.0",
+								ingredients: ["Good entrance"],
+								time: "5/5",
+								difficulty: "5/5",
+								calories: "5/5",
+								color: "#006A4E",
+								description:
+								"Our dentist is dedicated to providing each patient with quality care and helping them achieve a healthy smile they feel confident in.",
+								interior: ["Good interior "],
+								parking: ["Accessible parking in front of the store"],
+								bathroom: "✔️ Wheelchair Accessible Restroom",
+								seating: "✔️ Place to sit down to rest"
+								},
+						
+
+					
+				{
+					id: "166",
+					categoryId: "05",
+					name: "Bank of America Summit",
+					city: "Summit",
+
+					image: require("../assets/images/BOA.png"),
+					rating: "5.0",
+					time: "5/5",
+					difficulty: "5/5",
+					calories: "5/5",
+					color: "#006A4E",
+					description:
+					"Bank of America financial center is located at 173 Elm St Westfield, NJ 07090.",
+					interior: ["Spacious interior, no problems with accessibility"],
+					parking: ["Multiple accessible spots"],
+					bathroom: "✔️ Wheelchair Accessible Restroom",
+					seating: "✔️ Place to sit down to rest"
+					},
+					{
+						id: "167",
+						categoryId: "05",
+						name: "Summit Chase Bank",
+						city: "Summit",
+
+						image: require("../assets/images/Chase.png"),
+						rating: "5.0",
+						ingredients: ["Ramp to enter from the parking lot"],
+						time: "5/5",
+						difficulty: "5/5",
+						calories: "5/5",
+						color: "#006A4E",
+						description:
+						"Warm, family-owned BYOB eatery with Cuban art offering modern & traditional dishes in homey digs.",
+						interior: ["Spacious Interior"],
+						parking: ["Accessible spaces right in front of store"],
+						bathroom: "✔️ Wheelchair Accessible Restroom",
+						seating: "✔️ Place to sit down to rest"
+						},
+
+						{
+							id: "168",
+							categoryId: "05",
+							name: "Coldwell Banker ",
+							city: "Summit",
+
+							image: require("../assets/images/coldwell.jpg"),
+							rating: "3.3",
+							ingredients: ["Ramp to enter from the parking lot"],
+							time: "3/5",
+							difficulty: "3/5",
+							calories: "5/5",
+							color: "#006A4E",
+							description:
+							"The full-service system which offers a targeted approach to both on-line and traditional marketing makes us a valuable partner to today's buyers and sellers.",
+							interior: ["Spacious Interior"],
+							parking: ["Accessible spaces right in front of store"],
+							bathroom: "✗ No Wheelchair Accessible Restroom",
+							seating: "✔️ Place to sit down to rest"
+							},
+
+		
+				{
+					id: "169",
+					categoryId: "07",
+					name: "A To Zoom",
+					city: "Summit",
+
+					image: require("../assets/images/Atozoom.jpg"),
+					rating: "3.3",
+					ingredients: ["Pull door with enough room for wheelchair"],
+					time: "4/5",
+					difficulty: "3/5",
+					calories: "3/5",
+					color: "#006A4E",
+					description:
+					"Trendy accessories and gifts around Summit, New Jersey",
+					interior: ["Slightly crammed store"],
+					parking: ["Few accessible parking spots behind store"],
+					bathroom: "✗ No Wheelchair Accessible Restroom",
+					seating: "✔️ Place to sit down to rest"
+					
+					},
+
+					{
+						id: "170",
+						categoryId: "07",
+						name: "Badawang Art",
+						city: "Summit",
+
+						image: require("../assets/images/badawang.jpg"),
+						rating: "3.0",
+						ingredients: ["Pull door is a little cramped"],
+						time: "3/5",
+						difficulty: "3/5",
+						calories: "3/5",
+						color: "#006A4E",
+						description:
+						"Badawang Art is a small gallery and boutique in downtown Summit that sells a variety of Fair Trade handcrafted and inspirational gifts",
+						interior: ["Interior is slightly crammed and may be hard for wheelchair to navigate"],
+						parking: ["Very few spots across and down the street"],
+						bathroom: "✗ No Wheelchair Accessible Restroom",
+						seating: "✔️ Place to sit down to rest"
+						
+						},
+
+						{
+							id: "171",
+							categoryId: "07",
+							name: "Calico",
+							city: "Summit",
+
+							image: require("../assets/images/calico.jpg"),
+							rating: "5.0",
+							ingredients: ["Good entrance with double pull doors"],
+							time: "5/5",
+							difficulty: "5/5",
+							calories: "5/5",
+							color: "#006A4E",
+							description:
+							"Calico makes it easy with free interior design services, custom furniture, window treatments & other home décor, all made with the best designer fabrics.",
+							interior: ["Good space within the store"],
+							parking: ["Multiple accessible parking spots in front and behind store"],
+							bathroom: "✗ No Wheelchair Accessible Restroom",
+							seating: "✔️ Place to sit down to rest"
+							
+							},
+
+							{
+								id: "172",
+								categoryId: "07",
+								name: "Chandler Learning Center",
+								city: "Summit",
+
+								image: require("../assets/images/CLC.jpg"),
+								rating: "4.3",
+								ingredients: ["Entrance is ample for wheelchairs"],
+								time: "5/5",
+								difficulty: "5/5",
+								calories: "3/5",
+								color: "#006A4E",
+								description:
+								"The roster includes alumni from Harvard, Princeton, MIT, Stanford, Columbia, Duke, Dartmouth, and UC Berkeley.",
+								interior: ["Good space within store"],
+								parking: ["Few parking spaces in front of store"],
+								bathroom: "✔️ Wheelchair Accessible Restroom",
+								seating: "✔️ Place to sit down to rest"
+								
+								},
+
+
+								{
+									id: "173",
+									categoryId: "07",
+									name: "Summit City Hall",
+									city: "Summit",
+
+									image: require("../assets/images/Summit_City_Hall_Springfield_Ave_Summit_NJ_2009.jpg"),
+									rating: "5.0",
+									ingredients: ["Pull door with entrance ramp is good for wheelchairs"],
+									time: "5/5",
+									difficulty: "5/5",
+									calories: "5/5",
+									color: "#006A4E",
+									description:
+									"Christie's International Real Estate Provides on exceptional level of client service, integrity, and passionate expertise",
+									interior: ["Ample space within bank"],
+									parking: ["Accessible spaces right in front of store"],
+									bathroom: "✔️ No Wheelchair Accessible Restroom",
+									seating: "✔️ Place to sit down to rest"
+									
+									},
+
+									{
+										id: "174",
+										categoryId: "07",
+										name: "Color Me Mine",
+										city: "Summit",
+
+										image: require("../assets/images/The-Collection-Riverpark-ColorMeMine-Gallery-002.jpg"),
+										rating: "3.3",
+										ingredients: ["Entrance is ample for wheelchairs"],
+										time: "4/5",
+										difficulty: "5/5",
+										calories: "2/5",
+										color: "#006A4E",
+										description:
+										"Color Me Mine, the leader in paint-your-own-ceramics, is a great place to create your own unique gift, host a party, or just come in to explore.",
+										interior: ["Good space within store"],
+										parking: ["Few parking spaces in front of store"],
+										bathroom: "✗ No  Wheelchair Accessible Restroom",
+										seating: "✔️ Place to sit down to rest"
+										
+										},
+
+										
+{
+	id: "175",
+	categoryId: "07",
+	name: "Cove Carpet",
+	city: "Summit",
+
+	image: require("../assets/images/The-Collection-Riverpark-ColorMeMine-Gallery-002.jpg"),
+	rating: "5.0",
+	ingredients: ["Pull door with an entrance ramp is good for wheelchair"],
+	time: "5/5",
+	difficulty: "5/5",
+	calories: "5/5",
+	color: "#006A4E",
+	description:
+	"Shop carpeting, hardwood, laminate, vinyl and tile floors at Cove Carpet One Floor & Home. Our flooring experts are ready to help!",
+	interior: ["Good interior"],
+	parking: ["Accessible parking lot right behind the store"],
+	bathroom: "✗ No  Wheelchair Accessible Restroom",
+	seating: "✔️ Place to sit down to rest"
+	
 	},
+							
+	
+
+	{
+		id: "176",
+		categoryId: "07",
+		name: "Duxiana",
+		city: "Summit",
+
+		image: require("../assets/images/duxiana.jpg"),
+		rating: "5.0",
+		ingredients: ["Good entrance with no steps"],
+		time: "5/5",
+		difficulty: "5/5",
+		calories: "5/5",
+		color: "#006A4E",
+		description:
+		"After 90 years of continuous development, the DUX beds offer you healthy and comfortable sleep, with innovative technology and sustainable solutions.",
+		interior: ["Spacious interior with ample room for wheelchair to move around"],
+		parking: ["Accessible parking behind the store"],
+		bathroom: "✗ No  Wheelchair Accessible Restroom",
+		seating: "✔️ Place to sit down to rest"
+		
+		},
+
+	{
+		id: "177",
+		categoryId: "08",
+		name: "Anspach Opticians",
+		city: "Summit",
+		image: require("../assets/images/anspachopticians.jpg"),
+		rating: "4.0",
+		ingredients: ["Pull door, however door uses a doorknob and has a step in the front"],
+		time: "4/5",
+		difficulty: "4/5",
+		calories: "4/5",
+		color: "#006A4E",
+		description:
+		"With over 35 years of experience in sales, customer service, fashion in optics and knowledge of the latest and newest technology you’ll find that our location can’t be beat.",
+		interior: ["Spacious Interior"],
+		parking: ["Few accessible parking spots down the street"],
+		bathroom: "✗ No Wheelchair Accessible Restroom",
+		seating: "✔️ Place to sit down to rest",
+		},
+
+		{
+			id: "178",
+			categoryId: "07",
+			name: "DG Dubon Florist",
+			city: "Summit",
+
+			image: require("../assets/images/dubon.jpg"),
+			rating: "3.3",
+			ingredients: ["Good entrance"],
+			time: "4/5",
+			difficulty: "2/5",
+			calories: "5/5",
+			color: "#006A4E",
+			description:
+			"Shop carpeting, hardwood, laminate, vinyl and tile floors at Cove Carpet One Floor & Home. Our flooring experts are ready to help!",
+			interior: ["Store is crammed inside"],
+			parking: ["Accessible parking right behind the store"],
+			bathroom: "✗ No  Wheelchair Accessible Restroom",
+			seating: "✔️ Place to sit down to rest"
+			
+			},
+
+			{
+				id: "179",
+				categoryId: "07",
+				name: "Donna Donaldson",
+				city: "Summit",
+
+				image: require("../assets/images/doonajpg.jpg"),
+				rating: "4.0",
+				ingredients: ["Good entrance with wide door"],
+				time: "5/5",
+				difficulty: "5/5",
+				calories: "2/5",
+				color: "#006A4E",
+				description:
+				"Donna Donaldson Home & Interiors is a wonderful store in Summit NJ filled with classic and chic furniture pieces, decor items, candles, home goods and throws.",
+				interior: ["Ample room within the store"],
+				parking: ["No accessible parking nearby"],
+				bathroom: "✗ No  Wheelchair Accessible Restroom",
+				seating: "✔️ Place to sit down to rest"
+				
+				},
+
+				{
+					id: "180",
+					categoryId: "07",
+					name: "Eco Friendly Cleaners",
+					city: "Summit",
+
+					image: require("../assets/images/Eco Friendly Cleaners summit.jpg"),
+					rating: "4.3",
+					ingredients: ["Step in the front"],
+					time: "3/5",
+					difficulty: "5/5",
+					calories: "5/5",
+					color: "#006A4E",
+					description:
+					"After 90 years of continuous development, the DUX beds offer you healthy and comfortable sleep, with innovative technology and sustainable solutions.",
+					interior: ["Good interior "],
+					parking: ["Lots of accessible parking in large lot behind the store"],
+					bathroom: "✗ No  Wheelchair Accessible Restroom",
+					seating: "✔️ Place to sit down to rest"
+					
+					},
+
+{
+	id: "181",
+	categoryId: "08",
+	name: "Bellissima Waxing & Day Spa",
+	city: "Summit",
+
+	image: require("../assets/images/bellissima.jpg"),
+	rating: "4.0",
+	ingredients: ["Good entrance"],
+	time: "2/5",
+	difficulty: "5/5",
+	calories: "5/5",
+	color: "#006A4E",
+	description:
+	"Bellissima provides high quality skin care, nail and waxing services in Summit, NJ.",
+	interior: ["Spacious Interior"],
+	parking: ["Train lot across the street, multiple wheelchair accessible spots"],
+	bathroom: "✔️ Wheelchair Accessible Restroom",
+	seating: "✔️ Place to sit down to rest"
+},
+
+{
+	id: "183",
+	categoryId: "01",
+	name: "Bagel Pantry",
+	city: "Millburn",
+	rating: "4.7",
+	time: "5/5",
+	difficulty: "5/5",
+	calories: "4/5",
+
+	image: require("../assets/images/bagelpantry.jpg"),
+	
+	ingredients: ["Very wide doors with a pull handle"],
+
+	color: "#006A4E",
+	description: "Bagel Pantry offers a variety of freshly made bagels and spreads in Millburn, NJ.",
+	interior: ["Wide anterior with ample room for wheelchairs or other mobility devices"],
+	parking: ["Few scattered wheelchair spots in parking lot behind restaurant"],
+	bathroom: "❌ Restroom is not wheelchair accessible",
+	seating: "✔️ Place to sit down to rest"
+},
+
+{
+	id: "184",
+	categoryId: "01",
+	name: "Bagels4U",
+	city: "Millburn",
+	rating: "4.7",
+	time: "5/5",
+	difficulty: "5/5",
+	calories: "4/5",
+
+	image: require("../assets/images/bagels4u.jpg"),
+	
+	ingredients: ["Wide door with a pull handle that's often held open, no stairs"],
+
+	color: "#006A4E",
+	description: "Bagels4U provides a wide selection of bagels and breakfast options in Millburn, NJ.",
+	interior: ["Wide interior with multiple paths for wheelchair mobility"],
+	parking: ["Few spots in large lot next to restaurant"],
+	bathroom: "✔️ Wheelchair accessible restroom",
+	seating: "✔️ Place to sit down to rest"
+},
+
+{
+	id: "185",
+	categoryId: "01",
+	name: "Basilico Restaurant",
+	city: "Millburn",
+	rating: "5.0",
+	time: "5",
+	difficulty: "5/5",
+	calories: "5/5",
+
+	image: require("../assets/images/balisco.jpg"),
+	
+	ingredients: ["Wide door with a pull handle that's often held open, no stairs"],
+
+	color: "#006A4E",
+	description: "Basilico Restaurant serves classic Italian cuisine in an elegant setting in Millburn, NJ.",
+	interior: ["Ample interior with a path set out for wheelchairs, dining room provides accommodations"],
+	parking: ["Accessible parking spots on the side of the restaurant"],
+	bathroom: "✔️ Wheelchair accessible restroom",
+	seating: "✔️ Place to sit down to rest"
+},
+
+{
+	id: "186",
+	categoryId: "01",
+	name: "Benihana Restaurant",
+	city: "Millburn",
+	rating: "4.3",
+	time: "2/5",
+	difficulty: "5/5",
+	calories: "3/5",
+
+	image: require("../assets/images/benihana.jpg"),
+	
+	ingredients: ["Single step with ramp for wheelchair, wide door with pull handle"],
+
+	color: "#006A4E",
+	description: "Benihana Restaurant offers Japanese cuisine with an interactive dining experience in Millburn, NJ.",
+	interior: ["Interior is spacious and accommodating"],
+	parking: ["No accessible spots nearby, however large parking lot behind the restaurant"],
+	bathroom: "✔️ Wheelchair accessible restroom",
+	seating: "✔️ Place to sit down to rest"
+},
+
+{
+	id: "187",
+	categoryId: "01",
+	name: "Boxcar Bar & Grill",
+	city: "Millburn",
+	rating: "3.7",
+	time: "4/5",
+	difficulty: "3/5",
+	calories: "4/5",
+	image: require("../assets/images/boxcar.png"),
+	
+	ingredients: ["Good entrance"],
+
+	color: "#006A4E",
+	description: "Boxcar Bar & Grill offers a casual dining experience with a variety of American dishes in Millburn, NJ.",
+	interior: ["Slightly crammed interior, may be hard for wheelchair to move"],
+	parking: ["Accessible parking spots on both sides of the bar"],
+	bathroom: "❌ Restroom is not wheelchair accessible",
+	seating: "✔️ Place to sit down to rest"
+},
+
+{
+	id: "188",
+	categoryId: "01",
+	name: "Brooklyn Pizza",
+	city: "Millburn",
+	rating: "3.3",
+	time: "4/5",
+	difficulty: "4/5",
+	calories: "2/5",
+
+	image: require("../assets/images/brooklyn.png"),
+	
+	ingredients: ["Door has doorknob, but usually kept open. Has a small step"],
+
+	color: "#006A4E",
+	description: "Brooklyn Pizza offers classic New York-style pizza in Millburn, NJ.",
+	interior: ["Interior is slightly crammed"],
+	parking: ["Only street parking nearby with no accessible spots"],
+	bathroom: "❌ No public restroom",
+	seating: "❌ No seating area"
+},
+
+{
+	id: "189",
+	categoryId: "01",
+	name: "Café Monet",
+	city: "Millburn",
+	rating: "3.0",
+	time: "3/5",
+	difficulty: "3/5",
+	calories: "3/5",
+
+	image: require("../assets/images/cafemonet.jpg"),
+	
+	ingredients: ["Two large steps in front of entrance"],
+
+	color: "#006A4E",
+	description: "Café Monet is a cozy café offering a variety of coffee and pastries in Millburn, NJ.",
+	interior: ["Interior is slightly crammed and may be hard to move wheelchair around"],
+	parking: ["Lot behind the restaurant with a few spots"],
+	bathroom: "❌ Restroom is not wheelchair accessible",
+	seating: "✔️ Place to sit down to rest"
+},
+
+{
+	id: "190",
+	categoryId: "01",
+	name: "Cara Mia",
+	city: "Millburn",
+	rating: "4.0",
+	time: "4/5",
+	difficulty: "3/5",
+	calories: "5/5",
+
+	image: require("../assets/images/Caramia.jpg"),
+	
+	ingredients: ["Step with a ramp"],
+
+	color: "#006A4E",
+	description: "Cara Mia offers a cozy dining experience with classic Italian dishes in Millburn, NJ.",
+	interior: ["Interior is slightly small"],
+	parking: ["Parking lot with accessible spots across the street"],
+	bathroom: "❌ Restroom is not wheelchair accessible",
+	seating: "✔️ Place to sit down to rest"
+},
+
+{
+	id: "191",
+	categoryId: "01",
+	name: "Casa Das Natas",
+	city: "Millburn",
+	rating: "3.3",
+	time: "4/5",
+	difficulty: "3/5",
+	calories: "3/5",
+
+	image: require("../assets/images/casa.jpg"),
+	
+	ingredients: ["Wide door with a pull handle"],
+
+	color: "#006A4E",
+	description: "Casa Das Natas specializes in traditional Portuguese pastries and desserts in Millburn, NJ.",
+	interior: ["Might be hard to maneuver within the building"],
+	parking: ["Few accessible parking spots behind the store"],
+	bathroom: "❌ No public restroom",
+	seating: "✔️ Place to sit down to rest"
+},
+
+{
+	id: "192",
+	categoryId: "01",
+	name: "Clemenza’s Pizza",
+	city: "Millburn",
+	rating: "4.3",
+	time: "5/5",
+	difficulty: "5/5",
+	calories: "3/5",
+
+	image: require("../assets/images/clemenza.jpg"),
+	
+	ingredients: ["Wide door with a pull handle that's often held open, no stairs"],
+
+	color: "#006A4E",
+	description: "Clemenza’s Brick Oven Pizza offers authentic brick oven pizzas in a cozy setting in Millburn, NJ.",
+	interior: ["Ample space in the interior"],
+	parking: ["1 spot behind the store"],
+	bathroom: "✔️ Wheelchair accessible restroom",
+	seating: "✔️ Place to sit down to rest"
+},
+
+{
+	id: "193",
+	categoryId: "01",
+	name: "Coffee Mill Roasters",
+	city: "Millburn",
+	rating: "3.3",
+	time: "5/5",
+	difficulty: "3/5",
+	calories: "3/5",
+
+	image: require("../assets/images/coffee.jpg"),
+	
+	ingredients: ["Wide door with a pull handle that's often held open, no stairs"],
+
+	color: "#006A4E",
+	description: "Coffee Mill Roasters offers freshly roasted coffee beans and beverages in Millburn, NJ.",
+	interior: ["Interior is slightly crammed and may be hard to move wheelchair around"],
+	parking: ["Very small lot behind the store, might be hard to find accessible parking"],
+	bathroom: "❌ Restroom is not wheelchair accessible",
+	seating: "✔️ Place to sit down to rest"
+},
+
+{
+	id: "194",
+	categoryId: "01",
+	name: "Common Lot Restaurant",
+	city: "Millburn",
+	rating: "4.7",
+	time: "4/5",
+	difficulty: "5/5",
+	calories: "5/5",
+
+	image: require("../assets/images/common.jpg"),
+	
+	ingredients: ["Wide door with pull handle"],
+
+	color: "#006A4E",
+	description: "Common Lot Restaurant offers a modern dining experience with seasonal dishes in Millburn, NJ.",
+	interior: ["Interior is spacious and restaurant provides accommodations for wheelchairs"],
+	parking: ["Large parking lot across the street with multiple wheelchair accessible spots"],
+	bathroom: "✔️ Wheelchair accessible restroom",
+	seating: "✔️ Place to sit down to rest"
+},
+
+{
+	id: "195",
+	categoryId: "01",
+	name: "Dunkin Donuts",
+	city: "Millburn",
+	rating: "5.0",
+	time: "5/5",
+	difficulty: "5/5",
+	calories: "5/5",
+
+	image: require("../assets/images/dunkinmillburn.jpeg"),
+	
+	ingredients: ["Wide door with pull handle"],
+
+	color: "#006A4E",
+	description: "Dunkin Donuts offers a variety of coffee and baked goods in Millburn, NJ.",
+	interior: ["Interior is highly spacious with ample room for the wheelchair to maneuver"],
+	parking: ["Multiple spots in the restaurant's parking lot"],
+	bathroom: "✔️ Wheelchair accessible restroom",
+	seating: "✔️ Place to sit down to rest"
+},
+
+{
+	id: "196",
+	categoryId: "01",
+	name: "Enzzo’s Trattoria",
+	city: "Millburn",
+	rating: "3.0",
+	time: "3/5",
+	difficulty: "3/5",
+	calories: "3/5",
+
+	image: require("../assets/images/enzzo.jpg"),
+	
+	ingredients: ["Small step in the front"],
+
+	color: "#006A4E",
+	description: "Enzzo’s Trattoria offers a cozy atmosphere with classic Italian dishes in Millburn, NJ.",
+	interior: ["Interior is slightly crammed"],
+	parking: ["Few wheelchair accessible spots behind the restaurant"],
+	bathroom: "❌ Restroom is not wheelchair accessible",
+	seating: "✔️ Place to sit down to rest"
+},
+
+{
+	id: "197",
+	categoryId: "01",
+	name: "EVOO & Lemon",
+	city: "Millburn",
+	rating: "3.3",
+	time: "5/5",
+	difficulty: "4/5",
+	calories: "2/5",
+
+	image: require("../assets/images/evoo.jpg"),
+	
+	ingredients: ["Step with a ramp for wheelchairs, wide door with a pull handle"],
+
+	color: "#006A4E",
+	description: "EVOO & Lemon offers Mediterranean cuisine with a focus on fresh ingredients in Millburn, NJ.",
+	interior: ["Interior is crammed but they provide accommodations"],
+	parking: ["No accessible parking spots nearby"],
+	bathroom: "✔️ Wheelchair accessible restroom",
+	seating: "✔️ Place to sit down to rest"
+},
+
+{
+	id: "198",
+	categoryId: "01",
+	name: "Fiamma Pizza",
+	city: "Millburn",
+	rating: "4.0",
+	time: "5/5",
+	difficulty: "3/5",
+	calories: "4/5",
+
+	image: require("../assets/images/fiamma.jpg"),
+	
+	ingredients: ["Wide door with a pull handle that's often held open, no stairs"],
+
+	color: "#006A4E",
+	description: "Fiamma Wood Fired Pizza offers authentic wood-fired pizzas in Millburn, NJ.",
+	interior: ["Interior is slightly crammed"],
+	parking: ["Large parking lot with multiple wheelchair accessible spots across the street"],
+	bathroom: "❌ No public restroom",
+	seating: "✔️ Place to sit down to rest"
+},
+
+{
+	id: "199",
+	categoryId: "01",
+	name: "Goldberg’s Deli",
+	city: "Millburn",
+	rating: "3.0",
+	time: "4/5",
+	difficulty: "2/5",
+	calories: "3/5",
+
+	image: require("../assets/images/goldberg.jpg"),
+	
+	ingredients: ["Small step with a ramp, wide door with pull handle"],
+
+	color: "#006A4E",
+	description: "Goldberg’s Deli offers a variety of deli sandwiches and breakfast options in Millburn, NJ.",
+	interior: ["Crammed interior"],
+	parking: ["Wheelchair accessible parking spot across the street"],
+	bathroom: "❌ No public restroom",
+	seating: "✔️ Place to sit down to rest"
+},
+
+{
+	id: "200",
+	categoryId: "01",
+	name: "Gong Cha",
+	city: "Millburn",
+	rating: "1.3",
+	time: "1/5",
+	difficulty: "2/5",
+	calories: "1/5",
+
+	image: require("../assets/images/gongcha.jpg"),
+	
+	ingredients: ["Entrance has three steps in the front, inaccessible"],
+
+	color: "#006A4E",
+	description: "Gong Cha offers a variety of bubble tea beverages in Millburn, NJ.",
+	interior: ["Small interior"],
+	parking: ["No accessible parking spots nearby"],
+	bathroom: "❌ No public restroom",
+	seating: "✔️ Place to sit down to rest"
+},
+
+{
+	id: "201",
+	categoryId: "03",
+	name: "Green Nectar Market",
+	city: "Millburn",
+	rating: "3.0",
+	time: "5/5",
+	difficulty: "2/5",
+	calories: "2/5",
+
+	image: require("../assets/images/green.jpg"),
+	
+	ingredients: ["Wide door that's usually kept open"],
+
+	color: "#006A4E",
+	description: "Green Nectar Market offers a variety of organic and healthy food options in Millburn, NJ.",
+	interior: ["Slightly crammed interior, may be hard for wheelchair to move"],
+	parking: ["Few accessible parking spots behind the store"],
+	bathroom: "❌ No public restroom",
+	seating: "✔️ Place to sit down to rest"
+},
+
+{
+	id: "202",
+	categoryId: "01",
+	name: "Haagen Dazs",
+	city: "Millburn",
+	rating: "2.3",
+	time: "3/5",
+	difficulty: "2/5",
+	calories: "2/5",
+
+	image: require("../assets/images/haagen.jpg"),
+	
+	ingredients: ["Ramp for wheelchairs, but door has doorknob"],
+
+	color: "#006A4E",
+	description: "Haagen Dazs offers a variety of ice cream and frozen treats in Millburn, NJ.",
+	interior: ["Small interior"],
+	parking: ["Few accessible parking spots behind the store"],
+	bathroom: "❌ No public restroom",
+	seating: "✔️ Place to sit down to rest"
+},
+
+{
+	id: "203",
+	categoryId: "04",
+	name: "AFC Urgent Care ",
+	city: "Millburn",
+	rating: "5.0",
+	time: "5/5",
+	difficulty: "5/5",
+	calories: "5/5",
+
+	image: require("../assets/images/afc.jpg"),
+	
+	ingredients: ["Ramp for wheelchairs"],
+
+	color: "#006A4E",
+	description: "AFC Urgent Care Short Hills provides urgent medical care services with a focus on accessibility in Millburn, NJ.",
+	interior: ["Ample spacious interior"],
+	parking: ["Accessible parking in front of the clinic"],
+	bathroom: "✔️ Wheelchair accessible restrooms",
+	seating: "✔️ Place to sit down to rest"
+},
+
+{
+	id: "204",
+	categoryId: "04",
+	name: "Ankle & Foot Doctors",
+	city: "Millburn",
+	rating: "5.0",
+	time: "5/5",
+	difficulty: "5/5",
+	calories: "5/5",
+
+	image: require("../assets/images/ankle.jpeg"),
+	
+	ingredients: ["Elevator to reach clinic"],
+
+	color: "#006A4E",
+	description: "Ankle & Foot Doctors of New Jersey provides specialized foot and ankle care with accessible facilities in Millburn, NJ.",
+	interior: ["Spacious interior"],
+	parking: ["Accessible parking in the lot to the side of the store"],
+	bathroom: "✔️ Wheelchair accessible restrooms",
+	seating: "✔️ Place to sit down to rest"
+},
+
+{
+	id: "205",
+	categoryId: "04",
+	name: "Arthur Greyf DDS",
+	city: "Millburn",
+	rating: "5.0",
+	time: "5/5",
+	difficulty: "5/5",
+	calories: "5/5",
+
+	image: require("../assets/images/arthur.png"),
+	
+	ingredients: ["Ramp for wheelchairs, no problem in entering clinic"],
+
+	color: "#006A4E",
+	description: "Arthur Greyf DDS provides comprehensive dental care with a focus on accessibility in Millburn, NJ.",
+	interior: ["Interior is spacious with easy maneuvering"],
+	parking: ["Accessible parking right behind the clinic"],
+	bathroom: "✔️ Wheelchair accessible restrooms",
+	seating: "✔️ Place to sit down to rest"
+},
+
+{
+	id: "206",
+	categoryId: "04",
+	name: "Associates in Counseling",
+	city: "Millburn",
+	rating: "4.3",
+	time: "5/5",
+	difficulty: "5/5",
+	calories: "3/5",
+
+	image: require("../assets/images/associates.jpg"),
+	
+	ingredients: ["Easy entry for wheelchairs and other handicapped patrons"],
+
+	color: "#006A4E",
+	description: "Associates in Counseling & Psychotherapy provides mental health services with a focus on accessibility in Millburn, NJ.",
+	interior: ["Interior is spacious with easy access"],
+	parking: ["Few accessible parking spots to the side of the store"],
+	bathroom: "❌ No public restroom",
+	seating: "✔️ Place to sit down to rest"
+},
+
+{
+	id: "207",
+	categoryId: "04",
+	name: "Associates in Internal Medicine",
+	city: "Millburn",
+	rating: "4.7",
+	time: "5/5",
+	difficulty: "5/5",
+	calories: "4/5",
+
+	image: require("../assets/images/internal.jpg"),
+	
+	ingredients: ["Ramp for wheelchairs to enter"],
+
+	color: "#006A4E",
+	description: "Associates in Internal Medicine & Nephrology offers specialized medical services with accessible facilities in Millburn, NJ.",
+	interior: ["Interior has ample space for anyone to move through"],
+	parking: ["Multiple accessible parking spots to the side of the store"],
+	bathroom: "❌ No public restroom",
+	seating: "✔️ Place to sit down to rest"
+},
+
+{
+	id: "208",
+	categoryId: "04",
+	name: "Atlantic Health",
+	city: "Millburn",
+	rating: "5.0",
+	time: "5/5",
+	difficulty: "5/5",
+	calories: "5/5",
+
+	image: require("../assets/images/atlantichealth.jpg"),
+	
+	ingredients: ["Ramp for wheelchairs to enter with automatic doors"],
+
+	color: "#006A4E",
+	description: "Atlantic Health provides comprehensive healthcare services with a focus on accessibility in Millburn, NJ.",
+	interior: ["Interior has ample space for anyone to move through"],
+	parking: ["Accessible parking spots right next to the clinic"],
+	bathroom: "✔️ Wheelchair accessible restroom",
+	seating: "✔️ Place to sit down to rest"
+},
+
+{
+	id: "209",
+	categoryId: "04",
+	name: "Bayshore Pharmaceuticals",
+	city: "Millburn",
+	rating: "5.0",
+	time: "5/5",
+	difficulty: "5/5",
+	calories: "5/5",
+
+	image: require("../assets/images/bayshore.jpg"),
+	
+	ingredients: ["Ramp for wheelchairs to enter building"],
+
+	color: "#006A4E",
+	description: "Bayshore Pharmaceuticals offers accessible pharmaceutical services and consultations in Millburn, NJ.",
+	interior: ["Interior has ample space for easy accessibility"],
+	parking: ["Multiple accessible parking spots in the store's lot"],
+	bathroom: "✔️ Wheelchair accessible restroom",
+	seating: "✔️ Place to sit down to rest"
+},
+
+{
+	id: "210",
+	categoryId: "04",
+	name: "Behaviorwise",
+	city: "Millburn",
+	rating: "4.3",
+	time: "5/5",
+	difficulty: "5/5",
+	calories: "3/5",
+
+	image: require("../assets/images/behavior.png"),
+	
+	ingredients: ["Easy access with a large pull door with handles"],
+
+	color: "#006A4E",
+	description: "Behaviorwise provides behavioral health services with accessible facilities in Millburn, NJ.",
+	interior: ["Spacious interior"],
+	parking: ["Few parking spots for accessibility in the large parking lot in front of the store"],
+	bathroom: "❌ No public restroom",
+	seating: "✔️ Place to sit down to rest"
+},
+
+{
+	id: "211",
+	categoryId: "04",
+	name: "Better Everything",
+	city: "Millburn",
+	rating: "3.7",
+	time: "5/5",
+	difficulty: "3/5",
+	calories: "3/5",
+
+	image: require("../assets/images/be.png"),
+	
+	ingredients: ["Elevator to reach clinic"],
+
+	color: "#006A4E",
+	description: "Better Everything / Brown Psychological Services offers psychological services with accessible facilities in Millburn, NJ.",
+	interior: ["Slightly crammed interior"],
+	parking: ["Few parking spots for accessibility in the large lot in front of the store"],
+	bathroom: "✔️ Wheelchair accessible restroom",
+	seating: "✔️ Place to sit down to rest"
+},
+
+{
+	id: "212",
+	categoryId: "04",
+	name: "Beverly Friedlander M.D.",
+	city: "Millburn",
+	rating: "5.0",
+	time: "5/5",
+	difficulty: "5/5",
+	calories: "5/5",
+
+	image: require("../assets/images/beverly.jpg"),
+	
+	ingredients: ["Easy access with pull doors and ramps"],
+
+	color: "#006A4E",
+	description: "Beverly Friedlander M.D. provides specialized medical services with accessible facilities in Millburn, NJ.",
+	interior: ["Interior is spacious with ample room"],
+	parking: ["Multiple accessible parking spots around the clinic"],
+	bathroom: "✔️ Wheelchair accessible restrooms",
+	seating: "✔️ Place to sit down to rest"
+},
+
+{
+	id: "213",
+	categoryId: "04",
+	name: "Bulan Plastic Surgery",
+	city: "Millburn",
+	rating: "3.0",
+	time: "2/5",
+	difficulty: "5/5",
+	calories: "2/5",
+
+	image: require("../assets/images/bulan.jpg"),
+	
+	ingredients: ["Stairs in front of entrance"],
+
+	color: "#006A4E",
+	description: "Bulan Plastic Surgery offers specialized plastic surgery services with accessible facilities in Millburn, NJ.",
+	interior: ["Interior is spacious"],
+	parking: ["Few accessible parking spots around the store"],
+	bathroom: "❌ Restroom is not wheelchair accessible",
+	seating: "✔️ Place to sit down to rest"
+},
+
+{
+	id: "214",
+	categoryId: "04",
+	name: "Center for Sexual Medicine",
+	city: "Millburn",
+	rating: "4.7",
+	time: "5/5",
+	difficulty: "5/5",
+	calories: "4/5",
+
+	image: require("../assets/images/center.jpg"),
+	
+	ingredients: ["Easy entry for wheelchairs and other handicapped patrons"],
+
+	color: "#006A4E",
+	description: "Center for Female and Male Sexual Medicine provides specialized healthcare services with accessible facilities in Millburn, NJ.",
+	interior: ["Interior has ample space for easy accessibility"],
+	parking: ["Spots a short walk away from the store"],
+	bathroom: "✔️ Wheelchair accessible restrooms",
+	seating: "✔️ Place to sit down to rest"
+},
+
+{
+	id: "215",
+	categoryId: "04",
+	name: "CityMD",
+	city: "Millburn",
+	rating: "5.0",
+	time: "5/5",
+	difficulty: "5/5",
+	calories: "5/5",
+
+	image: require("../assets/images/city.jpg"),
+	
+	ingredients: ["Step with a ramp to the side and wide pull doors"],
+
+	color: "#006A4E",
+	description: "CityMD provides urgent medical care services with a focus on accessibility in Millburn, NJ.",
+	interior: ["Interior is spacious with ample room"],
+	parking: ["Multiple accessible spots in front of the store"],
+	bathroom: "✔️ Wheelchair accessible restrooms",
+	seating: "✔️ Place to sit down to rest"
+},
+
+{
+	id: "216",
+	categoryId: "04",
+	name: "Comprehensive Orthopaedics",
+	city: "Millburn",
+	rating: "4.7",
+	time: "4/5",
+	difficulty: "5/5",
+	calories: "5/5",
+
+	image: require("../assets/images/comp.jpg"),
+	
+	ingredients: ["Good entrance"],
+
+	color: "#006A4E",
+	description: "Comprehensive Orthopaedics provides specialized orthopedic care with accessible facilities in Millburn, NJ.",
+	interior: ["Interior has ample rooms for accessibility"],
+	parking: ["Accessible spots to the right and side of the clinic"],
+	bathroom: "❌ Restroom is not wheelchair accessible",
+	seating: "✔️ Place to sit down to rest"
+},
+
+{
+	id: "217",
+	categoryId: "04",
+	name: "Daniel Zaccharias, MD",
+	city: "Millburn",
+	rating: "5.0",
+	time: "5/5",
+	difficulty: "5/5",
+	calories: "5/5",
+
+	image: require("../assets/images/daniel.jpg"),
+	
+	ingredients: ["Good entrance with easy accessibility"],
+
+	color: "#006A4E",
+	description: "Daniel Zaccharias, MD offers specialized medical services with accessible facilities in Millburn, NJ.",
+	interior: ["Interior has ample space for anyone to move through"],
+	parking: ["Multiple accessible spots in front of the store"],
+	bathroom: "❌ No public restroom",
+	seating: "✔️ Place to sit down to rest"
+},
+
+{
+	id: "218",
+	categoryId: "04",
+	name: "David Newman, MD",
+	city: "Millburn",
+	rating: "4.7",
+	time: "5/5",
+	difficulty: "5/5",
+	calories: "4/5",
+
+	image: require("../assets/images/david.jpg"),
+	
+	ingredients: ["Entrance has ample space"],
+
+	color: "#006A4E",
+	description: "David Newman, MD provides specialized medical services with accessible facilities in Millburn, NJ.",
+	interior: ["Interior has ample room for wheelchairs or others to move freely"],
+	parking: ["Accessible parking in the lot to the side of the store"],
+	bathroom: "❌ No public restroom",
+	seating: "✔️ Place to sit down to rest"
+},
+
+{
+	id: "219",
+	categoryId: "04",
+	name: "Dental Group of Millburn",
+	city: "Millburn",
+	rating: "4.7",
+	time: "5/5",
+	difficulty: "5/5",
+	calories: "4/5",
+
+	image: require("../assets/images/dgm.jpg"),
+	
+	ingredients: ["Entrance has ample space which is easy to navigate"],
+
+	color: "#006A4E",
+	description: "Dental Group of Millburn provides comprehensive dental care with accessible facilities in Millburn, NJ.",
+	interior: ["Spacious interior"],
+	parking: ["Accessible parking in the lot to the side of the store"],
+	bathroom: "✔️ Wheelchair accessible restrooms",
+	seating: "✔️ Place to sit down to rest"
+},
+
+{
+	id: "220",
+	categoryId: "04",
+	name: "Dermatology Affiliates",
+	city: "Millburn",
+	rating: "4.0",
+	time: "2/5",
+	difficulty: "5/5",
+	calories: "5/5",
+
+	image: require("../assets/images/dermatology.jpg"),
+	
+	ingredients: ["Stairs in front of entrance"],
+
+	color: "#006A4E",
+	description: "Dermatology Affiliates provides specialized dermatology services with accessible facilities in Millburn, NJ.",
+	interior: ["Interior has ample room for accessibility"],
+	parking: ["Wheelchair accessible spots to the side of the store"],
+	bathroom: "✔️ Wheelchair accessible restrooms",
+	seating: "✔️ Place to sit down to rest"
+},
+
+{
+	id: "221",
+	categoryId: "04",
+	name: "Dr. Gary M. Rosenblatt",
+	city: "Millburn",
+	rating: "5.0",
+	time: "5/5",
+	difficulty: "5/5",
+	calories: "5/5",
+
+	image: require("../assets/images/gary.jpg"),
+	
+	ingredients: ["Good entrance with easy accessibility"],
+
+	color: "#006A4E",
+	description: "Dr. Gary M. Rosenblatt provides specialized medical services with accessible facilities in Millburn, NJ.",
+	interior: ["Interior is spacious"],
+	parking: ["Multiple accessible parking spots in the store's lot"],
+	bathroom: "✔️ Wheelchair accessible restrooms",
+	seating: "✔️ Place to sit down to rest"
+},
+{
+id: "222",
+categoryId: "02",
+name: "Boss Up The Label",
+city: "Millburn",
+rating: "2.7",
+	time: "3/5",
+	difficulty: "3/5",
+	calories: "2/5",
+
+
+image: require("../assets/images/boss.jpg"),
+
+ingredients: ["Steps in front of the entrance"],
+
+color: "#006A4E",
+description: "Boss Up The Label is a fashion boutique with trendy clothing, though accessibility may be limited due to steps in Millburn, NJ.",
+interior: ["Interior is slightly crammed"],
+parking: ["Ample street parking nearby, no accessible parking"],
+bathroom: "❌ Restroom is not wheelchair accessible",
+seating: "✔️ Place to sit down to rest"
+},
+
+{
+id: "223",
+categoryId: "02",
+name: "Bungalow Boutique",
+city: "Millburn",
+rating: "2.0",
+	time: "2/5",
+	difficulty: "2/5",
+	calories: "2/5",
+
+
+image: require("../assets/images/bungalow.jpg"),
+
+ingredients: ["Three large steps in front of the entrance"],
+
+color: "#006A4E",
+description: "Bungalow Boutique offers a selection of chic clothing and accessories with some accessibility challenges due to steps in Millburn, NJ.",
+interior: ["Interior is slightly crammed and hard to move around"],
+parking: ["Few accessible parking spots in lot behind the boutique"],
+bathroom: "❌ No public restroom",
+seating: "✔️ Place to sit down to rest"
+},
+
+{
+id: "224",
+categoryId: "02",
+name: "Highline Fashion",
+city: "Millburn",
+
+image: require("../assets/images/highline.jpg"),
+
+ingredients: ["Good entrance with no steps and a pull door"],
+
+color: "#006A4E",
+description: "Highline Fashion provides a wide range of fashionable clothing with excellent accessibility features in Millburn, NJ.",
+interior: ["Wide interior with multiple paths for wheelchair mobility"],
+parking: ["Parking lot next to the store; however, no accessible parking spots"],
+bathroom: "✔️ Wheelchair accessible restroom",
+seating: "✔️ Place to sit down to rest",
+
+rating: "4.7",
+	time: "5/5",
+	difficulty: "5/5",
+	calories: "4/5",
+
+},
+
+{
+id: "225",
+categoryId: "02",
+name: "Jia Boutique",
+city: "Millburn",
+
+image: require("../assets/images/jia.jpg"),
+
+ingredients: ["Wide entrance with a pull door"],
+
+color: "#006A4E",
+description: "Jia Boutique offers a selection of stylish clothing with an easily accessible entrance in Millburn, NJ.",
+interior: ["Ample interior for wheelchair to move around well"],
+parking: ["Lot to the right of the store with ample accessible parking"],
+bathroom: "❌ No public restroom",
+seating: "✔️ Place to sit down to rest",
+
+rating: "4.7",
+	time: "5/5",
+	difficulty: "5/5",
+	calories: "4/5",
+
+},
+
+{
+id: "226",
+categoryId: "02",
+name: "Park Avenue Boutique",
+city: "Millburn",
+
+image: require("../assets/images/park.jpg"),
+
+ingredients: ["Wide entrance with a pull door; ample room for wheelchairs"],
+
+color: "#006A4E",
+description: "Park Avenue Consignment Boutique offers a range of consignment items with good accessibility in Millburn, NJ.",
+interior: ["Interior is wide and has ample space"],
+parking: ["Ample street parking"],
+bathroom: "❌ No public restroom",
+seating: "✔️ Place to sit down to rest",
+
+rating: "5.0",
+	time: "5/5",
+	difficulty: "5/5",
+	calories: "5/5",
+
+},
+
+{
+id: "227",
+categoryId: "02",
+name: "Uffizimoda",
+city: "Millburn",
+
+image: require("../assets/images/uffi.jpg"),
+
+ingredients: ["Entrance is accessible and has a pull bar"],
+
+color: "#006A4E",
+description: "Uffizimoda offers a selection of high-end fashion with accessible entrance and spacious interior in Millburn, NJ.",
+interior: ["Interior is wide and spacious for anyone to move through"],
+parking: ["Accessible parking in the parking lot on the other side of the street"],
+bathroom: "❌ No public restroom",
+seating: "✔️ Place to sit down to rest",
+
+
+rating: "5.0",
+	time: "5/5",
+	difficulty: "5/5",
+	calories: "5/5",
+
+},
+
+{
+id: "228",
+categoryId: "02",
+name: "Variazioni",
+city: "Millburn",
+
+image: require("../assets/images/varia.jpg"),
+
+ingredients: ["Single step in front of the entrance"],
+
+color: "#006A4E",
+description: "Variazioni offers fashionable clothing and accessories, though accessibility may be limited due to a step in Millburn, NJ.",
+interior: ["Interior is spacious"],
+parking: ["Accessible parking in the parking lot behind the store"],
+bathroom: "❌ No public restroom",
+seating: "✔️ Place to sit down to rest",
+
+
+rating: "4.7",
+	time: "4/5",
+	difficulty: "5/5",
+	calories: "5/5",
+
+},
+
+
+
+{
+	id: "230",
+	categoryId: "08",
+	name: "Bluemercury",
+	city: "Millburn",
+
+	image: require("../assets/images/bluemercurymillburn.jpg"),
+	
+rating: "4.0",
+time: "4/5",
+difficulty: "5/5",
+calories: "3/5",
+
+
+	ingredients: ["Small step in front of the boutique"],
+
+	color: "#006A4E",
+	description: "Bluemercury offers high-end beauty products and services with some accessibility challenges due to a small step in Millburn, NJ.",
+	interior: ["Ample space within the store"],
+	parking: ["Street parking nearby but no accessible parking spots"],
+	bathroom: "❌ No public restroom",
+	seating: "✔️ Place to sit down to rest"
+},
+
+{
+	id: "231",
+	categoryId: "08",
+	name: "Reelstyle Exchange",
+	city: "Millburn",
+
+	image: require("../assets/images/reelstyle.jpg"),
+
+	
+rating: "5.0",
+time: "5/5",
+difficulty: "5/5",
+calories: "5/5",
+	
+	ingredients: ["Wheelchair accessible entrance with ample space and pull bar"],
+
+	color: "#006A4E",
+	description: "Reelstyle Exchange offers a variety of stylish clothing and accessories with excellent accessibility features in Millburn, NJ.",
+	interior: ["Ample space within the boutique, and the boutique provides accessibility accommodations"],
+	parking: ["Large parking lot nearby with many accessible parking spots"],
+	bathroom: "✔️ Restroom is wheelchair accessible",
+	seating: "✔️ Place to sit down to rest"
+},
+
+{
+	id: "232",
+	categoryId: "08",
+	name: "Rodolfo World of Beauty",
+	city: "Millburn",
+
+	image: require("../assets/images/rodolfo.jpg"),
+	
+	
+rating: "5.0",
+time: "5/5",
+difficulty: "5/5",
+calories: "5/5",
+
+	ingredients: ["Wheelchair accessible entrance with ample space and pull bar"],
+
+	color: "#006A4E",
+	description: "Rodolfo World of Beauty offers a range of beauty services with accessible facilities in Millburn, NJ.",
+	interior: ["Ample space and accommodations for disabled patrons"],
+	parking: ["Large parking lot with many accessible spots in front of the store"],
+	bathroom: "❌ Public restroom is not wheelchair accessible",
+	seating: "✔️ Place to sit down to rest"
+},
+
+{
+	id: "233",
+	categoryId: "08",
+	name: "The House",
+	city: "Millburn",
+
+	image: require("../assets/images/thehouse.jpg"),
+
+	
+rating: "4.7",
+time: "5/5",
+difficulty: "5/5",
+calories: "4/5",
+	
+	ingredients: ["Large wheelchair accessible entrance with pull bar"],
+
+	color: "#006A4E",
+	description: "The House offers beauty and wellness services with excellent accessibility in Millburn, NJ.",
+	interior: ["Clear path for wheelchairs within the store, lots of room to move around"],
+	parking: ["Parking lot behind the store with few accessible spots"],
+	bathroom: "✔️ Restroom is wheelchair accessible",
+	seating: "✔️ Place to sit down to rest"
+},
+
+
+
+{
+	id: "234",
+	categoryId: "03",
+	name: "Gold Valley Supermarket",
+	city: "Millburn",
+
+	rating: "5.0",
+time: "5/5",
+difficulty: "5/5",
+calories: "5/5",
+
+	image: require("../assets/images/gold.jpg"),
+	
+	ingredients: ["Automatic large doors for accessibility"],
+
+	color: "#006A4E",
+	description: "Gold Valley Supermarket offers a wide range of groceries with excellent accessibility features in Millburn, NJ.",
+	interior: ["Ample room within the supermarket for wheelchairs and other disabled patrons"],
+	parking: ["Large parking lot in front of store with many spots for accessible parking"],
+	bathroom: "✔️ Restrooms are wheelchair accessible",
+	seating: "✔️ Place to sit down to rest"
+},
+
+{
+	id: "235",
+	categoryId: "03",
+	name: "Mia Famiglia",
+	city: "Millburn",
+
+	rating: "3.3",
+time: "5/5",
+difficulty: "4/5",
+calories: "1/5",
+
+	image: require("../assets/images/mia.jpg"),
+	
+	ingredients: ["Wide door with pull handle"],
+
+	color: "#006A4E",
+	description: "Mia Famiglia offers groceries and products, though accessibility may be limited due to a slightly cramped interior in Millburn, NJ.",
+	interior: ["Slightly crammed interior, may be hard for wheelchairs to move around"],
+	parking: ["❌ No nearby accessible parking"],
+	bathroom: "❌ No public restroom",
+	seating: "✔️ Place to sit down to rest"
+},
+
+{
+	id: "236",
+	categoryId: "03",
+	name: "Shoprite",
+	city: "Millburn",
+
+	rating: "5.0",
+time: "5/5",
+difficulty: "5/5",
+calories: "5/5",
+
+	image: require("../assets/images/shopritemillburn.jpg"),
+	
+	ingredients: ["Automatic large doors for accessibility"],
+
+	color: "#006A4E",
+	description: "Shoprite offers a wide selection of groceries with excellent accessibility features in Millburn, NJ.",
+	interior: ["Ample space and accommodations for disabled patrons"],
+	parking: ["Large parking lot in front of store with many spots for accessible parking"],
+	bathroom: "✔️ Restrooms are wheelchair accessible",
+	seating: "✔️ Place to sit down to rest"
+},
+
+{
+	id: "237",
+	categoryId: "03",
+	name: "Trader Joe's",
+	city: "Millburn",
+
+	rating: "5.0",
+time: "5/5",
+difficulty: "5/5",
+calories: "5/5",
+
+	image: require("../assets/images/traderjoemillburn.jpg"),
+	
+	ingredients: ["Automatic large doors for accessibility"],
+
+	color: "#006A4E",
+	description: "Trader Joe's offers a variety of groceries with spacious and accessible facilities in Millburn, NJ.",
+	interior: ["Clear path for wheelchairs within the store, lots of room to move around"],
+	parking: ["Large parking lot in front of store with many spots for accessible parking"],
+	bathroom: "✔️ Restrooms are wheelchair accessible",
+	seating: "✔️ Place to sit down to rest"
+},
+
+{
+	id: "238",
+	categoryId: "03",
+	name: "Whole Foods Market",
+	city: "Millburn",
+
+	rating: "5.0",
+time: "5/5",
+difficulty: "5/5",
+calories: "5/5",
+
+	image: require("../assets/images/whole.jpg"),
+	
+	ingredients: ["Automatic large doors for accessibility"],
+
+	color: "#006A4E",
+	description: "Whole Foods Market offers organic and natural groceries with spacious and accessible facilities in Millburn, NJ.",
+	interior: ["Interior is wide and has ample space"],
+	parking: ["Large parking lot in front of store with many spots for accessible parking"],
+	bathroom: "✔️ Restrooms are wheelchair accessible",
+	seating: "✔️ Place to sit down to rest"
+},
+
+
+
+{
+	id: "239",
+	categoryId: "05",
+	name: "Santander Bank Branch",
+	city: "Millburn",
+
+	image: require("../assets/images/satander.jpg"),
+
+	rating: "5.0",
+	time: "5/5",
+	difficulty: "5/5",
+	calories: "5/5",
+	
+	ingredients: ["Step with a ramp to the side"],
+
+	color: "#006A4E",
+	description: "Santander Bank Branch provides banking services with good accessibility features in Millburn, NJ.",
+	interior: ["Interior is wide with ample space"],
+	parking: ["Parking lot in the front contains many accessible spaces"],
+	bathroom: "✔️ Wheelchair accessible restroom",
+	seating: "✔️ Place to sit down to rest"
+},
+
+{
+	id: "240",
+	categoryId: "05",
+	name: "Somerset Regal Bank",
+	city: "Millburn",
+
+	image: require("../assets/images/somerset.jpg"),
+
+	rating: "4.3",
+	time: "4/5",
+	difficulty: "5/5",
+	calories: "4/5",
+	
+	ingredients: ["No step with a pull handle"],
+
+	color: "#006A4E",
+	description: "Somerset Regal Bank offers banking services with a clear path for wheelchairs and accessible facilities in Millburn, NJ.",
+	interior: ["Clear path for wheelchairs within the bank, lots of room to move around"],
+	parking: ["Parking lot behind the bank with a few spots for accessible parking"],
+	bathroom: "✔️ Wheelchair accessible restroom",
+	seating: "✔️ Place to sit down to rest"
+},
+
+{
+	id: "241",
+	categoryId: "05",
+	name: "Wells Fargo Bank",
+	city: "Millburn",
+
+	image: require("../assets/images/wellsfargo.jpg"),
+
+	rating: "5.0",
+	time: "5/5",
+	difficulty: "5/5",
+	calories: "5/5",
+	
+	ingredients: ["Automatic doors and a ramp to enter the building"],
+
+	color: "#006A4E",
+	description: "Wells Fargo Bank provides banking services with automatic doors and spacious, accessible facilities in Millburn, NJ.",
+	interior: ["Interior is wide with ample space"],
+	parking: ["Large parking lot to the side of the bank with multiple wheelchair accessible spots"],
+	bathroom: "✔️ Wheelchair accessible restroom",
+	seating: "✔️ Place to sit down to rest"
+},
+
+
+
+
+
+{
+	id: "242",
+	categoryId: "06",
+	name: "Christ Church in Short Hills",
+	city: "Short Hills",
+
+	image: require("../assets/images/christ.png"),
+	
+	ingredients: ["Ramp with pull doors for accessibility"],
+
+	color: "#006A4E",
+	description: "Christ Church in Short Hills provides a welcoming environment with accessibility features for all visitors.",
+	interior: ["Interior is wide with multiple clear paths for wheelchairs"],
+	parking: ["Parking lot in front of the church with multiple wheelchair accessible spots"],
+	bathroom: "✔️ Wheelchair accessible restrooms",
+	seating: "✔️ Place to sit down to rest"
+},
+
+{
+	id: "243",
+	categoryId: "06",
+	name: "First Baptist Church",
+	city: "Millburn",
+
+	rating: "5.0",
+	time: "5/5",
+	difficulty: "5/5",
+	calories: "5/5",
+
+	image: require("../assets/images/fbc.jpg"),
+	
+	ingredients: ["Wide doors with pull handles for easy access"],
+
+	color: "#006A4E",
+	description: "First Baptist Church-Millburn offers a spacious and accessible environment for worship and community gatherings.",
+	interior: ["Interior is wide and has multiple paths for wheelchairs to easily go through"],
+	parking: ["Parking lot to the side of the church with a couple wheelchair accessible spots"],
+	bathroom: "✔️ Wheelchair accessible restrooms",
+	seating: "✔️ Place to sit down to rest"
+},
+
+{
+	id: "244",
+	categoryId: "06",
+	name: "Saint Stephen's Episcopal",
+	city: "Millburn",
+
+	image: require("../assets/images/saint.jpg"),
+
+	rating: "4.3",
+	time: "5/5",
+	difficulty: "5/5",
+	calories: "3/5",
+	
+	ingredients: ["Easy entry for wheelchairs and other handicapped patrons"],
+
+	color: "#006A4E",
+	description: "Saint Stephen's Episcopal Church provides a welcoming space, though restroom accessibility may be limited.",
+	interior: ["Interior has ample space for wheelchair accessibility"],
+	parking: ["Small parking lot behind the church"],
+	bathroom: "❌ No public restroom",
+	seating: "✔️ Place to sit down to rest"
+}
+
+
 ];
