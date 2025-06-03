@@ -37,7 +37,7 @@ const AboutUs = () => {
          The Access Wayfinder team is spearheaded by Krishav Singla, a Westfield resident and current high school senior. Inspired by his personal encounters with his wheelchair-using grandparents and friend, he decided to do something to counteract the mystery of accessibility. Collaborating with Mayor Brindle, the Downtown Westfield Corporation, and college freshman Sarah Maher, he conducted surveys and interviewed over 130 businesses in Westfield. He then worked alongside high school junior Ethan Lung to develop a user-friendly app for iOS and Android.
        </Text>
        <Text style={styles.paragraph}>
-         This app allows users to explore ratings and key accessibility details of local businesses. The app is currently organized in multiple categories and in an A to Z order within each category, but we hope to implement a search bar soon. The future vision includes expanding to other towns globally and reaching as many users as possible. Thank you for joining us on our mission to enhance accessibility for everyone.
+         This app allows users to explore various ratings and key accessibility details of local businesses. The app is currently organized in multiple categories and in an A to Z order within each category, but we hope to implement a search bar soon. The future vision includes expanding to other towns globally and reaching as many users as possible. Thank you for joining us on our mission to enhance accessibility for everyone.
        </Text>
      </View>
      <View style={styles.textBox}>
