@@ -44,7 +44,7 @@ const AboutUs = () => {
        <Text style={styles.subHeader}>Grading Scale</Text>
        <Text style={styles.role}>Entrance</Text>
        <Text style={styles.info}>
-         5: The entrance meets all necessary ADA requirements, including a wide door, pull side clearance, and stairs in front of it.
+         5: The entrance meets all the necessary ADA requirements, including a wide door, pull side clearance, and stairs in front of it.
        </Text>
        <Text style={styles.info}>
        4: The entrance struggles with pull-side clearance or door width (less than 36")
