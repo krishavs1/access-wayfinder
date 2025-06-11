@@ -1,6 +1,5 @@
 # Access Wayfinder
 
-[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](LICENSE)
 
 Access Wayfinder is a cross-platform mobile application built with React Native and Expo that empowers users to discover, share, and rate accessibility information for local businesses and public spaces.
 
