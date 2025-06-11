@@ -5,21 +5,20 @@ Access Wayfinder is a cross-platform mobile application built with React Native 
 
 ## Features
 
-- 🔍 **Search & Browse** venues with detailed accessibility attributes (ramps, elevators, parking, restrooms, etc.)  
-- 🗺️ **Map & List Views**: visualize accessible locations on an interactive map or as a sortable list  
-- 🎚️ **Filters** by category (restaurants, shops, public buildings) and specific accessibility features  
-- ✏️ **User Contributions**: submit new places or update existing entries via RESTful API  
-- ⭐ **Ratings & Notes**: view and leave ratings, comments, and photos for each location  
+- **Search & Browse** venues with detailed accessibility attributes (ramps, elevators, parking, restrooms, etc.)  
+- **Map & List Views**: visualize accessible locations on an interactive map or as a sortable list  
+- **Filters** by category (restaurants, shops, public buildings) and specific accessibility features  
+- **User Contributions**: submit new places or update existing entries via RESTful API  
+- **Ratings & Notes**: view and leave ratings, comments, and photos for each location  
 
 ## Tech Stack
 
 - **Framework:** React Native via Expo  
 - **Navigation:** React Navigation  
-- **State Management:** Context API (or Redux)  
-- **Networking:** Axios (or Fetch API)  
-- **Maps:** react-native-maps (MapView)  
-- **Language:** JavaScript (or TypeScript)  
-- **Backend:** RESTful API (Node.js/Express or Firebase)  
+- **State Management:** Context API 
+- **Maps:** react-native-maps
+- **Language:** JavaScript 
+- **Backend:** RESTful API (Firebase)  
 
 ## Getting Started
 
