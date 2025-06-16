@@ -11,7 +11,7 @@ const CitySelectionScreen = () => {
 
   return (
     <View style={styles.container}>
-      <Text style={styles.header}>Select a City</Text>
+      <Text style={styles.header}>Select City</Text>
       <TouchableOpacity
         style={styles.button}
         onPress={() => navigateToRecipeList('Westfield')}
