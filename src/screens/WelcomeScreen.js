@@ -22,7 +22,7 @@ const WelcomeScreen = ({ navigation }) => {
 				style={styles.button}
 			>
 				<Text style={styles.buttonText}>
-					Let's Go
+					Let's Go!
 				</Text>
 			</TouchableOpacity>
 
