@@ -38,7 +38,7 @@ const RecipeDetailsScreen = ({ navigation, route }) => {
 				<View
 					style={{
 						// backgroundColor: "red",
-						height: 300,
+						height: 299,
 						width: 300,
 						position: "absolute",
 						top: -150,
