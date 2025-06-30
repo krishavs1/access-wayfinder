@@ -83,7 +83,7 @@ const RecipeDetailsScreen = ({ navigation, route }) => {
 							<View
 								style={{
 									backgroundColor: "rgba(255, 1, 0, 0.38)",
-									// paddingHorizontal: 16,
+									// paddingHorintal: 16,
 									paddingVertical: 26,
 									borderRadius: 8,
 									alignItems: "center",
