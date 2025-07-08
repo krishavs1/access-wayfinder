@@ -31,7 +31,7 @@ const AboutUs = () => {
       <View style={styles.textBox}>
         <Text style={styles.subHeader}>Our Work</Text>
         <Text style={styles.paragraph}>
-         Our goal is to raise awareness towards accessibility by providing easy access to accessibility information that is usually unknown to the public until they actually visit the store, and using the platform as a way to inspire businesses to do all they can to include everyone.
+         Our goal is raising awareness towards accessibility by providing easy access to accessibility information that is usually unknown to the public until they actually visit the store, and using the platform as a way to inspire businesses to do all they can to include everyone.
        </Text>
        <Text style={styles.paragraph}>
          The Access Wayfinder team is spearheaded by Krishav Singla, a Westfield resident and current college freshman. Inspired by his personal encounters with his wheelchair-using grandparents and friend, he decided to do something to counteract the mystery of accessibility. Collaborating with Mayor Brindle, the Downtown Westfield Corporation, and college freshman Sarah Maher, he conducted surveys and interviewed over 130 businesses in Westfield. He then worked alongside high school junior Ethan Lung to develop a user-friendly app for iOS and Android.
