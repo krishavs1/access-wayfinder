@@ -29,7 +29,7 @@ const AboutUs = () => {
       </View>
 
       <View style={styles.textBox}>
-        <Text style={styles.subHeader}>Our Work!</Text>
+        <Text style={styles.subHeader}>Our Work</Text>
         <Text style={styles.paragraph}>
          Our goal is raising awareness towards accessibility by providing easy access to accessibility information that is usually unknown to the public until they actually visit the store, and using the platform as a way to inspire businesses to do all they can to include everyone.
        </Text>
