@@ -12,7 +12,7 @@ Access Wayfinder is a cross-platform mobile application built with React Native 
 
 ## Tech Stack
 
-- **Framework:** React Native via Expo  
+- **Framework:** React Native & Expo
 - **Navigation:** React Navigation  
 - **State Management:** Context API 
 - **Maps:** react-native-maps
