@@ -35,7 +35,7 @@ git clone https://github.com/krishavs1/access-wayfinder.git
 cd access-wayfinder
 
 # Install dependencies
-npm install      # or yarn install
+npm install
 
 # Copy env example and configure
 cp .env.example .env
