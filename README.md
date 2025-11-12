@@ -19,7 +19,6 @@ Access Wayfinder is a cross-platform mobile application built with React Native 
 - **Language:** JavaScript 
 - **Backend:** RESTful API (Firebase)  
 
-## Getting Started
 
 ### Prerequisites
 
