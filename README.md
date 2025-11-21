@@ -1,7 +1,7 @@
 # Access Wayfinder
 
 
-Access Wayfinder is a cross-platform mobile application built with React Native and Expo that empowers users to discover, share, and rate accessibility information for local businesses and public spaces.
+Access Wayfinder is an iOS mobile application built with React Native and Expo that empowers users to discover, share, and rate accessibility information for local businesses and public spaces.
 
 ## Features
 
