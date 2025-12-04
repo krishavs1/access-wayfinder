@@ -3,7 +3,7 @@
 
 Access Wayfinder is a mobile application built with React Native and Expo that empowers users to discover, share, and rate accessibility information for local businesses and public spaces.
 
-## Features
+
 
 - **Map & Views**: To visualize accessible locations on an interactive map or as a sortable list  
 - **Filters** category (restaurants, shops, public buildings) and specific accessibility features  
