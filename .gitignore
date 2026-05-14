@@ -29,7 +29,11 @@ yarn-error.*
 *.pem
 
 # local env files
+.env
 .env*.local
+
+# Staging copy of all venue images for Supabase upload (large; regenerate with scripts/build-supabase-image-staging.mjs)
+venue-images-for-supabase/
 
 # typescript
 *.tsbuildinfo

@@ -9,6 +9,7 @@ import {
 } from "react-native";
 import React from "react";
 import { colors, recipeList } from "../Constant";
+import { getVenueImageUrl } from "../utils/venueImageUrl";
 import { FontAwesome } from "@expo/vector-icons";
 import { useNavigation } from "@react-navigation/native";
 
@@ -36,7 +37,13 @@ const RecipeCard = ({ categoriesState, searchQuery, city }) => {
 			<FlatList
 				key={listKey}
 				data={filteredRecipes}
-				renderItem={({ item }) => (
+				renderItem={({ item }) => {
+					const imageUri = getVenueImageUrl(
+						item.city,
+						item.categoryId,
+						item.name,
+					);
+					return (
 					<Pressable
 						onPress={() => navigation.navigate("RecipeDetail", { item: item })}
 						style={{
@@ -52,10 +59,21 @@ const RecipeCard = ({ categoriesState, searchQuery, city }) => {
 							paddingVertical: 26,
 						}}
 					>
+						{imageUri ? (
 						<Image
-							source={item.image}
+							source={{ uri: imageUri }}
 							style={{ width: 150, height: 150, resizeMode: "contain" }}
 						/>
+						) : (
+						<View
+							style={{
+								width: 150,
+								height: 150,
+								borderRadius: 8,
+								backgroundColor: "#e8e8e8",
+							}}
+						/>
+						)}
 						<Text>{item.name}</Text>
 						<View style={{ flexDirection: "row", marginTop: 8 }}>
 							<View style={{ flexDirection: "row" }}>
@@ -68,7 +86,8 @@ const RecipeCard = ({ categoriesState, searchQuery, city }) => {
 							</View>
 						</View>
 					</Pressable>
-				)}
+					);
+				}}
 				numColumns={numColumns}
 				columnWrapperStyle={{
 					justifyContent: "space-between",

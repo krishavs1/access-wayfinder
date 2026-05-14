@@ -48,7 +48,6 @@ export const recipeList = [
 		categoryId: "01",
 		name: "16 Prospect Wine Bar",
 		city: "Westfield",
-		image: require("../assets/images/16Prospect.png"),
 		rating: "4.7",
 		ingredients: ["Ramp leads up to entrance, good wide entrance"],
 		time: "5/5",
@@ -67,7 +66,6 @@ export const recipeList = [
 		categoryId: "01",
 		name: "1958 Cuban Cuisine",
 		city: "Westfield",
-		image: require("../assets/images/1958CubanCuisine.png"),
 		rating: "4.0",
 		ingredients: ["Large step in the front"],
 		time: "3/5",
@@ -86,7 +84,6 @@ export const recipeList = [
 		categoryId: "01",
 		name: "Addams Tavern",
 		city: "Westfield",
-		image: require("../assets/images/addams.png"),
 		rating: "5.0",
 		ingredients: ["All good/only first floor as second floor requires stairs"],
 		time: "5/5",
@@ -105,7 +102,6 @@ export const recipeList = [
 		categoryId: "01",
 		name: "Ahrre's Coffee",
 		city: "Westfield",
-		image: require("../assets/images/Ahrre.png"),
 		rating: "3.7",
 		ingredients: ["Not large enough, many steps leading up"],
 		time: "2/5",
@@ -124,7 +120,6 @@ export const recipeList = [
 		categoryId: "01",
 		name: "Akai Japanese Sushi",
 		city: "Westfield",
-		image: require("../assets/images/Akai.png"),
 		rating: "4.7",
 		ingredients: ["Good entrance"],
 		time: "5/5",
@@ -143,7 +138,6 @@ export const recipeList = [
 		categoryId: "01",
 		name: "Apricot",
 		city: "Westfield",
-		image: require("../assets/images/apricot.png"),
 		rating: "Pending",
 		ingredients: ["Submit on form on home screen"],
 		time: "/5",
@@ -162,7 +156,6 @@ export const recipeList = [
 		name: "Bovellas Pastry Shoppe",
 		city: "Westfield",
 		rating: "4.7",
-		image: require("../assets/images/Bovellas.png"),
 		ingredients: ["Adequate pull-side clearance"],
 		time: "5/5",
 		difficulty: "5/5",
@@ -180,7 +173,6 @@ export const recipeList = [
 		categoryId: "01",
 		name: "Boxwood Coffee Roasters",
 		city: "Westfield",
-		image: require("../assets/images/Boxwood.png"),
 		rating: "4.7",
 		ingredients: ["Wide and accessible entrance"],
 		time: "5/5",
@@ -199,7 +191,6 @@ export const recipeList = [
 		categoryId: "01",
 		name: "Brick Oven",
 		city: "Westfield",
-		image: require("../assets/images/brickoven.png"),
 		rating: "4.7",
 		ingredients: ["Good entrance, no steps"],
 		time: "5/5",
@@ -218,7 +209,6 @@ export const recipeList = [
 		categoryId: "01",
 		name: "Brunella Coffee & Deli",
 		city: "Westfield",
-		image: require("../assets/images/brunella.png"),
 		rating: "3.3",
 		ingredients: ["Has a step in front of the door"],
 		time: "3/5",
@@ -237,7 +227,6 @@ export const recipeList = [
 		categoryId: "01",
 		name: "Casa di Pizza",
 		city: "Westfield",
-		image: require("../assets/images/casa.png"),
 		rating: "4.7",
 		ingredients: ["Good entrance, has a small bathroom"],
 		time: "5/5",
@@ -256,7 +245,6 @@ export const recipeList = [
 		categoryId: "01",
 		name: "Chez Catherine",
 		city: "Westfield",
-		image: require("../assets/images/chezcatherine.png"),
 		rating: "4.7",
 		ingredients: ["Good entrance"],
 		time: "5/5",
@@ -275,7 +263,6 @@ export const recipeList = [
 		categoryId: "01",
 		name: "Chipotle",
 		city: "Westfield",
-		image: require("../assets/images/chipotle.png"),
 		rating: "5.0",
 		ingredients: ["Good entrance in front and back"],
 		time: "5/5",
@@ -294,7 +281,6 @@ export const recipeList = [
 		categoryId: "01",
 		name: "Chocolate Bar",
 		city: "Westfield",
-		image: require("../assets/images/Chocolate-bar-westfield.png"),
 		rating: "4.7",
 		ingredients: ["Good entrance"],
 		time: "5/5",
@@ -313,7 +299,6 @@ export const recipeList = [
 		categoryId: "01",
 		name: "Chutzpah Kitchen",
 		city: "Westfield",
-		image: require("../assets/images/images.png"),
 		rating: "4.7",
 		ingredients: ["Large entrance, good ramp in front"],
 		time: "5/5",
@@ -332,7 +317,6 @@ export const recipeList = [
 		categoryId: "01",
 		name: "Cinnaholic",
 		city: "Westfield",
-		image: require("../assets/images/Cinnaholic.png"),
 		rating: "3.7",
 		ingredients: ["Large step in the front without a ramp"],
 		time: "2/5",
@@ -351,7 +335,6 @@ export const recipeList = [
 		categoryId: "01",
 		name: "Cold Stone Creamery",
 		city: "Westfield",
-		image: require("../assets/images/coldstone.png"),
 		rating: "4.3",
 		ingredients: ["Large entrance, good ramp in front"],
 		time: "5/5",
@@ -370,7 +353,6 @@ export const recipeList = [
 		categoryId: "01",
 		name: "Cosimo",
 		city: "Westfield",
-		image: require("../assets/images/cosimo.png"),
 		rating: "4.7",
 		ingredients: ["Good entrance, chairs with no arms"],
 		time: "5/5",
@@ -389,7 +371,6 @@ export const recipeList = [
 		categoryId: "01",
 		name: "Di Farina Pizzeria",
 		city: "Westfield",
-		image: require("../assets/images/difarina.png"),
 		rating: "5.0",
 		ingredients: ["Good ramped entrance"],
 		time: "5/5",
@@ -408,7 +389,6 @@ export const recipeList = [
 		categoryId: "01",
 		name: "Farinolio",
 		city: "Westfield",
-		image: require("../assets/images/farinolio.png"),
 		rating: "5.0",
 		ingredients: ["Yes, all good with no steps"],
 		time: "5/5",
@@ -427,7 +407,6 @@ export const recipeList = [
 		categoryId: "01",
 		name: "Ferraro's Restaurant",
 		city: "Westfield",
-		image: require("../assets/images/ferraro.png"),
 		rating: "4.0",
 		ingredients: ["Open entrance"],
 		time: "5/5",
@@ -446,7 +425,6 @@ export const recipeList = [
 		categoryId: "01",
 		name: "Flamma Pizza",
 		city: "Westfield",
-		image: require("../assets/images/flamma.png"),
 		rating: "4.7",
 		ingredients: ["Good entrance"],
 		time: "5/5",
@@ -465,7 +443,6 @@ export const recipeList = [
 		categoryId: "01",
 		name: "Five Guys",
 		city: "Westfield",
-		image: require("../assets/images/fiveguys.png"),
 		rating: "5.0",
 		ingredients: ["Great entrance with pull handles and push bars"],
 		time: "5/5",
@@ -484,7 +461,6 @@ export const recipeList = [
 		categoryId: "01",
 		name: "Fresh Bui",
 		city: "Westfield",
-		image: require("../assets/images/fresh.png"),
 		rating: "4.0",
 		ingredients: ["No steps, adequate room for wheelchair"],
 		time: "5/5",
@@ -503,7 +479,6 @@ export const recipeList = [
 		categoryId: "01",
 		name: "Fresh and Co",
 		city: "Westfield",
-		image: require("../assets/images/fresh.png"),
 		rating: "Pending",
 		ingredients: ["Submit on form on home screen"],
 		time: "/5",
@@ -521,7 +496,6 @@ export const recipeList = [
 		categoryId: "01",
 		name: "FroYo",
 		city: "Westfield",
-		image: require("../assets/images/Froyo.png"),
 		rating: "5.0",
 		ingredients: ["Adequate entrance"],
 		time: "5/5",
@@ -540,7 +514,6 @@ export const recipeList = [
 		categoryId: "01",
 		name: "Hershey's Deli",
 		city: "Westfield",
-		image: require("../assets/images/hershey.png"),
 		rating: "4.7",
 		ingredients: ["One door is easily accessible to people in wheelchairs"],
 		time: "5/5",
@@ -559,7 +532,6 @@ export const recipeList = [
 		categoryId: "01",
 		name: "Hunan Wok III",
 		city: "Westfield",
-		image: require("../assets/images/hunan.png"),
 		rating: "4.7",
 		ingredients: ["Wide entrance"],
 		time: "5/5",
@@ -578,7 +550,6 @@ export const recipeList = [
 		categoryId: "01",
 		name: "Inspiration Roll",
 		city: "Westfield",
-		image: require("../assets/images/inspiration.png"),
 		rating: "4.7",
 		ingredients: ["Large step in the front"],
 		time: "5/5",
@@ -597,7 +568,6 @@ export const recipeList = [
 		categoryId: "01",
 		name: "Jade Garden",
 		city: "Westfield",
-		image: require("../assets/images/jade.png"),
 		rating: "3.7",
 		ingredients: ["Large step in the front of entrance"],
 		time: "3/5",
@@ -616,7 +586,6 @@ export const recipeList = [
 		categoryId: "01",
 		name: "James Ward Mansion",
 		city: "Westfield",
-		image: require("../assets/images/jamesward.png"),
 		rating: "4.2",
 		ingredients: ["Large step in the front"],
 		time: "2/5",
@@ -635,7 +604,6 @@ export const recipeList = [
 		categoryId: "01",
 		name: "Limani Seafood Grill",
 		city: "Westfield",
-		image: require("../assets/images/limani.png"),
 		rating: "4.2",
 		ingredients: ["Multiple accessible doors with push handles"],
 		time: "5/5",
@@ -654,7 +622,6 @@ export const recipeList = [
 		categoryId: "01",
 		name: "Lions Roar",
 		city: "Westfield",
-		image: require("../assets/images/lions.png"),
 		rating: "4.0",
 		ingredients: ["Large step in the front of the entrance"],
 		time: "3/5",
@@ -673,7 +640,6 @@ export const recipeList = [
 		categoryId: "01",
 		name: "Manhatten Bagel",
 		city: "Westfield",
-		image: require("../assets/images/manhattan.png"),
 		rating: "5.0",
 		ingredients: ["Wide entrance with push handles"],
 		time: "5/5",
@@ -692,7 +658,6 @@ export const recipeList = [
 		categoryId: "01",
 		name: "Maya Thai Eatery",
 		city: "Westfield",
-		image: require("../assets/images/maya.png"),
 		rating: "Pending",
 		ingredients: ["Submit information with link on home screen!"],
 		time: "/5",
@@ -711,7 +676,6 @@ export const recipeList = [
 		categoryId: "01",
 		name: "Mulberry House",
 		city: "Westfield",
-		image: require("../assets/images/mulberry.png"),
 		rating: "5.0",
 		ingredients: ["No steps, adequate room for wheelchair and ramp outside for wheelchair"],
 		time: "5/5",
@@ -730,7 +694,6 @@ export const recipeList = [
 		categoryId: "01",
 		name: "NY Korean Barbeque",
 		city: "Westfield",
-		image: require("../assets/images/korean.png"),
 		rating: "4.7",
 		ingredients: ["ADA compliant"],
 		time: "5/5",
@@ -749,7 +712,6 @@ export const recipeList = [
 		categoryId: "01",
 		name: "Old Havana",
 		city: "Westfield",
-		image: require("../assets/images/havana.png"),
 		rating: "4.0",
 		ingredients: ["Small step in the front"],
 		time: "4/5",
@@ -768,7 +730,6 @@ export const recipeList = [
 		categoryId: "01",
 		name: "Ono Bowls",
 		city: "Westfield",
-		image: require("../assets/images/ono.png"),
 		rating: "4.3",
 		ingredients: ["Good pull handle entrance"],
 		time: "5/5",
@@ -787,7 +748,6 @@ export const recipeList = [
 		categoryId: "01",
 		name: "Orgreen Poke",
 		city: "Westfield",
-		image: require("../assets/images/orgreen.png"),
 		rating: "4.0",
 		ingredients: ["Good entrance"],
 		time: "5/5",
@@ -806,7 +766,6 @@ export const recipeList = [
 		categoryId: "01",
 		name: "Outta hand Pizza",
 		city: "Westfield",
-		image: require("../assets/images/outta.png"),
 		rating: "4.7",
 		ingredients: ["Wide entrance with pull handle"],
 		time: "5/5",
@@ -825,7 +784,6 @@ export const recipeList = [
 		categoryId: "01",
 		name: "Qdoba Mexican Eats",
 		city: "Westfield",
-		image: require("../assets/images/Qdoba.png"),
 		rating: "4.3",
 		ingredients: ["Wide entrance with pull handle on both sides"],
 		time: "5/5",
@@ -844,7 +802,6 @@ export const recipeList = [
 		categoryId: "01",
 		name: "Rockn' Joe",
 		city: "Westfield",
-		image: require("../assets/images/rockn.png"),
 		rating: "3.7",
 		ingredients: ["Good entrance with pull handle"],
 		time: "5/5",
@@ -863,7 +820,6 @@ export const recipeList = [
 		categoryId: "01",
 		name: "Starbucks",
 		city: "Westfield",
-		image: require("../assets/images/starbucks.png"),
 		rating: "5.0",
 		ingredients: ["Entrances are good on both sides, good pull-side clearance and wide doors"],
 		time: "5/5",
@@ -882,7 +838,6 @@ export const recipeList = [
 		categoryId: "01",
 		name: "Vicki's Diner",
 		city: "Westfield",
-		image: require("../assets/images/vicki.png"),
 		rating: "4.7",
 		ingredients: ["Good door with wheelchair miniramp to the left"],
 		time: "5/5",
@@ -901,7 +856,6 @@ export const recipeList = [
 		categoryId: "01",
 		name: "Westfield Diner",
 		city: "Westfield",
-		image: require("../assets/images/westfield.png"),
 		rating: "5.0",
 		ingredients: ["Good entrance"],
 		time: "5/5",
@@ -920,7 +874,6 @@ export const recipeList = [
 		categoryId: "01",
 		name: "Westfield Seafood",
 		city: "Westfield",
-		image: require("../assets/images/seafood.png"),
 		rating: "4.2",
 		ingredients: ["Ramped entrance"],
 		time: "5/5",
@@ -939,7 +892,6 @@ export const recipeList = [
 		categoryId: "02",
 		name: "Adlers Jewelers",
 		city: "Westfield",
-		image: require("../assets/images/Adlers.png"),
 		rating: "4.7",
 		ingredients: ["Ramp leads up to entrance, good wide entrance"],
 		time: "5/5",
@@ -958,7 +910,6 @@ export const recipeList = [
 		categoryId: "02",
 		name: "American Shoe Repair",
 		city: "Westfield",
-		image: require("../assets/images/american.png"),
 		rating: "3.7",
 		ingredients: ["Large step in the front"],
 		time: "2/5",
@@ -977,7 +928,6 @@ export const recipeList = [
 		categoryId: "02",
 		name: "Athleta",
 		city: "Westfield",
-		image: require("../assets/images/Athleta.png"),
 		rating: "4.7",
 		ingredients: ["Good ramped entrance"],
 		time: "5/5",
@@ -996,7 +946,6 @@ export const recipeList = [
 		categoryId: "02",
 		name: "Banana Republic",
 		city: "Westfield",
-		image: require("../assets/images/Banana.png"),
 		rating: "5.0",
 		ingredients: ["Ramped entrance no issues"],
 		time: "5/5",
@@ -1015,7 +964,6 @@ export const recipeList = [
 		categoryId: "02",
 		name: "Best Foot Forward",
 		city: "Westfield",
-		image: require("../assets/images/best.png"),
 		rating: "3.7",
 		ingredients: ["Entrance is good"],
 		time: "5/5",
@@ -1034,7 +982,6 @@ export const recipeList = [
 		categoryId: "02",
 		name: "Beyond Trends",
 		city: "Westfield",
-		image: require("../assets/images/Beyond.png"),
 		rating: "4.3",
 		ingredients: ["Good entrance"],
 		time: "5/5",
@@ -1053,7 +1000,6 @@ export const recipeList = [
 		categoryId: "02",
 		name: "Bridget's Irish Cottages",
 		city: "Westfield",
-		image: require("../assets/images/Bridget.png"),
 		rating: "3.3",
 		ingredients: ["Wheelchair-accessible entrance"],
 		time: "5/5",
@@ -1072,7 +1018,6 @@ export const recipeList = [
 		categoryId: "02",
 		name: "Claire's",
 		city: "Westfield",
-		image: require("../assets/images/penis.png"),
 		rating: "4.7",
 		ingredients: ["Good entrance"],
 		time: "5/5",
@@ -1091,7 +1036,6 @@ export const recipeList = [
 		categoryId: "02",
 		name: "Continental Tailoring",
 		city: "Westfield",
-		image: require("../assets/images/Continental.png"),
 		rating: "4.0",
 		ingredients: ["Entrance is fine"],
 		time: "5/5",
@@ -1110,7 +1054,6 @@ export const recipeList = [
 		categoryId: "03",
 		name: "Elegant Image",
 		city: "Westfield",
-		image: require("../assets/images/Elegant.png"),
 		rating: "4.7",
 		ingredients: ["Ramped entrance in the front"],
 		time: "5/5",
@@ -1129,7 +1072,6 @@ export const recipeList = [
 		categoryId: "02",
 		name: "Evalyn Dunn",
 		city: "Westfield",
-		image: require("../assets/images/Evalyn.png"),
 		rating: "5.0",
 		ingredients: ["Built to all accessbility standards"],
 		time: "5/5",
@@ -1148,7 +1090,6 @@ export const recipeList = [
 		categoryId: "08",
 		name: "Facial Reality Spa",
 		city: "Westfield",
-		image: require("../assets/images/Facial.png"),
 		rating: "4.3",
 		ingredients: ["Large step in the front"],
 		time: "3/5",
@@ -1167,7 +1108,6 @@ export const recipeList = [
 		categoryId: "02",
 		name: "Flair Cleaners",
 		city: "Westfield",
-		image: require("../assets/images/Flair.png"),
 		rating: "4.0",
 		ingredients: ["Two steps in the front"],
 		time: "3/5",
@@ -1186,7 +1126,6 @@ export const recipeList = [
 		categoryId: "02",
 		name: "G O Keller's Inc",
 		city: "Westfield",
-		image: require("../assets/images/GO.png"),
 		rating: "4.3",
 		ingredients: ["Large step in the front"],
 		time: "5/5",
@@ -1205,7 +1144,6 @@ export const recipeList = [
 		categoryId: "02",
 		name: "Gap",
 		city: "Westfield",
-		image: require("../assets/images/Gap.png"),
 		rating: "5.0",
 		ingredients: ["Good entrance in front and back"],
 		time: "5/5",
@@ -1224,7 +1162,6 @@ export const recipeList = [
 		categoryId: "02",
 		name: "Glamourous Girlz",
 		city: "Westfield",
-		image: require("../assets/images/Glamourous.png"),
 		rating: "3.3",
 		ingredients: ["Stairs in the front"],
 		time: "2/5",
@@ -1243,7 +1180,6 @@ export const recipeList = [
 		categoryId: "02",
 		name: "Gordin & Sons",
 		city: "Westfield",
-		image: require("../assets/images/Gordin.png"),
 		rating: "5.0",
 		ingredients: ["Yes, easy entrance and high maneuverability"],
 		time: "5/5",
@@ -1262,7 +1198,6 @@ export const recipeList = [
 		categoryId: "08",
 		name: "Guillotine Salon",
 		city: "Westfield",
-		image: require("../assets/images/Guillotine.png"),
 		rating: "3.3",
 		ingredients: ["Second floor must access with staircase"],
 		time: "1/5",
@@ -1281,7 +1216,6 @@ export const recipeList = [
 		categoryId: "08",
 		name: "Haircut Bar",
 		city: "Westfield",
-		image: require("../assets/images/Haircut.png"),
 		rating: "4.3",
 		ingredients: ["Step in the front"],
 		time: "3/5",
@@ -1300,7 +1234,6 @@ export const recipeList = [
 		categoryId: "02",
 		name: "Hope Chest",
 		city: "Westfield",
-		image: require("../assets/images/Hope.png"),
 		rating: "3.3",
 		ingredients: ["Small door entrance"],
 		time: "4/5",
@@ -1319,7 +1252,6 @@ export const recipeList = [
 		categoryId: "02",
 		name: "Indigo Art Studio",
 		city: "Westfield",
-		image: require("../assets/images/Indigo.png"),
 		rating: "5.0",
 		ingredients: ["On second floor, elevator available"],
 		time: "5/5",
@@ -1338,7 +1270,6 @@ export const recipeList = [
 		categoryId: "02",
 		name: "J. McLaughlin",
 		city: "Westfield",
-		image: require("../assets/images/J.png"),
 		rating: "2.7",
 		ingredients: ["Large step in the front"],
 		time: "3/5",
@@ -1357,7 +1288,6 @@ export const recipeList = [
 		categoryId: "02",
 		name: "JackRabbit x Fleet Feet",
 		city: "Westfield",
-		image: require("../assets/images/JackRabbit.png"),
 		rating: "5.0",
 		ingredients: ["Large door entrance"],
 		time: "5/5",
@@ -1376,7 +1306,6 @@ export const recipeList = [
 		categoryId: "02",
 		name: "John Robert Custom",
 		city: "Westfield",
-		image: require("../assets/images/John.png"),
 		rating: "4.3",
 		ingredients: ["Small step in the front of the entrance"],
 		time: "4/5",
@@ -1395,7 +1324,6 @@ export const recipeList = [
 		categoryId: "02",
 		name: "Jos A Bank",
 		city: "Westfield",
-		image: require("../assets/images/Jos.png"),
 		rating: "5.0",
 		ingredients: ["Wheelchair accessible entrance"],
 		time: "5/5",
@@ -1414,7 +1342,6 @@ export const recipeList = [
 		categoryId: "02",
 		name: "Jude Connally",
 		city: "Westfield",
-		image: require("../assets/images/Jude.png"),
 		rating: "4.3",
 		ingredients: ["Doorknob to enter (can be hard for some with lack of movement)"],
 		time: "3/5",
@@ -1433,7 +1360,6 @@ export const recipeList = [
 		categoryId: "08",
 		name: "Kennedy's Barber",
 		city: "Westfield",
-		image: require("../assets/images/Kennedy.png"),
 		rating: "4.7",
 		ingredients: ["Good spacious door"],
 		time: "5/5",
@@ -1452,7 +1378,6 @@ export const recipeList = [
 		categoryId: "02",
 		name: "Luigino Tailor",
 		city: "Westfield",
-		image: require("../assets/images/Luigino.png"),
 		rating: "4.7",
 		ingredients: ["Good entrance"],
 		time: "5/5",
@@ -1471,7 +1396,6 @@ export const recipeList = [
 		categoryId: "08",
 		name: "Luna Grace Beauty",
 		city: "Westfield",
-		image: require("../assets/images/Luna.png"),
 		rating: "3.7",
 		ingredients: ["Doorknob handle does not meet ADA standards and step in front"],
 		time: "2/5",
@@ -1490,7 +1414,6 @@ export const recipeList = [
 		categoryId: "02",
 		name: "Madeline Moss",
 		city: "Westfield",
-		image: require("../assets/images/Madeline.png"),
 		rating: "5.0",
 		ingredients: ["Pull handles and wide door"],
 		time: "5/5",
@@ -1509,7 +1432,6 @@ export const recipeList = [
 		categoryId: "02",
 		name: "Michaelangelo",
 		city: "Westfield",
-		image: require("../assets/images/Michealangelo.png"),
 		rating: "5.0",
 		ingredients: ["Good entrance, accommodating to wheelchair users"],
 		time: "5/5",
@@ -1528,7 +1450,6 @@ export const recipeList = [
 		categoryId: "02",
 		name: "Mimi & Hill",
 		city: "Westfield",
-		image: require("../assets/images/Mimi.png"),
 		rating: "4.0",
 		ingredients: ["Wide, accessible entrance"],
 		time: "5/5",
@@ -1547,7 +1468,6 @@ export const recipeList = [
 		categoryId: "02",
 		name: "N&C Jewelers",
 		city: "Westfield",
-		image: require("../assets/images/N.png"),
 		rating: "4.7",
 		ingredients: ["No steps, adequate room for wheelchair"],
 		time: "5/5",
@@ -1566,7 +1486,6 @@ export const recipeList = [
 		categoryId: "08",
 		name: "Nails Spa & Beyond",
 		city: "Westfield",
-		image: require("../assets/images/nails.png"),
 		rating: "5.0",
 		ingredients: ["Good entrance"],
 		time: "5/5",
@@ -1585,7 +1504,6 @@ export const recipeList = [
 		categoryId: "03",
 		name: "Patricia & Paul",
 		city: "Westfield",
-		image: require("../assets/images/Patricia.png"),
 		rating: "5.0",
 		ingredients: ["Accessible entrance, usually kept open"],
 		time: "5/5",
@@ -1604,7 +1522,6 @@ export const recipeList = [
 		categoryId: "08",
 		name: "R Studio",
 		city: "Westfield",
-		image: require("../assets/images/R.png"),
 		rating: "4.7",
 		ingredients: ["Large step in the front"],
 		time: "5/5",
@@ -1623,7 +1540,6 @@ export const recipeList = [
 		categoryId: "08",
 		name: "Salon Peak",
 		city: "Westfield",
-		image: require("../assets/images/SalonVisage.png"),
 		rating: "4.7",
 		ingredients: ["Good entrance"],
 		time: "5/5",
@@ -1642,7 +1558,6 @@ export const recipeList = [
 		categoryId: "02",
 		name: "Sherwin-Williams",
 		city: "Westfield",
-		image: require("../assets/images/Sherwin.png"),
 		rating: "4.7",
 		ingredients: ["Good entrance"],
 		time: "5/5",
@@ -1661,7 +1576,6 @@ export const recipeList = [
 		categoryId: "02",
 		name: "Starlight Cleaners",
 		city: "Westfield",
-		image: require("../assets/images/Starlight.png"),
 		rating: "5.0",
 		ingredients: ["Entrance is fine"],
 		time: "5/5",
@@ -1680,7 +1594,6 @@ export const recipeList = [
 		categoryId: "08",
 		name: "Supercuts",
 		city: "Westfield",
-		image: require("../assets/images/Supercuts.png"),
 		rating: "5.0",
 		ingredients: ["No steps, good entrance"],
 		time: "5/5",
@@ -1699,7 +1612,6 @@ export const recipeList = [
 		categoryId: "02",
 		name: "Tamar Jewelery",
 		city: "Westfield",
-		image: require("../assets/images/Tamar.png"),
 		rating: "3.7",
 		ingredients: ["Small step in the front, door might be a little small"],
 		time: "3/5",
@@ -1718,7 +1630,6 @@ export const recipeList = [
 		categoryId: "08",
 		name: "U Relax Spa",
 		city: "Westfield",
-		image: require("../assets/images/URelax.png"),
 		rating: "5.0",
 		ingredients: ["Good entrance"],
 		time: "5/5",
@@ -1737,7 +1648,6 @@ export const recipeList = [
 		categoryId: "02",
 		name: "Urban Outfitters",
 		city: "Westfield",
-		image: require("../assets/images/Urban.png"),
 		rating: "4.3",
 		ingredients: ["Accessible entrance"],
 		time: "5/5",
@@ -1756,7 +1666,6 @@ export const recipeList = [
 		categoryId: "02",
 		name: "Warby Parker",
 		city: "Westfield",
-		image: require("../assets/images/Warby.png"),
 		rating: "4.7",
 		ingredients: ["Wide door with pull bars"],
 		time: "5/5",
@@ -1775,7 +1684,6 @@ export const recipeList = [
 		categoryId: "02",
 		name: "Westfield Tailors",
 		city: "Westfield",
-		image: require("../assets/images/WestfieldTailors.png"),
 		rating: "5.0",
 		ingredients: ["Front entrance is good"],
 		time: "5/5",
@@ -1794,7 +1702,6 @@ export const recipeList = [
 		categoryId: "08",
 		name: "Wolves Den",
 		city: "Westfield",
-		image: require("../assets/images/WolvesDen.png"),
 		rating: "5.0",
 		ingredients: ["Good entrance"],
 		time: "5/5",
@@ -1813,7 +1720,6 @@ export const recipeList = [
 		categoryId: "03",
 		name: "Baron's Drug Store",
 		city: "Westfield",
-		image: require("../assets/images/barons.png"),
 		rating: "4.3",
 		ingredients: ["Both entrances are good"],
 		time: "5/5",
@@ -1832,7 +1738,6 @@ export const recipeList = [
 		categoryId: "03",
 		name: "Trader Joe's",
 		city: "Westfield",
-		image: require("../assets/images/Trader.png"),
 		rating: "5.0",
 		ingredients: ["Good entrance with automatic doors"],
 		time: "5/5",
@@ -1851,7 +1756,6 @@ export const recipeList = [
 		categoryId: "03",
 		name: "Walgreens",
 		city: "Westfield",
-		image: require("../assets/images/Walgreens.png"),
 		rating: "5.0",
 		ingredients: ["Good entrance with automatic wide doors"],
 		time: "5/5",
@@ -1870,7 +1774,6 @@ export const recipeList = [
 		categoryId: "03",
 		name: "Westfield Pharmacy",
 		city: "Westfield",
-		image: require("../assets/images/Pharmacy.png"),
 		rating: "5.0",
 		ingredients: ["Very spacious door with pull handles"],
 		time: "5/5",
@@ -1889,7 +1792,6 @@ export const recipeList = [
 		categoryId: "03",
 		name: "Westfield Seafood",
 		city: "Westfield",
-		image: require("../assets/images/seafood.png"),
 		rating: "4.2",
 		ingredients: ["Ramped entrance"],
 		time: "5/5",
@@ -1908,7 +1810,6 @@ export const recipeList = [
 		categoryId: "04",
 		name: "Atlantic Medical",
 		city: "Westfield",
-		image: require("../assets/images/atlantic.png"),
 		rating: "5.0",
 		ingredients: ["All good, automatic doors with spacious interior"],
 		time: "5/5",
@@ -1927,7 +1828,6 @@ export const recipeList = [
 		categoryId: "04",
 		name: "Baron's Drug Store",
 		city: "Westfield",
-		image: require("../assets/images/barons.png"),
 		rating: "4.3",
 		ingredients: ["Both entrances are good"],
 		time: "5/5",
@@ -1946,7 +1846,6 @@ export const recipeList = [
 		categoryId: "04",
 		name: "Brunner Eye Care",
 		city: "Westfield",
-		image: require("../assets/images/brunner.png"),
 		rating: "4.7",
 		ingredients: ["All good, ramped entrance"],
 		time: "5/5",
@@ -1965,7 +1864,6 @@ export const recipeList = [
 		categoryId: "04",
 		name: "Club Pilates",
 		city: "Westfield",
-		image: require("../assets/images/PilatesC.png"),
 		rating: "5.0",
 		ingredients: ["Good entrance"],
 		time: "5/5",
@@ -1984,7 +1882,6 @@ export const recipeList = [
 		categoryId: "04",
 		name: "Dentologem",
 		city: "Westfield",
-		image: require("../assets/images/Dentologem.png"),
 		rating: "5.0",
 		ingredients: ["Good entrance"],
 		time: "5/5",
@@ -2003,7 +1900,6 @@ export const recipeList = [
 		categoryId: "04",
 		name: "Green Room",
 		city: "Westfield",
-		image: require("../assets/images/Green.png"),
 		rating: "4.7",
 		ingredients: ["Yes, easy entrance and high maneuverability"],
 		time: "5/5",
@@ -2022,7 +1918,6 @@ export const recipeList = [
 		categoryId: "04",
 		name: "Haven Pelvic PT",
 		city: "Westfield",
-		image: require("../assets/images/Haven.png"),
 		rating: "5.0",
 		ingredients: ["Wheelchair ramp for entrance, wide door"],
 		time: "5/5",
@@ -2041,7 +1936,6 @@ export const recipeList = [
 		categoryId: "04",
 		name: "HearingLife",
 		city: "Westfield",
-		image: require("../assets/images/HearingL.png"),
 		rating: "4.7",
 		ingredients: ["Good entrance with pull handle"],
 		time: "5/5",
@@ -2060,7 +1954,6 @@ export const recipeList = [
 		categoryId: "04",
 		name: "I to Eye",
 		city: "Westfield",
-		image: require("../assets/images/I.png"),
 		rating: "5.0",
 		ingredients: ["Ramped entrance"],
 		time: "5/5",
@@ -2079,7 +1972,6 @@ export const recipeList = [
 		categoryId: "04",
 		name: "JAG-ONE",
 		city: "Westfield",
-		image: require("../assets/images/JAG.png"),
 		rating: "5.0",
 		ingredients: ["Good entrance"],
 		time: "5/5",
@@ -2098,7 +1990,6 @@ export const recipeList = [
 		categoryId: "04",
 		name: "Laser Dental",
 		city: "Westfield",
-		image: require("../assets/images/Laser.png"),
 		rating: "5.0",
 		ingredients: ["Ramped entrance and wide door"],
 		time: "5/5",
@@ -2117,7 +2008,6 @@ export const recipeList = [
 		categoryId: "04",
 		name: "Professional PT",
 		city: "Westfield",
-		image: require("../assets/images/ProfessionalPT.png"),
 		rating: "4.7",
 		ingredients: ["Good entrance with pull handles"],
 		time: "5/5",
@@ -2136,7 +2026,6 @@ export const recipeList = [
 		categoryId: "04",
 		name: "Raritan Valley Gyrotonic",
 		city: "Westfield",
-		image: require("../assets/images/Raritan.png"),
 		rating: "5.0",
 		ingredients: ["Good entrance"],
 		time: "5/5",
@@ -2155,7 +2044,6 @@ export const recipeList = [
 		categoryId: "04",
 		name: "Satsang Yoga Studio",
 		city: "Westfield",
-		image: require("../assets/images/Satsang.png"),
 		rating: "3.3",
 		ingredients: ["Steep stairs on entrance to reach the studio"],
 		time: "1/5",
@@ -2174,7 +2062,6 @@ export const recipeList = [
 		categoryId: "05",
 		name: "Bank of America",
 		city: "Westfield",
-		image: require("../assets/images/BOA.png"),
 		rating: "5.0",
 		time: "5/5",
 		difficulty: "5/5",
@@ -2192,7 +2079,6 @@ export const recipeList = [
 		categoryId: "05",
 		name: "Chase Bank",
 		city: "Westfield",
-		image: require("../assets/images/Chase.png"),
 		rating: "5.0",
 		ingredients: ["Ramp to enter from the parking lot"],
 		time: "5/5",
@@ -2211,7 +2097,6 @@ export const recipeList = [
 		categoryId: "05",
 		name: "Haven Savings Bank",
 		city: "Westfield",
-		image: require("../assets/images/bigpenis.png"),
 		rating: "5.0",
 		ingredients: ["Accessible from the front of the bank"],
 		time: "5/5",
@@ -2230,7 +2115,6 @@ export const recipeList = [
 		categoryId: "05",
 		name: "PNC Bank",
 		city: "Westfield",
-		image: require("../assets/images/PNC.png"),
 		rating: "5.0",
 		ingredients: ["No steps, adequate room for wheelchair "],
 		time: "5/5",
@@ -2249,7 +2133,6 @@ export const recipeList = [
 		categoryId: "05",
 		name: "Wells Fargo",
 		city: "Westfield",
-		image: require("../assets/images/Wells.png"),
 		rating: "4.3",
 		ingredients: ["Good, ramp at back of building"],
 		time: "5/5",
@@ -2268,7 +2151,6 @@ export const recipeList = [
 		categoryId: "06",
 		name: "First Baptist Church",
 		city: "Westfield",
-		image: require("../assets/images/Baptist.png"),
 		rating: "5.0",
 		ingredients: ["Wheelchair accessible entrance in the back"],
 		time: "5/5",
@@ -2287,7 +2169,6 @@ export const recipeList = [
 		categoryId: "06",
 		name: "First Congregational Church",
 		city: "Westfield",
-		image: require("../assets/images/Congregational.png"),
 		rating: "5.0",
 		ingredients: ["Good entrance"],
 		time: "5/5",
@@ -2306,7 +2187,6 @@ export const recipeList = [
 		categoryId: "06",
 		name: "First United Methodist",
 		city: "Westfield",
-		image: require("../assets/images/United.png"),
 		rating: "5.0",
 		ingredients: ["Entrance is ramped and good"],
 		time: "5/5",
@@ -2325,7 +2205,6 @@ export const recipeList = [
 		categoryId: "07",
 		name: "AT&T",
 		city: "Westfield",
-		image: require("../assets/images/att.png"),
 		rating: "4.3",
 		ingredients: ["Step in front of it, have to go to the side"],
 		time: "4/5",
@@ -2344,7 +2223,6 @@ export const recipeList = [
 		categoryId: "07",
 		name: "Mimi & Hill Design",
 		city: "Westfield",
-		image: require("../assets/images/Mimi.png"),
 		rating: "4.0",
 		ingredients: ["Wide, accessible entrance"],
 		time: "5/5",
@@ -2363,7 +2241,6 @@ export const recipeList = [
 		categoryId: "07",
 		name: "NosVino",
 		city: "Westfield",
-		image: require("../assets/images/nos.png"),
 		rating: "4.0",
 		ingredients: ["No steps, adequate room for wheelchair"],
 		time: "5/5",
@@ -2382,7 +2259,6 @@ export const recipeList = [
 		categoryId: "07",
 		name: "T-Mobile",
 		city: "Westfield",
-		image: require("../assets/images/T.png"),
 		rating: "4.7",
 		ingredients: ["Step in front of it, have to go to the side"],
 		time: "5/5",
@@ -2401,7 +2277,6 @@ export const recipeList = [
 		categoryId: "07",
 		name: "The Device Shop",
 		city: "Westfield",
-		image: require("../assets/images/TheDevice.png"),
 		rating: "4.3",
 		ingredients: ["Wheelchair-accessible door, wheelchair miniramp to the left"],
 		time: "5/5",
@@ -2420,7 +2295,6 @@ export const recipeList = [
 		categoryId: "07",
 		name: "UPS Store",
 		city: "Westfield",
-		image: require("../assets/images/ups.png"),
 		rating: "4.7",
 		ingredients: ["Good door with wheelchair miniramp to the left"],
 		time: "5/5",
@@ -2439,7 +2313,6 @@ export const recipeList = [
 		categoryId: "07",
 		name: "Verizon",
 		city: "Westfield",
-		image: require("../assets/images/verizon.png"),
 		rating: "5.0",
 		ingredients: ["All good, ramp in front"],
 		time: "5/5",
@@ -2468,7 +2341,6 @@ export const recipeList = [
 	categoryId: "01",
 	name: "Ahrre's Coffee Roastery",
 	city: "Summit",
-	image: require("../assets/images/Ahrre's Coffee Roastery summit.jpg"),
 	rating: "5.0",
 	ingredients: ["Automatic door in the back; wide door in the front "],
 	time: "5/5",
@@ -2487,7 +2359,6 @@ export const recipeList = [
 		categoryId: "01",
 		name: "Ani Ramen",
 		city: "Summit",
-		image: require("../assets/images/ani-ramen-summit-nj-interior-2.jpg"),
 		rating: "4.7",
 		ingredients: ["Entrance is accessible with a pull door"],
 		time: "5/5",
@@ -2508,7 +2379,6 @@ export const recipeList = [
 			name: "Bake Bakery",
 			city: "Summit",
 
-			image: require("../assets/images/bake.jpg"),
 			rating: "5.0",
 			ingredients: ["Wide and accessible entrance"],
 			time: "5/5",
@@ -2529,7 +2399,6 @@ export const recipeList = [
 				name: "Barbacoa",
 				city: "Summit",
 
-				image: require("../assets/images/barbacoa.jpeg"),
 				rating: "5.0",
 				ingredients: ["Good entrance with a pull door"],
 				time: "5/5",
@@ -2550,7 +2419,6 @@ export const recipeList = [
 					name: "Batavia Café",
 					city: "Summit",
 
-					image: require("../assets/images/batavia.jpg"),
 					rating: "4.0",
 					ingredients: ["Entrance is accessible with a pull door"],
 					time: "4/5",
@@ -2571,7 +2439,6 @@ export const recipeList = [
 						name: "Beechwood Wine & Liquors",
 						city: "Summit",
 
-						image: require("../assets/images/beechwoodwine.jpg"),
 						rating: "3.0",
 						ingredients: ["Step in the front"],
 						time: "3/5",
@@ -2592,7 +2459,6 @@ export const recipeList = [
 							name: "Blossom",
 							city: "Summit",
 
-							image: require("../assets/images/blossom.jpg"),
 							rating: "5.0",
 							ingredients: ["Good entrance with pull door, ample room for wheelchair"],
 							time: "5/5",
@@ -2613,7 +2479,6 @@ export const recipeList = [
 								name: "Boxwood Coffee Roasters",
 								city: "Summit",
 
-								image: require("../assets/images/Boxwood.png"),
 								rating: "5.0",
 								ingredients: ["Wide and accessible entrance"],
 								time: "5/5",
@@ -2634,7 +2499,6 @@ export const recipeList = [
 									name: "Brownie Points Bakery",
 									city: "Summit",
 
-									image: require("../assets/images/brownie.jpg"),
 									rating: "3.3",
 									ingredients: ["Step in the front of the door"],
 									time: "4/5",
@@ -2656,7 +2520,6 @@ export const recipeList = [
 	name: "Bull 'n Bear Brewery",
 	city: "Summit",
 
-	image: require("../assets/images/bull.jpg"),
 	rating: "5.0",
 	ingredients: ["Entrance with ample room"],
 	time: "5/5",
@@ -2677,7 +2540,6 @@ export const recipeList = [
 		name: "Cafe Mavi Express",
 		city: "Summit",
 
-		image: require("../assets/images/cafemavi.jpg"),
 		rating: "4.3",
 		ingredients: ["Good entrance"],
 		time: "5/5",
@@ -2698,7 +2560,6 @@ export const recipeList = [
 	name: "Cambridge Wines",
 	city: "Summit",
 
-	image: require("../assets/images/cambridge.jpg"),
 	rating: "4.3",
 	ingredients: ["Really good entrance with double pull doors"],
 	time: "5/5",
@@ -2719,7 +2580,6 @@ export const recipeList = [
 		name: "Doria's Pizzeria ",
 		city: "Summit",
 
-		image: require("../assets/images/dorias.jpg"),
 		rating: "3.7",
 		ingredients: ["Step in front of the door"],
 		time: "3/5",
@@ -2740,7 +2600,6 @@ export const recipeList = [
 			name: "Dúe 360",
 			city: "Summit",
 
-			image: require("../assets/images/due360.jpg"),
 			rating: "3.7",
 			ingredients: ["Entrance in front of the store is accessible"],
 			time: "3/5",
@@ -2762,7 +2621,6 @@ export const recipeList = [
 	name: "Dunkin Donuts",
 	city: "Summit",
 
-	image: require("../assets/images/Dunkin_Donuts_logo.svg.png"),
 	rating: "5.0",
 	ingredients: ["Good entrance with pull door"],
 	time: "5/5",
@@ -2787,7 +2645,6 @@ export const recipeList = [
 				name: "Ateliers 113",
 				city: "Summit",
 
-				image: require("../assets/images/Atelier113-Back.jpg"),
 				rating: "5.0",
 				ingredients: ["Excellent push door with ramp in the front"],
 				time: "5/5",
@@ -2808,7 +2665,6 @@ export const recipeList = [
 					name: "Blow In Blow Out",
 					city: "Summit",
 
-					image: require("../assets/images/Blow In Blow Out.jpg"),
 					rating: "3.3",
 					ingredients: ["Wide door usually kept open "],
 					time: "5/5",
@@ -2829,7 +2685,6 @@ export const recipeList = [
 						name: "Bluemercury",
 						city: "Summit",
 
-						image: require("../assets/images/Bluemercury.jpg"),
 						rating: "4.7",
 						ingredients: ["Wide door usually kept open "],
 						time: "5/5",
@@ -2849,7 +2704,6 @@ export const recipeList = [
 						name: "Blushtan Summit",
 						city: "Summit",
 
-						image: require("../assets/images/blushtan.jpeg"),
 						rating: "4.3",
 						ingredients: ["Good entrance"],
 						time: "5/5",
@@ -2869,7 +2723,6 @@ export const recipeList = [
 						name: "Bodenvy",
 						city: "Summit",
 
-						image: require("../assets/images/bodenvy.jpg"),
 						rating: "5.0",
 						ingredients: ["Very large doors with ample room for wheelchairs"],
 						time: "5/5",
@@ -2890,7 +2743,6 @@ export const recipeList = [
 							name: "Brow Eyed Girl",
 							city: "Summit",
 
-							image: require("../assets/images/brow.jpg"),
 							rating: "4.0",
 							ingredients: ["Entrance is accessible with a pull door"],
 							time: "4/5",
@@ -2911,7 +2763,6 @@ export const recipeList = [
 								name: "Central Barber Shop",
 								city: "Summit",
 
-								image: require("../assets/images/centralbarber.jpg"),
 								rating: "5.0",
 								ingredients: ["Ramp to entrance with ample room"],
 								time: "5/5",
@@ -2933,7 +2784,6 @@ export const recipeList = [
 	name: "Dor L'Dor",
 	city: "Summit",
 
-	image: require("../assets/images/dor.jpg"),
 	rating: "4.7",
 	ingredients: ["Good entrance with wide door that's usually left open"],
 	time: "5/5",
@@ -2954,7 +2804,6 @@ export const recipeList = [
 		name: "Dry Bar",
 		city: "Summit",
 
-		image: require("../assets/images/drybar.jpg"),
 		rating: "4.0",
 		ingredients: ["Step in the entrance"],
 		time: "3/5",
@@ -2976,7 +2825,6 @@ export const recipeList = [
 					name: "Cigars & Newspapers",
 					city: "Summit",
 
-					image: require("../assets/images/beechwood.jpg"),
 					rating: "3.0",
 					ingredients: ["Step in the front"],
 					time: "3/5",
@@ -2997,7 +2845,6 @@ export const recipeList = [
 						name: "Cabri, Inc. Kitchens",
 						city: "Summit",
 
-						image: require("../assets/images/cabri.jpg"),
 						rating: "4.7",
 						ingredients: ["Ramp to entrance "],
 						time: "5/5",
@@ -3018,7 +2865,6 @@ export const recipeList = [
 							name: "CVS Pharmacy",
 							city: "Summit",
 
-							image: require("../assets/images/CVS.png"),
 							rating: "5.0",
 							ingredients: ["Automatic door with ample room for wheelchair"],
 							time: "5/5",
@@ -3039,7 +2885,6 @@ export const recipeList = [
 								name: "Dr. Philip Delli Santi",
 								city: "Summit",
 
-								image: require("../assets/images/dr. phillip.jpg"),
 								rating: "5.0",
 								ingredients: ["Good entrance"],
 								time: "5/5",
@@ -3062,7 +2907,6 @@ export const recipeList = [
 					name: "Bank of America Summit",
 					city: "Summit",
 
-					image: require("../assets/images/BOA.png"),
 					rating: "5.0",
 					time: "5/5",
 					difficulty: "5/5",
@@ -3081,7 +2925,6 @@ export const recipeList = [
 						name: "Summit Chase Bank",
 						city: "Summit",
 
-						image: require("../assets/images/Chase.png"),
 						rating: "5.0",
 						ingredients: ["Ramp to enter from the parking lot"],
 						time: "5/5",
@@ -3102,7 +2945,6 @@ export const recipeList = [
 							name: "Coldwell Banker ",
 							city: "Summit",
 
-							image: require("../assets/images/coldwell.jpg"),
 							rating: "3.3",
 							ingredients: ["Ramp to enter from the parking lot"],
 							time: "3/5",
@@ -3124,7 +2966,6 @@ export const recipeList = [
 					name: "A To Zoom",
 					city: "Summit",
 
-					image: require("../assets/images/Atozoom.jpg"),
 					rating: "3.3",
 					ingredients: ["Pull door with enough room for wheelchair"],
 					time: "4/5",
@@ -3146,7 +2987,6 @@ export const recipeList = [
 						name: "Badawang Art",
 						city: "Summit",
 
-						image: require("../assets/images/badawang.jpg"),
 						rating: "3.0",
 						ingredients: ["Pull door is a little cramped"],
 						time: "3/5",
@@ -3168,7 +3008,6 @@ export const recipeList = [
 							name: "Calico",
 							city: "Summit",
 
-							image: require("../assets/images/calico.jpg"),
 							rating: "5.0",
 							ingredients: ["Good entrance with double pull doors"],
 							time: "5/5",
@@ -3190,7 +3029,6 @@ export const recipeList = [
 								name: "Chandler Learning Center",
 								city: "Summit",
 
-								image: require("../assets/images/CLC.jpg"),
 								rating: "4.3",
 								ingredients: ["Entrance is ample for wheelchairs"],
 								time: "5/5",
@@ -3213,7 +3051,6 @@ export const recipeList = [
 									name: "Summit City Hall",
 									city: "Summit",
 
-									image: require("../assets/images/Summit_City_Hall_Springfield_Ave_Summit_NJ_2009.jpg"),
 									rating: "5.0",
 									ingredients: ["Pull door with entrance ramp is good for wheelchairs"],
 									time: "5/5",
@@ -3235,7 +3072,6 @@ export const recipeList = [
 										name: "Color Me Mine",
 										city: "Summit",
 
-										image: require("../assets/images/The-Collection-Riverpark-ColorMeMine-Gallery-002.jpg"),
 										rating: "3.3",
 										ingredients: ["Entrance is ample for wheelchairs"],
 										time: "4/5",
@@ -3258,7 +3094,6 @@ export const recipeList = [
 	name: "Cove Carpet",
 	city: "Summit",
 
-	image: require("../assets/images/The-Collection-Riverpark-ColorMeMine-Gallery-002.jpg"),
 	rating: "5.0",
 	ingredients: ["Pull door with an entrance ramp is good for wheelchair"],
 	time: "5/5",
@@ -3282,7 +3117,6 @@ export const recipeList = [
 		name: "Duxiana",
 		city: "Summit",
 
-		image: require("../assets/images/duxiana.jpg"),
 		rating: "5.0",
 		ingredients: ["Good entrance with no steps"],
 		time: "5/5",
@@ -3303,7 +3137,6 @@ export const recipeList = [
 		categoryId: "08",
 		name: "Anspach Opticians",
 		city: "Summit",
-		image: require("../assets/images/anspachopticians.jpg"),
 		rating: "4.0",
 		ingredients: ["Pull door, however door uses a doorknob and has a step in the front"],
 		time: "4/5",
@@ -3324,7 +3157,6 @@ export const recipeList = [
 			name: "DG Dubon Florist",
 			city: "Summit",
 
-			image: require("../assets/images/dubon.jpg"),
 			rating: "3.3",
 			ingredients: ["Good entrance"],
 			time: "4/5",
@@ -3346,7 +3178,6 @@ export const recipeList = [
 				name: "Donna Donaldson",
 				city: "Summit",
 
-				image: require("../assets/images/doonajpg.jpg"),
 				rating: "4.0",
 				ingredients: ["Good entrance with wide door"],
 				time: "5/5",
@@ -3368,7 +3199,6 @@ export const recipeList = [
 					name: "Eco Friendly Cleaners",
 					city: "Summit",
 
-					image: require("../assets/images/Eco Friendly Cleaners summit.jpg"),
 					rating: "4.3",
 					ingredients: ["Step in the front"],
 					time: "3/5",
@@ -3390,7 +3220,6 @@ export const recipeList = [
 	name: "Bellissima Waxing & Day Spa",
 	city: "Summit",
 
-	image: require("../assets/images/bellissima.jpg"),
 	rating: "4.0",
 	ingredients: ["Good entrance"],
 	time: "2/5",
@@ -3415,7 +3244,6 @@ export const recipeList = [
 	difficulty: "5/5",
 	calories: "4/5",
 
-	image: require("../assets/images/bagelpantry.jpg"),
 	
 	ingredients: ["Very wide doors with a pull handle"],
 
@@ -3437,7 +3265,6 @@ export const recipeList = [
 	difficulty: "5/5",
 	calories: "4/5",
 
-	image: require("../assets/images/bagels4u.jpg"),
 	
 	ingredients: ["Wide door with a pull handle that's often held open, no stairs"],
 
@@ -3459,7 +3286,6 @@ export const recipeList = [
 	difficulty: "5/5",
 	calories: "5/5",
 
-	image: require("../assets/images/balisco.jpg"),
 	
 	ingredients: ["Wide door with a pull handle that's often held open, no stairs"],
 
@@ -3481,7 +3307,6 @@ export const recipeList = [
 	difficulty: "5/5",
 	calories: "3/5",
 
-	image: require("../assets/images/benihana.jpg"),
 	
 	ingredients: ["Single step with ramp for wheelchair, wide door with pull handle"],
 
@@ -3502,7 +3327,6 @@ export const recipeList = [
 	time: "4/5",
 	difficulty: "3/5",
 	calories: "4/5",
-	image: require("../assets/images/boxcar.png"),
 	
 	ingredients: ["Good entrance"],
 
@@ -3524,7 +3348,6 @@ export const recipeList = [
 	difficulty: "4/5",
 	calories: "2/5",
 
-	image: require("../assets/images/brooklyn.png"),
 	
 	ingredients: ["Door has doorknob, but usually kept open. Has a small step"],
 
@@ -3546,7 +3369,6 @@ export const recipeList = [
 	difficulty: "3/5",
 	calories: "3/5",
 
-	image: require("../assets/images/cafemonet.jpg"),
 	
 	ingredients: ["Two large steps in front of entrance"],
 
@@ -3568,7 +3390,6 @@ export const recipeList = [
 	difficulty: "3/5",
 	calories: "5/5",
 
-	image: require("../assets/images/Caramia.jpg"),
 	
 	ingredients: ["Step with a ramp"],
 
@@ -3590,7 +3411,6 @@ export const recipeList = [
 	difficulty: "3/5",
 	calories: "3/5",
 
-	image: require("../assets/images/casa.jpg"),
 	
 	ingredients: ["Wide door with a pull handle"],
 
@@ -3612,7 +3432,6 @@ export const recipeList = [
 	difficulty: "5/5",
 	calories: "3/5",
 
-	image: require("../assets/images/clemenza.jpg"),
 	
 	ingredients: ["Wide door with a pull handle that's often held open, no stairs"],
 
@@ -3634,7 +3453,6 @@ export const recipeList = [
 	difficulty: "3/5",
 	calories: "3/5",
 
-	image: require("../assets/images/coffee.jpg"),
 	
 	ingredients: ["Wide door with a pull handle that's often held open, no stairs"],
 
@@ -3656,7 +3474,6 @@ export const recipeList = [
 	difficulty: "5/5",
 	calories: "5/5",
 
-	image: require("../assets/images/common.jpg"),
 	
 	ingredients: ["Wide door with pull handle"],
 
@@ -3678,7 +3495,6 @@ export const recipeList = [
 	difficulty: "5/5",
 	calories: "5/5",
 
-	image: require("../assets/images/dunkinmillburn.jpeg"),
 	
 	ingredients: ["Wide door with pull handle"],
 
@@ -3700,7 +3516,6 @@ export const recipeList = [
 	difficulty: "3/5",
 	calories: "3/5",
 
-	image: require("../assets/images/enzzo.jpg"),
 	
 	ingredients: ["Small step in the front"],
 
@@ -3722,7 +3537,6 @@ export const recipeList = [
 	difficulty: "4/5",
 	calories: "2/5",
 
-	image: require("../assets/images/evoo.jpg"),
 	
 	ingredients: ["Step with a ramp for wheelchairs, wide door with a pull handle"],
 
@@ -3744,7 +3558,6 @@ export const recipeList = [
 	difficulty: "3/5",
 	calories: "4/5",
 
-	image: require("../assets/images/fiamma.jpg"),
 	
 	ingredients: ["Wide door with a pull handle that's often held open, no stairs"],
 
@@ -3766,7 +3579,6 @@ export const recipeList = [
 	difficulty: "2/5",
 	calories: "3/5",
 
-	image: require("../assets/images/goldberg.jpg"),
 	
 	ingredients: ["Small step with a ramp, wide door with pull handle"],
 
@@ -3788,7 +3600,6 @@ export const recipeList = [
 	difficulty: "2/5",
 	calories: "1/5",
 
-	image: require("../assets/images/gongcha.jpg"),
 	
 	ingredients: ["Entrance has three steps in the front, inaccessible"],
 
@@ -3810,7 +3621,6 @@ export const recipeList = [
 	difficulty: "2/5",
 	calories: "2/5",
 
-	image: require("../assets/images/green.jpg"),
 	
 	ingredients: ["Wide door that's usually kept open"],
 
@@ -3832,7 +3642,6 @@ export const recipeList = [
 	difficulty: "2/5",
 	calories: "2/5",
 
-	image: require("../assets/images/haagen.jpg"),
 	
 	ingredients: ["Ramp for wheelchairs, but door has doorknob"],
 
@@ -3854,7 +3663,6 @@ export const recipeList = [
 	difficulty: "5/5",
 	calories: "5/5",
 
-	image: require("../assets/images/afc.jpg"),
 	
 	ingredients: ["Ramp for wheelchairs"],
 
@@ -3876,7 +3684,6 @@ export const recipeList = [
 	difficulty: "5/5",
 	calories: "5/5",
 
-	image: require("../assets/images/ankle.jpeg"),
 	
 	ingredients: ["Elevator to reach clinic"],
 
@@ -3898,7 +3705,6 @@ export const recipeList = [
 	difficulty: "5/5",
 	calories: "5/5",
 
-	image: require("../assets/images/arthur.png"),
 	
 	ingredients: ["Ramp for wheelchairs, no problem in entering clinic"],
 
@@ -3920,7 +3726,6 @@ export const recipeList = [
 	difficulty: "5/5",
 	calories: "3/5",
 
-	image: require("../assets/images/associates.jpg"),
 	
 	ingredients: ["Easy entry for wheelchairs and other handicapped patrons"],
 
@@ -3942,7 +3747,6 @@ export const recipeList = [
 	difficulty: "5/5",
 	calories: "4/5",
 
-	image: require("../assets/images/internal.jpg"),
 	
 	ingredients: ["Ramp for wheelchairs to enter"],
 
@@ -3964,7 +3768,6 @@ export const recipeList = [
 	difficulty: "5/5",
 	calories: "5/5",
 
-	image: require("../assets/images/atlantichealth.jpg"),
 	
 	ingredients: ["Ramp for wheelchairs to enter with automatic doors"],
 
@@ -3986,7 +3789,6 @@ export const recipeList = [
 	difficulty: "5/5",
 	calories: "5/5",
 
-	image: require("../assets/images/bayshore.jpg"),
 	
 	ingredients: ["Ramp for wheelchairs to enter building"],
 
@@ -4008,7 +3810,6 @@ export const recipeList = [
 	difficulty: "5/5",
 	calories: "3/5",
 
-	image: require("../assets/images/behavior.png"),
 	
 	ingredients: ["Easy access with a large pull door with handles"],
 
@@ -4030,7 +3831,6 @@ export const recipeList = [
 	difficulty: "3/5",
 	calories: "3/5",
 
-	image: require("../assets/images/be.png"),
 	
 	ingredients: ["Elevator to reach clinic"],
 
@@ -4052,7 +3852,6 @@ export const recipeList = [
 	difficulty: "5/5",
 	calories: "5/5",
 
-	image: require("../assets/images/beverly.jpg"),
 	
 	ingredients: ["Easy access with pull doors and ramps"],
 
@@ -4074,7 +3873,6 @@ export const recipeList = [
 	difficulty: "5/5",
 	calories: "2/5",
 
-	image: require("../assets/images/bulan.jpg"),
 	
 	ingredients: ["Stairs in front of entrance"],
 
@@ -4096,7 +3894,6 @@ export const recipeList = [
 	difficulty: "5/5",
 	calories: "4/5",
 
-	image: require("../assets/images/center.jpg"),
 	
 	ingredients: ["Easy entry for wheelchairs and other handicapped patrons"],
 
@@ -4118,7 +3915,6 @@ export const recipeList = [
 	difficulty: "5/5",
 	calories: "5/5",
 
-	image: require("../assets/images/city.jpg"),
 	
 	ingredients: ["Step with a ramp to the side and wide pull doors"],
 
@@ -4140,7 +3936,6 @@ export const recipeList = [
 	difficulty: "5/5",
 	calories: "5/5",
 
-	image: require("../assets/images/comp.jpg"),
 	
 	ingredients: ["Good entrance"],
 
@@ -4162,7 +3957,6 @@ export const recipeList = [
 	difficulty: "5/5",
 	calories: "5/5",
 
-	image: require("../assets/images/daniel.jpg"),
 	
 	ingredients: ["Good entrance with easy accessibility"],
 
@@ -4184,7 +3978,6 @@ export const recipeList = [
 	difficulty: "5/5",
 	calories: "4/5",
 
-	image: require("../assets/images/david.jpg"),
 	
 	ingredients: ["Entrance has ample space"],
 
@@ -4206,7 +3999,6 @@ export const recipeList = [
 	difficulty: "5/5",
 	calories: "4/5",
 
-	image: require("../assets/images/dgm.jpg"),
 	
 	ingredients: ["Entrance has ample space which is easy to navigate"],
 
@@ -4228,7 +4020,6 @@ export const recipeList = [
 	difficulty: "5/5",
 	calories: "5/5",
 
-	image: require("../assets/images/dermatology.jpg"),
 	
 	ingredients: ["Stairs in front of entrance"],
 
@@ -4250,7 +4041,6 @@ export const recipeList = [
 	difficulty: "5/5",
 	calories: "5/5",
 
-	image: require("../assets/images/gary.jpg"),
 	
 	ingredients: ["Good entrance with easy accessibility"],
 
@@ -4272,7 +4062,6 @@ rating: "2.7",
 	calories: "2/5",
 
 
-image: require("../assets/images/boss.jpg"),
 
 ingredients: ["Steps in front of the entrance"],
 
@@ -4295,7 +4084,6 @@ rating: "2.0",
 	calories: "2/5",
 
 
-image: require("../assets/images/bungalow.jpg"),
 
 ingredients: ["Three large steps in front of the entrance"],
 
@@ -4313,7 +4101,6 @@ categoryId: "02",
 name: "Highline Fashion",
 city: "Millburn",
 
-image: require("../assets/images/highline.jpg"),
 
 ingredients: ["Good entrance with no steps and a pull door"],
 
@@ -4337,7 +4124,6 @@ categoryId: "02",
 name: "Jia Boutique",
 city: "Millburn",
 
-image: require("../assets/images/jia.jpg"),
 
 ingredients: ["Wide entrance with a pull door"],
 
@@ -4361,7 +4147,6 @@ categoryId: "02",
 name: "Park Avenue Boutique",
 city: "Millburn",
 
-image: require("../assets/images/park.jpg"),
 
 ingredients: ["Wide entrance with a pull door; ample room for wheelchairs"],
 
@@ -4385,7 +4170,6 @@ categoryId: "02",
 name: "Uffizimoda",
 city: "Millburn",
 
-image: require("../assets/images/uffi.jpg"),
 
 ingredients: ["Entrance is accessible and has a pull bar"],
 
@@ -4410,7 +4194,6 @@ categoryId: "02",
 name: "Variazioni",
 city: "Millburn",
 
-image: require("../assets/images/varia.jpg"),
 
 ingredients: ["Single step in front of the entrance"],
 
@@ -4437,7 +4220,6 @@ rating: "4.7",
 	name: "Bluemercury",
 	city: "Millburn",
 
-	image: require("../assets/images/bluemercurymillburn.jpg"),
 	
 rating: "4.0",
 time: "4/5",
@@ -4461,7 +4243,6 @@ calories: "3/5",
 	name: "Reelstyle Exchange",
 	city: "Millburn",
 
-	image: require("../assets/images/reelstyle.jpg"),
 
 	
 rating: "5.0",
@@ -4485,7 +4266,6 @@ calories: "5/5",
 	name: "Rodolfo World of Beauty",
 	city: "Millburn",
 
-	image: require("../assets/images/rodolfo.jpg"),
 	
 	
 rating: "5.0",
@@ -4509,7 +4289,6 @@ calories: "5/5",
 	name: "The House",
 	city: "Millburn",
 
-	image: require("../assets/images/thehouse.jpg"),
 
 	
 rating: "4.7",
@@ -4540,7 +4319,6 @@ time: "5/5",
 difficulty: "5/5",
 calories: "5/5",
 
-	image: require("../assets/images/gold.jpg"),
 	
 	ingredients: ["Automatic large doors for accessibility"],
 
@@ -4563,7 +4341,6 @@ time: "5/5",
 difficulty: "4/5",
 calories: "1/5",
 
-	image: require("../assets/images/mia.jpg"),
 	
 	ingredients: ["Wide door with pull handle"],
 
@@ -4586,7 +4363,6 @@ time: "5/5",
 difficulty: "5/5",
 calories: "5/5",
 
-	image: require("../assets/images/shopritemillburn.jpg"),
 	
 	ingredients: ["Automatic large doors for accessibility"],
 
@@ -4609,7 +4385,6 @@ time: "5/5",
 difficulty: "5/5",
 calories: "5/5",
 
-	image: require("../assets/images/traderjoemillburn.jpg"),
 	
 	ingredients: ["Automatic large doors for accessibility"],
 
@@ -4632,7 +4407,6 @@ time: "5/5",
 difficulty: "5/5",
 calories: "5/5",
 
-	image: require("../assets/images/whole.jpg"),
 	
 	ingredients: ["Automatic large doors for accessibility"],
 
@@ -4652,7 +4426,6 @@ calories: "5/5",
 	name: "Santander Bank Branch",
 	city: "Millburn",
 
-	image: require("../assets/images/satander.jpg"),
 
 	rating: "5.0",
 	time: "5/5",
@@ -4675,7 +4448,6 @@ calories: "5/5",
 	name: "Somerset Regal Bank",
 	city: "Millburn",
 
-	image: require("../assets/images/somerset.jpg"),
 
 	rating: "4.3",
 	time: "4/5",
@@ -4698,7 +4470,6 @@ calories: "5/5",
 	name: "Wells Fargo Bank",
 	city: "Millburn",
 
-	image: require("../assets/images/wellsfargo.jpg"),
 
 	rating: "5.0",
 	time: "5/5",
@@ -4725,7 +4496,6 @@ calories: "5/5",
 	name: "Christ Church in Short Hills",
 	city: "Short Hills",
 
-	image: require("../assets/images/christ.png"),
 	
 	ingredients: ["Ramp with pull doors for accessibility"],
 
@@ -4748,7 +4518,6 @@ calories: "5/5",
 	difficulty: "5/5",
 	calories: "5/5",
 
-	image: require("../assets/images/fbc.jpg"),
 	
 	ingredients: ["Wide doors with pull handles for easy access"],
 
@@ -4766,7 +4535,6 @@ calories: "5/5",
 	name: "Saint Stephen's Episcopal",
 	city: "Millburn",
 
-	image: require("../assets/images/saint.jpg"),
 
 	rating: "4.3",
 	time: "5/5",

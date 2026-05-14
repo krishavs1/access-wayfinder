@@ -11,9 +11,15 @@ import {
 import React from "react";
 import { FontAwesome } from "@expo/vector-icons";
 import MapView, { Marker } from 'react-native-maps';
+import { getVenueImageUrl } from "../utils/venueImageUrl";
 
 const RecipeDetailsScreen = ({ navigation, route }) => {
 	const { item } = route.params;
+	const imageUri = getVenueImageUrl(
+		item.city,
+		item.categoryId,
+		item.name,
+	);
 
 	return (
 		<View style={{ backgroundColor: item.color, flex: 1 }}>
@@ -45,8 +51,9 @@ const RecipeDetailsScreen = ({ navigation, route }) => {
 						// marginBottom: 130,
 					}}
 				>
+					{imageUri ? (
 					<Image
-						source={item.image}
+						source={{ uri: imageUri }}
 						resizeMode={"contain"}
 						style={{
 							resizeMode: "contain",
@@ -56,6 +63,16 @@ const RecipeDetailsScreen = ({ navigation, route }) => {
 							resizeMode: "contain",
 						}}
 					/>
+					) : (
+					<View
+						style={{
+							width: "100%",
+							height: "100%",
+							borderRadius: 300 / 5,
+							backgroundColor: "#e8e8e8",
+						}}
+					/>
+					)}
 				</View>
 
 				{/* Recipe Name */}
