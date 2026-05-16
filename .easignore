@@ -1,0 +1,5 @@
+# Venue photos are on Supabase; keep upload small and fast.
+assets/images/**
+!assets/images/Logo-removebg-preview.png
+
+venue-images-for-supabase/

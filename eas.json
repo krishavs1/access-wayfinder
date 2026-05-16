@@ -1,6 +1,7 @@
 {
   "cli": {
     "version": ">= 5.7.0",
+    "appVersionSource": "local",
     "promptToConfigurePushNotifications": false
   },
   "build": {
@@ -14,7 +15,10 @@
       "channel": "preview"
     },
     "production": {
-      "channel": "production"
+      "channel": "production",
+      "ios": {
+        "image": "macos-sequoia-15.5-xcode-26.0"
+      }
     }
   },
   "submit": {

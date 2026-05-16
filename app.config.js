@@ -10,6 +10,12 @@ const appJson = JSON.parse(
 module.exports = {
 	expo: {
 		...appJson.expo,
+		ios: {
+			...appJson.expo.ios,
+			infoPlist: {
+				ITSAppUsesNonExemptEncryption: false,
+			},
+		},
 		extra: {
 			...appJson.expo.extra,
 			supabaseUrl: process.env.EXPO_PUBLIC_SUPABASE_URL || "",
