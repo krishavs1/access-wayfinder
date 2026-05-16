@@ -1,7 +1,11 @@
 const fs = require("fs");
 const path = require("path");
 
-require("dotenv").config({ path: path.join(__dirname, ".env") });
+// Must be quiet: dotenv v17 logs to stdout and breaks iOS Podfile JSON parsing on EAS.
+require("dotenv").config({
+	path: path.join(__dirname, ".env"),
+	quiet: true,
+});
 
 const appJson = JSON.parse(
 	fs.readFileSync(path.join(__dirname, "app.json"), "utf8"),

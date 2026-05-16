@@ -11,7 +11,7 @@
     "ios": {
       "supportsTablet": true,
       "bundleIdentifier": "com.krishavs1.accesswayfinder",
-      "buildNumber": "1.0.10"
+      "buildNumber": "1.0.11"
     },
     "android": {
       "package": "com.krishavs1.accesswayfinder",
